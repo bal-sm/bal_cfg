@@ -1,0 +1,50 @@
+{
+    "doeh_anal_oral": 50,
+    "doeh_vaginal": 25,
+    "doeh_anal_oral_bool": true,
+    "body_tatts_bool": true,
+    "crying_bool": true,
+    "nail_polish_bool": true,
+    "pros_rates": [
+        800,
+        500,
+        300,
+        150,
+        150,
+        100
+    ],
+    "pros_age_modifiers": [
+        1,
+        0.8,
+        0.6,
+        0.2
+    ],
+    "owner_paid": 0.9,
+    "triggered_disclaimer": true,
+    "whoring_outfit_category_index": 3,
+    "slave_romance_limiters_enabled": true,
+    "slave_romance_relationships_blocked": true,
+    "slave_pheromonal_activate": true,
+    "chance_popped_cherry": 20,
+    "show_virginity_lost_notifications": true,
+    "pros_base_client_chance": 20,
+    "wild_guy_applicator_enabled": false,
+    "luumia_body_hair_enabled": false,
+    "scaly_legs_enabled": false,
+    "female_details_chances": [
+        100,
+        66,
+        40,
+        50,
+        25,
+        0
+    ],
+    "male_details_chances": [
+        80,
+        0
+    ],
+    "lower_body_type": 0,
+    "sex_room_pref": 0,
+    "sex_style_pref": 6,
+    "succubus_default_age_drain_multiplier": 1.0
+}
