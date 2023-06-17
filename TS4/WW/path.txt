@@ -1,0 +1,3 @@
+TS4_Docs/saves/WickedWhimsMod/settings_profiles/...
+
+file-name = from MySettingsProfile.json to SettingsProfile_Bal_Sims_Settings_v11686315547.json
