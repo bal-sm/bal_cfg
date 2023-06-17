@@ -1,7 +1,7 @@
 {
     "doeh_anal_oral": 50,
     "doeh_vaginal": 25,
-    "doeh_anal_oral_bool": true,
+    "doeh_anal_oral_bool": false,
     "body_tatts_bool": true,
     "crying_bool": true,
     "nail_polish_bool": true,
@@ -25,7 +25,7 @@
     "slave_romance_limiters_enabled": true,
     "slave_romance_relationships_blocked": true,
     "slave_pheromonal_activate": true,
-    "chance_popped_cherry": 20,
+    "chance_popped_cherry": 100,
     "show_virginity_lost_notifications": true,
     "pros_base_client_chance": 20,
     "wild_guy_applicator_enabled": false,
