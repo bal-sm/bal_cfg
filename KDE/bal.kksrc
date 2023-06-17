@@ -1,6 +1,7 @@
 [ActivityManager][Global Shortcuts]
 switch-to-activity-09db50d0-706e-423f-a4bb-3edda1acddf4=
 switch-to-activity-375f483a-12e8-4892-b192-f8526575f324=
+switch-to-activity-4ff0a233-5955-4af8-8a28-110457742fca=
 
 [KDE Keyboard Layout Switcher][Global Shortcuts]
 Switch to Next Keyboard Layout=Meta+Alt+K
@@ -341,7 +342,7 @@ cycleNextAction=
 cyclePrevAction=
 edit_clipboard=
 manage activities=Meta+Q
-next activity=Meta+Ctrl+Tab
+next activity=Meta+`
 previous activity=
 repeat_action=Meta+Ctrl+R
 show dashboard=Ctrl+F12
