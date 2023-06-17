@@ -1,5 +1,6 @@
 [ActivityManager][Global Shortcuts]
 switch-to-activity-09db50d0-706e-423f-a4bb-3edda1acddf4=
+switch-to-activity-375f483a-12e8-4892-b192-f8526575f324=
 
 [KDE Keyboard Layout Switcher][Global Shortcuts]
 Switch to Next Keyboard Layout=Meta+Alt+K
@@ -222,7 +223,7 @@ Window One Screen Down=
 Window One Screen Up=
 Window One Screen to the Left=
 Window One Screen to the Right=
-Window Operations Menu=Alt+F3
+Window Operations Menu=Alt+F3; Meta+M
 Window Pack Down=
 Window Pack Left=
 Window Pack Right=
