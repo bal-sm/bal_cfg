@@ -1,9 +1,5 @@
 {
     "diffEditor.ignoreTrimWhitespace": false,
-    "editor.autoClosingBrackets": "never",
-    "editor.autoClosingDelete": "never",
-    "editor.autoClosingOvertype": "never",
-    "editor.autoClosingQuotes": "never",
     "editor.fontFamily": "'RobotoMono Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
     "editor.inlineSuggest.enabled": true,
     "explorer.confirmUndo": "verbose",
@@ -29,8 +25,6 @@
     "gitlens.codeLens.enabled": false,
     "gitlens.defaultDateFormat": "D MMMM YYYY, h:mma",
     "gitlens.defaultDateLocale": null,
-    "html.autoClosingTags": false,
-    "javascript.autoClosingTags": false,
     "python.formatting.provider": "black",
     "settingsSync.ignoredSettings": [
         "terminal.integrated.defaultProfile.linux",
@@ -38,7 +32,6 @@
     ],
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.defaultProfile.linux": "zsh",
-    "typescript.autoClosingTags": false,
     "workbench.colorTheme": "Default Dark+",
     "workbench.preferredDarkColorTheme": "Default Dark+",
     "workbench.preferredLightColorTheme": "Default Light+",
