@@ -3,6 +3,11 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.fontFamily": "'RobotoMono Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
     "editor.inlineSuggest.enabled": true,
+    "editor.rulers": [
+        80,
+        88,
+        120,
+    ],
     "explorer.confirmUndo": "verbose",
     "files.exclude": {
         "**/.git": false,
@@ -36,5 +41,4 @@
     "workbench.colorTheme": "Default Dark+",
     "workbench.preferredDarkColorTheme": "Default Dark+",
     "workbench.preferredLightColorTheme": "Default Light+",
-    "dev.containers.dockerPath": "podman"
 }
