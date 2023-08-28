@@ -1,4 +1,5 @@
 {
+    "dev.containers.dockerPath": "podman",
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.fontFamily": "'RobotoMono Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
     "editor.inlineSuggest.enabled": true,
