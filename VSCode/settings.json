@@ -15,7 +15,7 @@
         "**/.hg": false,
         "**/.DS_Store": false,
     },
-    "git.autofetch": true,
+    "git.autofetch": "all",
     "git.confirmSync": false,
     "git.enableSmartCommit": false,
     "git.suggestSmartCommit": false,
@@ -31,7 +31,6 @@
     "gitlens.codeLens.enabled": false,
     "gitlens.defaultDateFormat": "D MMMM YYYY, h:mma",
     "gitlens.defaultDateLocale": null,
-    "python.formatting.provider": "black",
     "settingsSync.ignoredSettings": [
         "terminal.integrated.defaultProfile.linux",
         "dev.containers.dockerPath"
