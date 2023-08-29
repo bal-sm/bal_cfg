@@ -10,12 +10,6 @@
     ],
     "explorer.confirmUndo": "verbose",
     "files.autoSave": "onFocusChange",
-    "files.exclude": {
-        "**/.git": false,
-        "**/.svn": false,
-        "**/.hg": false,
-        "**/.DS_Store": false,
-    },
     "git.autofetch": "all",
     "git.confirmSync": false,
     "git.enableSmartCommit": false,
