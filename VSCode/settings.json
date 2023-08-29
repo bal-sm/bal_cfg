@@ -9,6 +9,7 @@
         120,
     ],
     "explorer.confirmUndo": "verbose",
+    "files.autoSave": "onFocusChange",
     "files.exclude": {
         "**/.git": false,
         "**/.svn": false,
