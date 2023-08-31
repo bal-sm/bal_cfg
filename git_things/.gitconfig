@@ -1,0 +1,19 @@
+# This is Git's per-user configuration file.
+[user]
+	name = ???
+	email = ???
+# Please adapt and uncomment the following lines:
+#	name = ???
+#	email = ???
+[alias]
+    cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 -r git branch -d"
+[core]
+	editor = code --wait
+[filter "lfs"]
+# Apa ya ini teh
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[credential]
+	helper = ???
