@@ -15,11 +15,12 @@
     "git.enableSmartCommit": false,
     "git.suggestSmartCommit": false,
     "github.copilot.enable": {
-        "*": false,
-        "markdown": true,
-        "plaintext": true,
+        "*": true,
+        "json*": false,
+        "markdown": false,
+        "plaintext": false,
         "scminput": false,
-        "yaml": false
+        "yaml": false,
     },
     "github.gitProtocol": "ssh",
     "githubPullRequests.pullBranch": "never",
