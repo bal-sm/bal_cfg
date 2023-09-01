@@ -16,9 +16,9 @@
     "git.suggestSmartCommit": false,
     "github.copilot.enable": {
         "*": true,
-        "json*": false,
-        "markdown": false,
-        "plaintext": false,
+        "json": false,
+        "markdown": true,
+        "plaintext": true,
         "scminput": false,
         "yaml": false,
     },
