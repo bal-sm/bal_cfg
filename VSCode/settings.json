@@ -27,6 +27,10 @@
     "gitlens.codeLens.enabled": false,
     "gitlens.defaultDateFormat": "D MMMM YYYY, h:mma",
     "gitlens.defaultDateLocale": null,
+    "python.analysis.inlayHints.callArgumentNames": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.pytestParameters": true,
+    "python.analysis.inlayHints.variableTypes": true,
     "settingsSync.ignoredSettings": [
         "terminal.integrated.defaultProfile.linux",
         "dev.containers.dockerPath"
