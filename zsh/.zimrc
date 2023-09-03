@@ -55,3 +55,8 @@ zmodule zsh-users/zsh-history-substring-search
 # DISABLED cause bikin bodo
 # }}} End configuration added by Zim install
 
+# Zsh-z is a command line tool that allows you
+# to jump quickly to directories that you have visited
+# frequently in the past, or recently
+# https://github.com/agkozak/zsh-z
+zmodule https://github.com/agkozak/zsh-z
