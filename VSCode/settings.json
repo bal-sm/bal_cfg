@@ -9,6 +9,9 @@
         120,
     ],
     "explorer.confirmUndo": "verbose",
+    "files.associations": {
+        "*.code-workspace.dist": "jsonc"
+    },
     "files.autoSave": "onFocusChange",
     "git.autofetch": "all",
     "git.confirmSync": false,
