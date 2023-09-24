@@ -21,11 +21,11 @@
     "git.suggestSmartCommit": false,
     "github.copilot.enable": {
         "*": true,
-        "json": false,
-        "markdown": true,
         "plaintext": true,
+        "markdown": false,
         "scminput": false,
-        "yaml": false,
+        "json": false,
+        "yaml": false
     },
     "github.gitProtocol": "ssh",
     "githubPullRequests.pullBranch": "never",
@@ -42,6 +42,7 @@
     ],
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.defaultProfile.linux": "zsh",
+    "window.commandCenter": true,
     "window.titleBarStyle": "custom",
     "workbench.colorTheme": "Default Dark+",
     "workbench.experimental.share.enabled": true,
