@@ -34,6 +34,7 @@
     "gitlens.codeLens.enabled": false,
     "gitlens.defaultDateFormat": "D MMMM YYYY, h:mma",
     "gitlens.defaultDateLocale": null,
+    "markdown.preferredMdPathExtensionStyle": "includeExtension",
     "python.analysis.inlayHints.callArgumentNames": true,
     "python.analysis.inlayHints.functionReturnTypes": true,
     "python.analysis.inlayHints.pytestParameters": true,
