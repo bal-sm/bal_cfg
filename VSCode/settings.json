@@ -45,4 +45,5 @@
     "workbench.colorTheme": "Default Dark+",
     "workbench.preferredDarkColorTheme": "Default Dark+",
     "workbench.preferredLightColorTheme": "Default Light+",
+    "workbench.startupEditor": "welcomePageInEmptyWorkbench",
 }
