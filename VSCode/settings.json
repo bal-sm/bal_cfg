@@ -50,5 +50,5 @@
     "workbench.experimental.share.enabled": true,
     "workbench.preferredDarkColorTheme": "Default Dark+",
     "workbench.preferredLightColorTheme": "Default Light+",
-    "workbench.startupEditor": "welcomePageInEmptyWorkbench"
+    "workbench.startupEditor": "welcomePageInEmptyWorkbench",
 }
