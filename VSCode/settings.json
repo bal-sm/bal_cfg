@@ -24,7 +24,7 @@
     "github.copilot.enable": {
         "*": true,
         "json": false,
-        "markdown": false,
+        "markdown": true,
         "plaintext": true,
         "scminput": false,
         "yaml": false
