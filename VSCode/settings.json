@@ -23,10 +23,10 @@
     "git.suggestSmartCommit": false,
     "github.copilot.enable": {
         "*": true,
-        "plaintext": true,
-        "markdown": false,
-        "scminput": false,
         "json": false,
+        "markdown": false,
+        "plaintext": true,
+        "scminput": false,
         "yaml": false
     },
     "github.gitProtocol": "ssh",
@@ -50,5 +50,5 @@
     "workbench.experimental.share.enabled": true,
     "workbench.preferredDarkColorTheme": "Default Dark+",
     "workbench.preferredLightColorTheme": "Default Light+",
-    "workbench.startupEditor": "welcomePageInEmptyWorkbench",
+    "workbench.startupEditor": "welcomePageInEmptyWorkbench"
 }
