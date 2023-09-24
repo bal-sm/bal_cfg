@@ -1,4 +1,5 @@
 {
+    "accessibility.dimUnfocused.enabled": true,
     "dev.containers.dockerPath": "podman",
     "diffEditor.experimental.showMoves": true,
     "diffEditor.ignoreTrimWhitespace": false,
