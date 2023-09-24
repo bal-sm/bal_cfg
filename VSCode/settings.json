@@ -12,6 +12,7 @@
     ],
     "editor.stickyScroll.enabled": true,
     "explorer.confirmUndo": "verbose",
+    "extensions.autoUpdate": "onlyEnabledExtensions",
     "files.associations": {
         "*.code-workspace.dist": "jsonc"
     },
