@@ -9,6 +9,9 @@
     cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 -r git branch -d"
 	rb = "rebase"
 	rb-ulti = "rebase --interactive --autosquash --rebase-merges"
+	com = "commit"
+	com-ulti = "commit --all --verbose --no-signoff --edit"
+	com-ulti-for-linux = "commit --all --verbose --signoff --edit"
 [core]
 	editor = code --wait
 [filter "lfs"]
