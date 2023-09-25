@@ -18,6 +18,7 @@
 	push-ulti = "push --all"
 	push-ulti-and-tags = "!git push --all && git push --tags" # Whatever we can have it
 	push-o = "push origin"
+	sync = "!hub sync"
 	# end of aliases that are not harmful
 	push-force = "push --force-with-lease"
 	# end of aliases that **are** harmful
