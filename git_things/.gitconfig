@@ -14,6 +14,7 @@
 	com-ulti-for-linux = "commit --all --verbose --signoff --edit"
 	fix-com = "commit --fixup"
 	cekot = "checkout"
+	new-branch = "checkout -b"
 [core]
 	editor = code --wait
 [filter "lfs"]
