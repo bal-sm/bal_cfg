@@ -58,6 +58,7 @@
         120,
     ],
     "editor.stickyScroll.enabled": true,
+    "editor.tabCompletion": "on",
     "explorer.confirmUndo": "verbose",
     "extensions.autoUpdate": "onlyEnabledExtensions",
     "files.associations": {
