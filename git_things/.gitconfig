@@ -15,6 +15,7 @@
 	fix-com = "commit --all --fixup"
 	cekot = "checkout"
 	new-branch = "checkout -b"
+	del = "branch -d" # rey. Mama.
 	push-ulti = "push --all"
 	push-ulti-and-tags = "!git push --all && git push --tags" # Whatever we can have it
 	push-o = "push origin"
@@ -24,6 +25,7 @@
 	# Need `hub` binary.
 	sync = "!hub sync"
 	# end of aliases that are not harmful
+	del-y = "branch -D" # "Fuck you." - (jealousy) Qabil
 	push-force = "push --force-with-lease"
 	# end of aliases that **are** harmful
 [core]
