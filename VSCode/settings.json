@@ -61,7 +61,8 @@
     "explorer.confirmUndo": "verbose",
     "extensions.autoUpdate": "onlyEnabledExtensions",
     "files.associations": {
-        "*.code-workspace.dist": "jsonc"
+        "*.code-workspace.dist": "jsonc",
+        ".git-blame-ignore-revs": "properties"
     },
     "files.autoSave": "onFocusChange",
     "git.autofetch": "all",
