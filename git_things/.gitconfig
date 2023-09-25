@@ -7,6 +7,7 @@
 #	email = jajangmaulana452@yahoo.com
 [alias]
     cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 -r git branch -d"
+	rb = "rebase"
 	rb-ulti = "rebase --interactive --autosquash --rebase-merges"
 [core]
 	editor = code --wait
