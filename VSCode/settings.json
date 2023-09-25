@@ -67,6 +67,7 @@
     "files.autoSave": "onFocusChange",
     "git.autofetch": "all",
     "git.confirmSync": false,
+    "git.defaultBranchName": "",
     "git.enableSmartCommit": false,
     "git.suggestSmartCommit": false,
     "github.copilot.enable": {
