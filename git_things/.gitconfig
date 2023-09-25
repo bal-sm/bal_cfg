@@ -15,6 +15,7 @@
 	fix-com = "commit --all --fixup"
 	cekot = "checkout"
 	new-branch = "checkout -b"
+	list-branch = "branch -a"
 	del = "branch -d" # rey. Mama.
 	push-ulti = "push --all"
 	push-ulti-and-tags = "!git push --all && git push --tags" # Whatever we can have it
