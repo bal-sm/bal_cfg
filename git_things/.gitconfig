@@ -13,6 +13,7 @@
 	com-ulti = "commit --all --verbose --no-signoff --edit"
 	com-ulti-for-linux = "commit --all --verbose --signoff --edit"
 	fix-com = "commit --fixup"
+	cekot = "checkout"
 [core]
 	editor = code --wait
 [filter "lfs"]
