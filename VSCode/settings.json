@@ -1,4 +1,5 @@
 {
+    "accessibility.dimUnfocused.enabled": false,
     "better-comments.tags": [
         {
             "tag": "!",
