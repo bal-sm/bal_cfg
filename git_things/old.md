@@ -30,4 +30,4 @@
 	# end of aliases that **are** harmful
 ```
 
-Gak work yang ulti soalnya maybe duplicate nimpa gitu jadi `git com` kan separo dari `git com-ulti`. Fk this.
+> Gak work yang ulti soalnya maybe duplicate nimpa gitu jadi `git com` kan separo dari `git com-ulti`. Fk this.
