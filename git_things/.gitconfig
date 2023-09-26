@@ -24,6 +24,7 @@
 	# This updates all local branches that have a matching upstream branch.
 	# Need `hub` binary.
 	sync = "!hub sync"
+	tag-mine = "tag -a"
 	# end of aliases that are not harmful
 	del-y = "branch -D" # "Fuck you." - (jealousy) Qabil
 	push-force = "push --force-with-lease"
