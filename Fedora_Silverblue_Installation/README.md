@@ -1,9 +1,9 @@
 # My Fedora Silverblue Installation
 
-Replace `_` with `/`:
+Replace `_` with `/` to find the real path:
 
-`/etc/selinux/config`
+`_etc_selinux_config`
 
 to
 
-`_etc_selinux_config`
+`/etc/selinux/config`
