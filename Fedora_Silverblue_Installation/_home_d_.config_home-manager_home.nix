@@ -68,4 +68,7 @@
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
+
+  # to allow install pkgs yang unfree
+  nixpkgs.config.allowUnfree = true;
 }
