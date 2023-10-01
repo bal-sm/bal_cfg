@@ -12,3 +12,6 @@ to
 
 1:
 > Oh iya katanya bisa clean file system gitu kalo sesudah habis uninstall package. Misal uninstall `firefox` terus "user data nya" (kayaknya) kehapus.
+
+2:
+> Cara install python (https://nixos.wiki/wiki/Python)
