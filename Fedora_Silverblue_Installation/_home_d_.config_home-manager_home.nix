@@ -1,5 +1,7 @@
 { config, pkgs, ... }:
 
+# Update with `home-manager switch` to see the effects of these changes.
+
 {
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
