@@ -82,6 +82,12 @@
     "github.gitProtocol": "ssh",
     "githubPullRequests.pullBranch": "never",
     "markdown.preferredMdPathExtensionStyle": "includeExtension",
+    "myst.preview.extensions": [
+        "amsmath",
+        "colon_fence",
+        "deflist",
+        "dollarmath",
+    ],
     "python.analysis.inlayHints.callArgumentNames": true,
     "python.analysis.inlayHints.functionReturnTypes": true,
     "python.analysis.inlayHints.pytestParameters": true,
