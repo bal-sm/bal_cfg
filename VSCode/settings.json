@@ -94,7 +94,7 @@
     "python.analysis.inlayHints.variableTypes": true,
     "settingsSync.ignoredSettings": [
         "terminal.integrated.defaultProfile.linux",
-        "dev.containers.dockerPath"
+        "dev.containers.dockerPath",
     ],
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.defaultProfile.linux": "zsh",
