@@ -66,6 +66,9 @@
         ".git-blame-ignore-revs": "properties"
     },
     "files.autoSave": "onFocusChange",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
     "git.autofetch": "all",
     "git.confirmSync": false,
     "git.defaultBranchName": "",
