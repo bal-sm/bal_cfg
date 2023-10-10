@@ -37,6 +37,7 @@
     #   echo "Hello, ${config.home.username}!"
     # '')
     pkgs.vscode
+    pkgs.python312
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
