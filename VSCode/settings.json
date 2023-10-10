@@ -113,4 +113,9 @@
     "workbench.preferredDarkColorTheme": "Default Dark+",
     "workbench.preferredLightColorTheme": "Default Light+",
     "workbench.startupEditor": "welcomePageInEmptyWorkbench",
+    // experimental settings
+    "debug.toolBarLocation": "commandCenter",
+    "editor.codeActionWidget.includeNearbyQuickfixes": true,
+    "notebook.gotoSymbols.showAllSymbols": true,
+    "scm.experimental.showSyncView": true,
 }
