@@ -109,7 +109,6 @@
     "window.titleBarStyle": "custom",
     "workbench.colorTheme": "Default Dark+",
     "workbench.editor.pinnedTabsOnSeparateRow": true,
-    "workbench.experimental.share.enabled": true,
     "workbench.preferredDarkColorTheme": "Default Dark+",
     "workbench.preferredLightColorTheme": "Default Light+",
     "workbench.startupEditor": "welcomePageInEmptyWorkbench",
@@ -118,4 +117,5 @@
     "editor.codeActionWidget.includeNearbyQuickfixes": true,
     "notebook.gotoSymbols.showAllSymbols": true,
     "scm.experimental.showSyncView": true,
+    "workbench.experimental.share.enabled": true,
 }
