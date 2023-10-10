@@ -108,6 +108,7 @@
     "window.commandCenter": true,
     "window.titleBarStyle": "custom",
     "workbench.colorTheme": "Default Dark+",
+    "workbench.editor.pinnedTabsOnSeparateRow": true,
     "workbench.experimental.share.enabled": true,
     "workbench.preferredDarkColorTheme": "Default Dark+",
     "workbench.preferredLightColorTheme": "Default Light+",
