@@ -71,6 +71,7 @@
     },
     "files.autoSave": "onFocusChange",
     "files.insertFinalNewline": true,
+    "files.readonlyFromPermissions": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "git.autofetch": "all",
