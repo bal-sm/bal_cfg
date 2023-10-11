@@ -72,6 +72,7 @@
     "files.autoSave": "onFocusChange",
     "files.insertFinalNewline": true,
     "files.readonlyFromPermissions": true,
+    "files.simpleDialog.enable": false,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "git.autofetch": "all",
@@ -119,4 +120,5 @@
     "notebook.gotoSymbols.showAllSymbols": true,
     "scm.experimental.showSyncView": true,
     "workbench.experimental.share.enabled": true,
+    // new settings below
 }
