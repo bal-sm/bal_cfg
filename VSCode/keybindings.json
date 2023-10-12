@@ -1,7 +1,7 @@
 // Place your key bindings in this file to override the defaults
 [
     {
-        "key": "ctrl+alt+tab",
+        "key": "ctrl+tab",
         "command": "markdowntable.nextCell",
         "when": "editorTextFocus && markdowntable.contextkey.selection.InMarkdownTable && !editorReadonly && !editorTabMovesFocus && !inSnippetMode && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
     },
@@ -14,5 +14,9 @@
         "key": "shift+tab",
         "command": "-markdowntable.prevCell",
         "when": "editorTextFocus && markdowntable.contextkey.selection.InMarkdownTable && !editorReadonly && !editorTabMovesFocus && !inSnippetMode && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "markdowntable.prevCell"
     }
 ]
