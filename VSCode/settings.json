@@ -69,7 +69,7 @@
         "*.code-workspace.dist": "jsonc",
         ".git-blame-ignore-revs": "properties"
     },
-    "files.autoSave": "onFocusChange",
+    "files.autoSave": "afterDelay",
     "files.insertFinalNewline": true,
     "files.readonlyFromPermissions": true,
     "files.simpleDialog.enable": false,
