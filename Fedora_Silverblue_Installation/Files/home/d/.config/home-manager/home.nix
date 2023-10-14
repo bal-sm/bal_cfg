@@ -42,6 +42,7 @@
     pkgs.trash-cli
     pkgs.thefuck
     pkgs.poetry
+    pkgs.hub
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
