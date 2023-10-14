@@ -43,6 +43,7 @@
     pkgs.thefuck
     pkgs.poetry
     pkgs.hub
+    pkgs.starship
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
