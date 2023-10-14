@@ -40,6 +40,7 @@
     pkgs.python312
     pkgs.lazygit
     pkgs.trash-cli
+    pkgs.thefuck
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
