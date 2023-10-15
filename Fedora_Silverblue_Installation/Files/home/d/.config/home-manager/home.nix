@@ -37,7 +37,6 @@
     #   echo "Hello, ${config.home.username}!"
     # '')
     pkgs.vscode
-    pkgs.python312
     pkgs.lazygit
     pkgs.trash-cli
     pkgs.thefuck
