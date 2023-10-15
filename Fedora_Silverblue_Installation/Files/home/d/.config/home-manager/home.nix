@@ -48,6 +48,7 @@
     pkgs.nodejs_20
     pkgs.jdk
     pkgs.zsh
+    pkgs.pre-commit
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
