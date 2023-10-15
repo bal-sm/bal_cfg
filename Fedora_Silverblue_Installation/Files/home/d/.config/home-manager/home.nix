@@ -47,6 +47,7 @@
     pkgs.python311
     pkgs.nodejs_20
     pkgs.jdk
+    pkgs.zsh
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
