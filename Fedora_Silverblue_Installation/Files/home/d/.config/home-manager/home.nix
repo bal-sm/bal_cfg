@@ -49,6 +49,7 @@
     pkgs.jdk
     pkgs.zsh
     pkgs.pre-commit
+    pkgs.tldr
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
