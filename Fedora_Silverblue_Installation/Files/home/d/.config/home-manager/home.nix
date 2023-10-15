@@ -45,6 +45,7 @@
     pkgs.hub
     pkgs.starship
     pkgs.python311
+    pkgs.nodejs_20
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
