@@ -45,7 +45,6 @@
     pkgs.starship
     pkgs.python311
     pkgs.nodejs_20
-    pkgs.jdk
     pkgs.zsh
     pkgs.pre-commit
     pkgs.tldr
