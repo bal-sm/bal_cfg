@@ -67,7 +67,8 @@
     "extensions.autoUpdate": "onlyEnabledExtensions",
     "files.associations": {
         "*.code-workspace.dist": "jsonc",
-        ".git-blame-ignore-revs": "properties"
+        ".git-blame-ignore-revs": "properties",
+        "*.nix": "properties",
     },
     "files.autoSave": "afterDelay",
     "files.insertFinalNewline": true,
