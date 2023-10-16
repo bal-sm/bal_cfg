@@ -92,3 +92,8 @@ org.telegram.desktop.webview                             Telegram Desktop Webvie
 org.zim_wiki.Zim                                         Zim                                                  stable
 us.zoom.Zoom                                             Zoom                                                 stable
 ```
+
+## Notes
+
+Important
+> Use official Fedora distribution of `OpenJDK`, 'cause looks like that is more stable than `nix`'s one.
