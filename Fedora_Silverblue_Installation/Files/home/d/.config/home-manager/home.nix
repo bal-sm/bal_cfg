@@ -45,7 +45,7 @@
     pkgs.starship
     pkgs.python311
     pkgs.nodejs_20
-    ## pkgs.zsh, mending zsh di system, soalnya virtualenv python ngadat
+    # pkgs.zsh, mending zsh di system, soalnya duplicate
     pkgs.pre-commit
     pkgs.tldr
     pkgs.bun
