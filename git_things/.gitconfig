@@ -30,6 +30,7 @@
 	del-y = "branch -D" # "Fuck you." - (jealousy) Qabil
 	push-force = "push --force-with-lease"
 	# cmp
+	# [from](https://dev.to/bivor/alias-for-git-add-commit-and-push-all-together-5ako)
 	# ---
 	# cmp = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
 	#
