@@ -2,6 +2,10 @@
 
 any programs/games cfg of mine
 
+## Regulation - Peraturan
+
+- STOP berpikir untuk memisahkan repo ini per os. KAN NANTINYA CUMAN BUAT SATU, `d_os`
+
 ## coming soon
 
 - KDE things
