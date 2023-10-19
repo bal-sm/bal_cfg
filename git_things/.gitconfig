@@ -35,6 +35,8 @@
 	# cmp = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
 	#
 	# ! bad idea tapi
+	tag-it = "!f() { git tag -a \"$@\" && git push origin \"$@\"; }; f"
+	# tag-it , omG, gampang jadinya
 	# end of aliases that **are** harmful
 [core]
 	editor = code --wait
