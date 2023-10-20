@@ -69,6 +69,7 @@
         "*.code-workspace.dist": "jsonc",
         ".git-blame-ignore-revs": "properties",
         "*.nix": "properties",
+        "TAG_EDITMSG": "git-commit"
     },
     "files.autoSave": "afterDelay",
     "files.insertFinalNewline": true,
