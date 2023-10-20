@@ -123,4 +123,12 @@
     "scm.experimental.showSyncView": true,
     "workbench.experimental.share.enabled": true,
     // new settings below
+    "editor.fontLigatures": true,
+    "markdown.extension.italic.indicator": "_",
+    "markdown.extension.math.enabled": false,
+    "markdown.extension.tableFormatter.enabled": false,
+    "markdown.extension.theming.decoration.renderCodeSpan": false,
+    "markdown.extension.theming.decoration.renderStrikethrough": false,
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.iconTheme": "material-icon-theme",
 }
