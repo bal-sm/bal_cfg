@@ -15,6 +15,8 @@ any programs/games cfg of mine
 - Microsoft Office things
 - LibreOffice things
 - VSCode things (dari repo-for-learning pindahin kesini)
+- ...
+- `bal_cfg` legacy, sama d_machine, jadi nostalgia versi Windows, terus linux and ricing nya sebelum dibuat repo ini.
 
 ## Quotes - Testimoni
 
