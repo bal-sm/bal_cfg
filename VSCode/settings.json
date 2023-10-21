@@ -54,7 +54,7 @@
         "source.fixAll": "explicit",
         "source.organizeImports": "explicit",
     },
-    "editor.fontFamily": "'RobotoMono Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'RobotoMono Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
     "editor.inlineSuggest.enabled": true,
     "editor.rulers": [
         80,
