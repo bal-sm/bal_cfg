@@ -26,6 +26,7 @@ Deployments:
 
 ```
 Application ID                                           Name                                                 Branch
+com.axosoft.GitKraken                                    GitKraken                                            stable
 com.calibre_ebook.calibre                                calibre                                              stable
 com.github.PintaProject.Pinta                            Pinta                                                stable
 com.github.ahrm.sioyek                                   Sioyek                                               stable
@@ -40,10 +41,12 @@ com.valvesoftware.Steam                                  Steam                  
 com.zettlr.Zettlr                                        Zettlr                                               beta
 dev.bsnes.bsnes                                          bsnes                                                stable
 io.github.punesemu.puNES                                 puNES                                                stable
+io.github.shiftey.Desktop                                GitHub Desktop                                       stable
 io.lmms.LMMS                                             LMMS                                                 stable
 io.mgba.mGBA                                             mGBA                                                 stable
 io.mpv.Mpv                                               mpv                                                  stable
 md.obsidian.Obsidian                                     Obsidian                                             stable
+net.kuribo64.melonDS                                     melonDS                                              stable
 org.ardour.Ardour                                        Ardour                                               stable
 org.audacityteam.Audacity                                Audacity                                             stable
 org.audacityteam.Audacity.Codecs                         Codecs                                               stable
@@ -69,18 +72,21 @@ org.freedesktop.Platform.ffmpeg-full                     ffmpeg-full            
 org.freedesktop.Platform.ffmpeg_full.i386                i386                                                 22.08
 org.freedesktop.Platform.openh264                        openh264                                             2.0
 org.freedesktop.Platform.openh264                        openh264                                             2.2.0
+org.freedesktop.Sdk                                      Freedesktop SDK                                      23.08
 org.gnome.Cheese                                         Cheese                                               stable
 org.gnome.Platform                                       GNOME Application Platform version 44                44
+org.gnome.Platform                                       GNOME Application Platform version 45                45
 org.gnome.Shotwell                                       Shotwell                                             stable
 org.gnome.clocks                                         Clocks                                               stable
+org.gnome.gitg                                           gitg                                                 stable
 org.gtk.Gtk3theme.Adwaita-dark                           Adwaita dark GTK theme                               3.22
 org.gtk.Gtk3theme.Breeze                                 Breeze GTK theme                                     3.22
-org.kde.Platform                                         KDE Application Platform                             5.15-21.08
 org.kde.Platform                                         KDE Application Platform                             5.15-22.08
-org.kde.Platform                                         KDE Application Platform                             6.4
 org.kde.Platform                                         KDE Application Platform                             6.5
 org.kde.elisa                                            Elisa                                                stable
 org.kde.kdenlive                                         Kdenlive                                             stable
+org.kde.kommit                                           Kommit                                               stable
+org.libreoffice.LibreOffice                              LibreOffice                                          stable
 org.libretro.RetroArch                                   RetroArch                                            stable
 org.onlyoffice.desktopeditors                            ONLYOFFICE Desktop Editors                           stable
 org.ppsspp.PPSSPP                                        PPSSPP                                               stable
