@@ -31,4 +31,4 @@ Me (in the future):
 
 ## bal_cfg - version
 
-`0.3`
+`0.4`
