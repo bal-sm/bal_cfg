@@ -5,17 +5,16 @@
 ```
 State: idle
 Deployments:
-  fedora:fedora/38/x86_64/kinoite
-                  Version: 38.20231005.0 (2023-10-05T00:56:03Z)
-               BaseCommit: 27ac9f0ca41e6067d5be2308269f8d1b7813541d1ab103150a5932f3e8798250
+● fedora:fedora/38/x86_64/kinoite
+                  Version: 38.20231015.0 (2023-10-15T00:58:22Z)
+               BaseCommit: 85d9b122f6af9aab7369cb1c2aecfc91500e58df790bac59719429073524b0f8
              GPGSignature: Valid signature by 6A51BBABBA3D5467B6171221809A8D7CEB10B464
-                     Diff: 32 removed
       RemovedBasePackages: libavfilter-free libavformat-free libpostproc-free libswresample-free libavutil-free libswscale-free libavcodec-free 6.0-4.fc38
                            mesa-va-drivers 23.1.8-1.fc38
           LayeredPackages: bottles distrobox ebook-tools ffmpeg git-lfs gnome-software gnome-themes-extra gstreamer1-plugins-bad-free-extras
-                           gstreamer1-plugins-bad-freeworld gstreamer1-plugins-ugly gstreamer1-vaapi insync insync-dolphin kate kvantum
-                           mesa-va-drivers-freeworld mesa-vdpau-drivers-freeworld rpmfusion-free-release rpmfusion-nonfree-release strawberry vlc
-                           wine winetricks
+                           gstreamer1-plugins-bad-freeworld gstreamer1-plugins-ugly gstreamer1-vaapi insync insync-dolphin java-1.8.0-openjdk.x86_64
+                           java-17-openjdk.x86_64 java-latest-openjdk.x86_64 kate kvantum mesa-va-drivers-freeworld mesa-vdpau-drivers-freeworld
+                           rpmfusion-free-release rpmfusion-nonfree-release strawberry vlc wine winetricks zsh
 
 ...
 ```
