@@ -49,6 +49,7 @@
     pkgs.pre-commit
     pkgs.tldr
     pkgs.bun
+    pkgs.act
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
