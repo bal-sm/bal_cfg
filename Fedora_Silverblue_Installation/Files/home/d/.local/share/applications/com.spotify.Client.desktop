@@ -1,0 +1,19 @@
+[Desktop Entry]
+Categories=Audio;Music;Player;AudioVideo;
+Comment[en_US]=
+Comment=
+Exec=flatpak run --file-forwarding --command=sh com.spotify.Client -c 'eval "$(sed s#LD_PRELOAD=#LD_PRELOAD=$HOME/.spotify-adblock/spotify-adblock.so:#g /app/bin/spotify)"' @@u %U @@
+GenericName[en_US]=Music Player
+GenericName=Music Player
+Icon=com.spotify.Client
+MimeType=
+Name[en_US]=Spotify (adblock)
+Name=Spotify (adblock)
+Path=
+StartupNotify=true
+StartupWMClass=spotify
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
