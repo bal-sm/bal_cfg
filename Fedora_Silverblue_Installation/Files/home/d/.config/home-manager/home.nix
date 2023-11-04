@@ -37,7 +37,19 @@
     #   echo "Hello, ${config.home.username}!"
     # '')
     pkgs.vscode
-    pkgs.python312
+    pkgs.lazygit
+    pkgs.trash-cli
+    pkgs.thefuck
+    pkgs.poetry
+    pkgs.hub
+    pkgs.starship
+    pkgs.python311
+    pkgs.nodejs_20
+    # pkgs.zsh, mending zsh di system, soalnya duplicate
+    pkgs.pre-commit
+    pkgs.tldr
+    pkgs.bun
+    pkgs.act
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage

@@ -54,7 +54,7 @@
         "source.fixAll": "explicit",
         "source.organizeImports": "explicit",
     },
-    "editor.fontFamily": "'RobotoMono Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'RobotoMono Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
     "editor.inlineSuggest.enabled": true,
     "editor.rulers": [
         80,
@@ -67,7 +67,9 @@
     "extensions.autoUpdate": "onlyEnabledExtensions",
     "files.associations": {
         "*.code-workspace.dist": "jsonc",
-        ".git-blame-ignore-revs": "properties"
+        ".git-blame-ignore-revs": "properties",
+        "*.nix": "properties",
+        "TAG_EDITMSG": "git-commit"
     },
     "files.autoSave": "afterDelay",
     "files.insertFinalNewline": true,
@@ -121,4 +123,12 @@
     "scm.experimental.showSyncView": true,
     "workbench.experimental.share.enabled": true,
     // new settings below
+    "editor.fontLigatures": true,
+    "markdown.extension.italic.indicator": "_",
+    "markdown.extension.math.enabled": false,
+    "markdown.extension.tableFormatter.enabled": false,
+    "markdown.extension.theming.decoration.renderCodeSpan": false,
+    "markdown.extension.theming.decoration.renderStrikethrough": false,
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.iconTheme": "material-icon-theme",
 }
