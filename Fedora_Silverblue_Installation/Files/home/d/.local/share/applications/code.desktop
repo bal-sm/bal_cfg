@@ -1,3 +1,4 @@
+#!/usr/bin/env xdg-open
 [Desktop Entry]
 Actions=new-empty-window
 Categories=Utility;TextEditor;Development;IDE
