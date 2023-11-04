@@ -1,0 +1,13 @@
+[Desktop Entry]
+Categories=Utility;TextEditor;Development;IDE
+Comment=Code Editing. Redefined.
+Exec=code --open-url %U
+GenericName=Text Editor
+Icon=/var/home/d/.local/share/applications/icons/visual-studio-code-icons/vscode.svg
+Keywords=vscode
+MimeType=x-scheme-handler/vscode
+Name=Visual Studio Code - URL Handler
+NoDisplay=true
+StartupNotify=true
+Type=Application
+Version=1.4
