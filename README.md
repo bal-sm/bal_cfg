@@ -17,6 +17,7 @@ any programs/games cfg of mine
 - VSCode things (dari repo-for-learning pindahin kesini)
 - ...
 - `bal_cfg` legacy, sama d_machine, jadi nostalgia versi Windows, terus linux and ricing nya sebelum dibuat repo ini.
+- shell script to (symlink + mirror) files and its structure with machine.
 
 ## Quotes - Testimoni
 
