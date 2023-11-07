@@ -34,7 +34,3 @@ Me (in the future):
 
 About GUI apps such, `vscode`:
 > Don't. Rada telat dapetnya. Mending pake homebrew cask, atau Fedora. Fuck.
-
-## bal_cfg - version
-
-`0.4`
