@@ -1,0 +1,20 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Actions=new-empty-window
+Categories=Utility;TextEditor;Development;IDE
+Comment=Code Editing. Redefined.
+Exec=code %F
+GenericName=Text Editor
+Icon=/var/home/d/.local/share/applications/icons/visual-studio-code-icons/vscode.svg
+Keywords=vscode
+MimeType=text/plain;inode/directory
+Name=Visual Studio Code
+StartupNotify=true
+StartupWMClass=Code
+Type=Application
+Version=1.4
+
+[Desktop Action new-empty-window]
+Exec=code --new-window %F
+Icon=vscode
+Name=New Empty Window

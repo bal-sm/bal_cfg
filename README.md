@@ -17,6 +17,7 @@ any programs/games cfg of mine
 - VSCode things (dari repo-for-learning pindahin kesini)
 - ...
 - `bal_cfg` legacy, sama d_machine, jadi nostalgia versi Windows, terus linux and ricing nya sebelum dibuat repo ini.
+- shell script to (symlink + mirror) files and its structure with machine.
 
 ## Quotes - Testimoni
 
@@ -29,6 +30,7 @@ Me:
 Me (in the future):
 > Masih pake 8 tahun kemudian, 809 tahun kemudian, 8093 tahun kemudian, 80937 tahun kemudian, 3788121 juta commits, 809375 tahun kemudian, 17333382211 juta commits, 809375112 tahun kemudian, 17333382211921 juta commits, 80937511233242 tahun kemudian, 173333822119215559 juta commits, ...
 
-## bal_cfg - version
+## Notes
 
-`0.4`
+About GUI apps such, `vscode`:
+> Don't. Rada telat dapetnya. Mending pake homebrew cask, atau Fedora. Fuck.

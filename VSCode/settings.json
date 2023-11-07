@@ -50,10 +50,7 @@
     "dev.containers.dockerPath": "podman",
     "diffEditor.experimental.showMoves": true,
     "diffEditor.ignoreTrimWhitespace": false,
-    "editor.codeActionsOnSave": {
-        "source.fixAll": "explicit",
-        "source.organizeImports": "explicit",
-    },
+    "editor.codeActionsOnSave": {},
     "editor.fontFamily": "'JetBrainsMono Nerd Font', 'RobotoMono Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
     "editor.inlineSuggest.enabled": true,
     "editor.rulers": [
@@ -131,4 +128,9 @@
     "markdown.extension.theming.decoration.renderStrikethrough": false,
     "workbench.productIconTheme": "material-product-icons",
     "workbench.iconTheme": "material-icon-theme",
+    "GitLive.Special branches": "main|master|trunk|dev|develop|qa|test|release[-/].*",
+    "GitLive.Issue tracker integration": "Disabled",
+    "git.showActionButton": {
+        "commit": false
+    },
 }
