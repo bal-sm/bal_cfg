@@ -30,6 +30,11 @@ Me:
 Me (in the future):
 > Masih pake 8 tahun kemudian, 809 tahun kemudian, 8093 tahun kemudian, 80937 tahun kemudian, 3788121 juta commits, 809375 tahun kemudian, 17333382211 juta commits, 809375112 tahun kemudian, 17333382211921 juta commits, 80937511233242 tahun kemudian, 173333822119215559 juta commits, ...
 
+## Notes
+
+About GUI apps such, `vscode`:
+> Don't. Rada telat dapetnya. Mending pake homebrew cask, atau Fedora. Fuck.
+
 ## bal_cfg - version
 
 `0.4`
