@@ -98,6 +98,16 @@ org.zim_wiki.Zim                                         Zim                    
 us.zoom.Zoom                                             Zoom                                                 stable
 ```
 
+## How to install `nix`
+
+https://github.com/bal-sm/repo-for-learning/blob/fe4cbd94fcd716f0fdf527122b3c6ace12180464/systems/Linux/Personal_Fedora_Silverblue_Installs/Nix-Single-User.md
+
+TODO:
+> Nanti ubah pake https://determinate.systems/posts/determinate-nix-installer.
+
+ANOTHER TODO, anj:
+> Pake bazzite we gitu ya?
+
 ## Notes
 
 Important:
