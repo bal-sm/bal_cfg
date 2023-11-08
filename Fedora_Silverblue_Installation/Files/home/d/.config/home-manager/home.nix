@@ -86,4 +86,16 @@
 
   # to allow install pkgs yang unfree
   nixpkgs.config.allowUnfree = true;
+
+  # To enable Insiders Build
+  # https://nixos.wiki/wiki/Visual_Studio_Code#Insiders_Build
+  (pkgs.vscode.override { isInsiders = true; }).overrideAttrs (oldAttrs: rec {
+    src = (builtins.fetchTarball {
+      url = "https://code.visualstudio.com/sha/download?build=insider&os=linux-x64";
+      sha256 = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
+    });
+    version = "latest";
+
+    buildInputs = oldAttrs.buildInputs ++ [ pkgs.krb5 ];
+  });
 }
