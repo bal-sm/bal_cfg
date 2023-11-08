@@ -1,6 +1,6 @@
 # Fedora Silverblue Installation
 
-`rpm-ostree status`:
+## `rpm-ostree status`
 
 ```
 State: idle
@@ -21,7 +21,7 @@ Deployments:
 
 > `VSCode` mah lewat `Nix` `home-manager` aja. Soalnya biar gampang switch ke `macOS` nya.
 
-`flatpak list --columns=application,name,branch`:
+## `flatpak list --columns=application,name,branch`
 
 ```
 Application ID                                           Name                                                 Branch
@@ -100,5 +100,5 @@ us.zoom.Zoom                                             Zoom                   
 
 ## Notes
 
-Important
+Important:
 > Use official Fedora distribution of `OpenJDK`, 'cause looks like that is more stable than `nix`'s one.
