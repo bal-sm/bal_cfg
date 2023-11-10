@@ -115,7 +115,6 @@
     "workbench.startupEditor": "welcomePageInEmptyWorkbench",
     // experimental settings
     "debug.toolBarLocation": "commandCenter",
-    "editor.codeActionWidget.includeNearbyQuickfixes": true,
     "notebook.gotoSymbols.showAllSymbols": true,
     "scm.experimental.showSyncView": true,
     "workbench.experimental.share.enabled": true,
@@ -133,4 +132,7 @@
     "git.showActionButton": {
         "commit": false
     },
+    "editor.codeActionWidget.includeNearbyQuickFixes": true,
+    "workbench.activityBar.location": "top",
+    "python.experiments.optInto": ["pythonTerminalEnvVarActivation"],
 }
