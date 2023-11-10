@@ -52,6 +52,7 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.codeActionsOnSave": {},
     "editor.fontFamily": "'JetBrainsMono Nerd Font', 'RobotoMono Nerd Font', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.fontLigatures": true,
     "editor.inlineSuggest.enabled": true,
     "editor.rulers": [
         80,
@@ -79,6 +80,9 @@
     "git.defaultBranchName": "",
     "git.enableSmartCommit": false,
     "git.suggestSmartCommit": false,
+    "git.showActionButton": {
+        "commit": false
+    },
     "github.copilot.enable": {
         "*": true,
         "json": false,
@@ -89,6 +93,11 @@
     },
     "github.gitProtocol": "ssh",
     "githubPullRequests.pullBranch": "never",
+    "markdown.extension.italic.indicator": "_",
+    "markdown.extension.math.enabled": false,
+    "markdown.extension.tableFormatter.enabled": false,
+    "markdown.extension.theming.decoration.renderCodeSpan": false,
+    "markdown.extension.theming.decoration.renderStrikethrough": false,
     "markdown.preferredMdPathExtensionStyle": "includeExtension",
     "myst.preview.extensions": [
         "amsmath",
@@ -108,10 +117,13 @@
     "terminal.integrated.defaultProfile.linux": "zsh",
     "window.commandCenter": true,
     "window.titleBarStyle": "custom",
+    "workbench.activityBar.location": "top",
     "workbench.colorTheme": "Default Dark+",
     "workbench.editor.pinnedTabsOnSeparateRow": true,
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.preferredDarkColorTheme": "Default Dark+",
     "workbench.preferredLightColorTheme": "Default Light+",
+    "workbench.productIconTheme": "material-product-icons",
     "workbench.startupEditor": "welcomePageInEmptyWorkbench",
     // experimental settings
     "debug.toolBarLocation": "commandCenter",
@@ -119,20 +131,8 @@
     "scm.experimental.showSyncView": true,
     "workbench.experimental.share.enabled": true,
     // new settings below
-    "editor.fontLigatures": true,
-    "markdown.extension.italic.indicator": "_",
-    "markdown.extension.math.enabled": false,
-    "markdown.extension.tableFormatter.enabled": false,
-    "markdown.extension.theming.decoration.renderCodeSpan": false,
-    "markdown.extension.theming.decoration.renderStrikethrough": false,
-    "workbench.productIconTheme": "material-product-icons",
-    "workbench.iconTheme": "material-icon-theme",
     "GitLive.Special branches": "main|master|trunk|dev|develop|qa|test|release[-/].*",
     "GitLive.Issue tracker integration": "Disabled",
-    "git.showActionButton": {
-        "commit": false
-    },
     "editor.codeActionWidget.includeNearbyQuickFixes": true,
-    "workbench.activityBar.location": "top",
     "python.experiments.optInto": ["pythonTerminalEnvVarActivation"],
 }
