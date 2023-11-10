@@ -130,9 +130,10 @@
     "notebook.gotoSymbols.showAllSymbols": true,
     "scm.experimental.showSyncView": true,
     "workbench.experimental.share.enabled": true,
-    // new settings below
-    "GitLive.Special branches": "main|master|trunk|dev|develop|qa|test|release[-/].*",
+    // obscure settings
     "GitLive.Issue tracker integration": "Disabled",
-    "editor.codeActionWidget.includeNearbyQuickFixes": true,
+    "GitLive.Special branches": "main|master|trunk|dev|develop|qa|test|release[-/].*",
     "python.experiments.optInto": ["pythonTerminalEnvVarActivation"],
+    // new settings below
+    "editor.codeActionWidget.includeNearbyQuickFixes": true,
 }
