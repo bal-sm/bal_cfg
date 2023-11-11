@@ -48,7 +48,7 @@
         },
         // my personal tag(s)
         {
-            "tag": "\":",
+            "tag": "\"",
             "color": "#309EC4",
             "strikethrough": false,
             "underline": false,
