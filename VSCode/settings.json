@@ -46,6 +46,16 @@
             "bold": false,
             "italic": false
         },
+        // my personal tag(s)
+        {
+            "tag": "\":",
+            "color": "#309EC4",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
     ],
     "dev.containers.dockerPath": "podman",
     "diffEditor.experimental.showMoves": true,
