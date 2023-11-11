@@ -1,6 +1,7 @@
 {
     "accessibility.dimUnfocused.enabled": false,
     "better-comments.tags": [
+        // default tags frpm better-comments
         {
             "tag": "!",
             "color": "#FF2D00",
@@ -147,10 +148,16 @@
     // new settings below
     "editor.codeActionWidget.includeNearbyQuickFixes": true,
     "todo-tree.general.tags": [
+        // default tags frpm better-comments
+        "!",
+        "?",
+        "//",
+        "TODO",
+        "*",
+        "\"",
         "BUG",
         "HACK",
         "FIXME",
-        "TODO",
         "XXX",
         "[ ]",
         "[x]",
