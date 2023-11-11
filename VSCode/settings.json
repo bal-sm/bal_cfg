@@ -136,4 +136,14 @@
     "python.experiments.optInto": ["pythonTerminalEnvVarActivation"],
     // new settings below
     "editor.codeActionWidget.includeNearbyQuickFixes": true,
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]",
+        "LEGACY"
+    ],
 }
