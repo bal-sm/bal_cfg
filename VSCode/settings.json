@@ -1,13 +1,14 @@
 {
     "accessibility.dimUnfocused.enabled": false,
     "better-comments.tags": [
+        // default tags frpm better-comments
         {
             "tag": "!",
             "color": "#FF2D00",
             "strikethrough": false,
-            "underline": false,
+            "underline": true,
             "backgroundColor": "transparent",
-            "bold": false,
+            "bold": true,
             "italic": false
         },
         {
@@ -17,7 +18,7 @@
             "underline": false,
             "backgroundColor": "transparent",
             "bold": false,
-            "italic": false
+            "italic": true
         },
         {
             "tag": "//",
@@ -34,7 +35,7 @@
             "strikethrough": false,
             "underline": false,
             "backgroundColor": "transparent",
-            "bold": false,
+            "bold": true,
             "italic": false
         },
         {
@@ -44,6 +45,82 @@
             "underline": false,
             "backgroundColor": "transparent",
             "bold": false,
+            "italic": false
+        },
+        // my personal tag(s)
+        {
+            "tag": "\":",
+            "color": "#309EC4",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": true
+        },
+        // from `todo-tree`
+        {
+            "tag": "BUG",// what for ya ini teh 0
+            // meureun buat kasih tau apa yang ngebug nya [831]
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": "HACK",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": "FIXME", // what for ya ini teh 1
+            // [831] nah kalo ini ngasih tau gimana implementasi nya buat ngehilangin bug eta
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": "XXX", // what for ya ini teh 2
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": "[ ]",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": "[x]",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": "LEGACY",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": true,
             "italic": false
         },
     ],
@@ -136,4 +213,20 @@
     "python.experiments.optInto": ["pythonTerminalEnvVarActivation"],
     // new settings below
     "editor.codeActionWidget.includeNearbyQuickFixes": true,
+    "todo-tree.general.tags": [
+        // default tags frpm better-comments
+        "!",
+        "?",
+        "//",
+        "TODO",
+        "*",
+        "\":",
+        "BUG",
+        "HACK",
+        "FIXME",
+        "XXX",
+        "[ ]",
+        "[x]",
+        "LEGACY"
+    ],
 }
