@@ -229,4 +229,7 @@
         "[x]",
         "LEGACY"
     ],
+    "files.readonlyInclude": {
+        ".venv/*": true
+    },
 }
