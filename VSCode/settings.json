@@ -232,4 +232,5 @@
     "files.readonlyInclude": {
         ".venv/*": true
     },
+    "workbench.editor.labelFormat": "short",
 }
