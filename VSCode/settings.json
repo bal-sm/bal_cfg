@@ -231,7 +231,6 @@
     ],
     "files.readonlyInclude": {
         "**/.venv/*/**": true,
-        "**/.git/*/**": true,
     },
     "workbench.editor.labelFormat": "short",
     "git.branchProtection": [
@@ -243,9 +242,7 @@
         "node_modules",
         ".venv"
     ],
-    "files.exclude": {
-        "**/.git": false
-    },
+    "files.exclude": {},
     "files.watcherExclude": {
         "**/.venv/*/**": true
     },
