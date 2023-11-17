@@ -230,8 +230,8 @@
         "LEGACY"
     ],
     "files.readonlyInclude": {
-        "**/.venv": true,
-        "**/.git": true,
+        "**/.venv/*/**": true,
+        "**/.git/*/**": true,
     },
     "workbench.editor.labelFormat": "short",
     "git.branchProtection": [
@@ -247,6 +247,6 @@
         "**/.git": false
     },
     "files.watcherExclude": {
-        "**/.venv/*": true
+        "**/.venv/*/**": true
     },
 }
