@@ -243,4 +243,10 @@
         "node_modules",
         ".venv"
     ],
+    "files.exclude": {
+        "**/.git": false
+    },
+    "files.watcherExclude": {
+        "**/.venv/*": true
+    },
 }
