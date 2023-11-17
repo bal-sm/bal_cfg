@@ -230,7 +230,8 @@
         "LEGACY"
     ],
     "files.readonlyInclude": {
-        ".venv/*": true
+        "**/.venv": true,
+        "**/.git": true,
     },
     "workbench.editor.labelFormat": "short",
     "git.branchProtection": [
