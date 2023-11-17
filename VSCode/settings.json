@@ -233,4 +233,13 @@
         ".venv/*": true
     },
     "workbench.editor.labelFormat": "short",
+    "git.branchProtection": [
+        "master"
+    ],
+    "git.terminalGitEditor": true,
+    "git.verboseCommit": true,
+    "git.repositoryScanIgnoredFolders": [
+        "node_modules",
+        ".venv"
+    ],
 }
