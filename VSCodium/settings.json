@@ -104,14 +104,14 @@
         // },
         // BUG: It doesn't installed on disabled state.
         "necessary",
+        "theme",
         "git",
         "python",
+        "markdown_ultimate",
+        "jupyter",
+        "html",
         "other",
         "-unnecessary",
-        "markdown_ultimate",
-        "html",
-        "jupyter",
-        "theme",
         // independent
         // nothing
     ],
