@@ -17,6 +17,9 @@
         },
     },
     "vsix.groups": {
+        "necessary": [
+            "pro:albert.TabOut",
+        ],
         "python": [
             "pro:ms-python.python",
         ],
@@ -27,6 +30,7 @@
         //     "enabled": false
         // },
         // BUG: It doesn't installed on disabled state.
+        "necessary",
         "python",
     ],
     "vsix.crons": {
