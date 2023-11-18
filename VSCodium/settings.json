@@ -22,6 +22,7 @@
         ],
         "python": [
             "pro:ms-python.python",
+            "pro:ms-python.black-formatter"
         ],
         "other": [
             "pro:redhat.vscode-yaml",
