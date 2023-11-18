@@ -23,6 +23,9 @@
         "python": [
             "pro:ms-python.python",
         ],
+        "other": [
+            "pro:redhat.vscode-yaml",
+        ],
     },
     "vsix.extensions": [
         // {
@@ -32,6 +35,7 @@
         // BUG: It doesn't installed on disabled state.
         "necessary",
         "python",
+        "other",
     ],
     "vsix.crons": {
         "update": "0 12 * * *"
