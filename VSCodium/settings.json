@@ -27,6 +27,9 @@
         "other": [
             "pro:redhat.vscode-yaml",
         ],
+        "unnecessary": [
+            "pro:micnil.vscode-checkpoints",
+        ]
     },
     "vsix.extensions": [
         // {
