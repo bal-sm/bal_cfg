@@ -27,7 +27,7 @@
         "other": [
             "pro:redhat.vscode-yaml",
         ],
-        "unnecessary": [
+        "unnecessary": [ // not neccessary yet
             "pro:micnil.vscode-checkpoints",
         ]
     },
