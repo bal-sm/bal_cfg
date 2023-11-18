@@ -112,7 +112,10 @@
         "html",
         "other",
         "-unnecessary",
-        // independent
+        // ~~bloat~~
+        //
+        // independent ext
+        // ---------------
         // nothing
     ],
     "vsix.crons": {
