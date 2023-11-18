@@ -22,6 +22,11 @@
         ],
     },
     "vsix.extensions": [
+        // {
+        //     "id": "python",
+        //     "enabled": false
+        // },
+        // BUG: It doesn't installed on disabled state.
         "python",
     ],
     "vsix.crons": {
