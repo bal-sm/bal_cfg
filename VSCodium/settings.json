@@ -41,6 +41,7 @@
             "pro:mtxr.sqltools",
             "pro:mtxr.sqltools-driver-pg",
             "pro:mtxr.sqltools-driver-sqlite",
+            "pro:aaron-bond.better-comments",
         ],
         "unnecessary": [ // not neccessary yet
             "pro:micnil.vscode-checkpoints",
@@ -54,7 +55,7 @@
             "pro:timonwong.shellcheck",
         ],
         "bloat": [
-            "pro:GitHub.vscode-github-actions"
+            "pro:GitHub.vscode-github-actions",
             "pro:GitHub.codespaces",
             "pro:GitHub.copilot",
             "pro:GitHub.copilot-chat",
@@ -103,10 +104,16 @@
         // },
         // BUG: It doesn't installed on disabled state.
         "necessary",
+        "git",
         "python",
         "other",
+        "!unnecessary",
+        "markdown_ultimate",
+        "html",
+        "jupyter",
+        "theme",
         // independent
-        "pro:aaron-bond.better-comments",
+        // nothing
     ],
     "vsix.crons": {
         "update": "0 12 * * *"
