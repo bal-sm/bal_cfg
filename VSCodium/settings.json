@@ -37,6 +37,8 @@
         "necessary",
         "python",
         "other",
+        // independent
+        "pro:aaron-bond.better-comments",
     ],
     "vsix.crons": {
         "update": "0 12 * * *"
