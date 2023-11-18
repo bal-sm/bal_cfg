@@ -231,6 +231,32 @@
     ],
     "files.readonlyInclude": {
         "**/.venv/*/**": true,
+        "**/.git/*/**": true,
+    },
+    "files.readonlyExclude": {
+        // By GitHub Copilot + d_machine
+        // "**/.git/objects/**": true,
+        // "**/.git/refs/**": true,
+        // "**/.git/index.lock": true,
+        //"**/.git/HEAD.lock": true,
+        "**/.git/COMMIT_EDITMSG": true,
+        "**/.git/MERGE_MSG": true,
+        "**/.git/FETCH_HEAD": true,
+        "**/.git/CHERRY_PICK_HEAD": true,
+        "**/.git/REVERT_HEAD": true,
+        "**/.git/MERGE_HEAD": true,
+        "**/.git/ORIG_HEAD": true,
+        "**/.git/BISECT_LOG": true,
+        // "**/.git/refs/stash": true,
+        // "**/.git/logs/**": true,
+        // "**/.git/logs/**/**": true,
+        // "**/.git/logs/**/**/**": true,
+        // "**/.git/logs/**/**/**/**": true,
+        // "**/.git/logs/**/**/**/**/**": true,
+        // "**/.git/logs/**/**/**/**/**/**": true,
+        // "**/.git/logs/**/**/**/**/**/**/**": true,
+        // "**/.git/logs/**/**/**/**/**/**/**/**": true,
+        // "**/.git/logs/**/**/**/**/**/**/**/**/**": true,
     },
     "workbench.editor.labelFormat": "short",
     "git.branchProtection": [
@@ -242,7 +268,9 @@
         "node_modules",
         ".venv"
     ],
-    "files.exclude": {},
+    "files.exclude": {
+        "**/.git": false
+    },
     "files.watcherExclude": {
         "**/.venv/*/**": true
     },
