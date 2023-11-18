@@ -29,6 +29,7 @@
         ],
         "unnecessary": [ // not neccessary yet
             "pro:micnil.vscode-checkpoints",
+            "pro:ericliu.coldcode",
         ]
     },
     "vsix.extensions": [
