@@ -260,7 +260,6 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.preferredDarkColorTheme": "Default Dark+",
     "workbench.preferredLightColorTheme": "Default Light+",
-    "workbench.productIconTheme": "material-product-icons",
     "workbench.startupEditor": "welcomePageInEmptyWorkbench",
     // vscodium settings
     "terminal.integrated.defaultProfile.linux": "zsh",
