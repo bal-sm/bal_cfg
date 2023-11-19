@@ -383,6 +383,7 @@
     "vsix.crons": {
         "update": "0 12 * * *"
     },
+    "vsix.debug": true,
     // end of vscodium settings
     // obscure settings
     "debug.toolBarLocation": "commandCenter",
