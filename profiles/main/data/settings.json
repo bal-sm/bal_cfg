@@ -273,11 +273,12 @@
         "opn": {
             "type": "marketplace",
             "serviceUrl": "https://open-vsx.org/vscode/gallery",
+            // USE THIS FOR MICROSOFT THINGS
         },
         "pro": {
             "type": "marketplace",
             "serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
-        },
+        }, // use this for indie devs, DON'T IF ITS PROPRIETARY MICROSOFT THINGS
     },
     "vsix.groups": {
         "necessary": [
