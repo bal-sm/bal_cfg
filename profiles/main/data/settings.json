@@ -262,13 +262,6 @@
     "workbench.preferredLightColorTheme": "Default Light+",
     "workbench.startupEditor": "welcomePageInEmptyWorkbench",
     // vscodium settings
-    "terminal.integrated.defaultProfile.linux": "zsh",
-    "terminal.integrated.profiles.linux": {
-        "zsh": {
-          "path": "/home/d/.local/bin/host-spawn",
-          "args": ["zsh"]
-        }
-    },
     "vsix.sources": {
         "opn": {
             "type": "marketplace",
