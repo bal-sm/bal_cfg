@@ -397,4 +397,5 @@
     "editor.codeActionWidget.includeNearbyQuickFixes": true,
     "workbench.productIconTheme": "material-product-icons",
     // new settings below
+    "python.languageServer": "Jedi",
 }
