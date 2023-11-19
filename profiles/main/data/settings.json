@@ -315,7 +315,7 @@
         "html": [
             "pro:ecmel.vscode-html-css",
             "pro:HTMLHint.vscode-htmlhint",
-            "pro:syler.sass-indented",
+            "pro:Syler.sass-indented",
         ],
         "jupyter": [
             // "pro:ms-toolsai.jupyter", this is extensions pack.
