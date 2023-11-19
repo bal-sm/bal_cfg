@@ -303,7 +303,7 @@
         ],
         "markdown_ultimate": [
             "pro:yzhang.markdown-all-in-one",
-            "pro:bierner.github-markdown-preview",
+            // "pro:bierner.github-markdown-preview", this is extensions pack.
             "pro:bierner.markdown-preview-github-styles",
             "pro:bierner.markdown-emoji",
             "pro:bierner.markdown-checkbox",
@@ -318,7 +318,7 @@
             "pro:syler.sass-indented",
         ],
         "jupyter": [
-            "pro:ms-toolsai.jupyter",
+            // "pro:ms-toolsai.jupyter", this is extensions pack.
             "pro:ms-toolsai.jupyter-keymap",
             "pro:ms-toolsai.jupyter-renderers",
             "pro:ms-toolsai.vscode-jupyter-slideshow",
