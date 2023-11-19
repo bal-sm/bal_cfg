@@ -292,14 +292,14 @@
             "pro:donjayamanne.githistory",
         ],
         "python": [
-            "pro:ms-python.python",
-            "pro:ms-python.black-formatter",
+            "opn:ms-python.python",
+            "opn:ms-python.black-formatter",
             "pro:batisteo.vscode-django",
-            "pro:ms-python.flake8",
-            "pro:ms-python.mypy-type-checker",
+            "opn:ms-python.flake8",
+            "opn:ms-python.mypy-type-checker",
             // "pro:ms-python.vscode-pylance", // doesn't work on vscodium
             "opn:ms-pyright.pyright", // pylance alternative
-            "pro:ms-python.debugpy",
+            // "pro:ms-python.debugpy", // too new
             "pro:EricSia.pythonsnippets3", // not necessary yet
         ],
         "markdown_ultimate": [
@@ -397,6 +397,4 @@
     "python.experiments.optInto": ["pythonTerminalEnvVarActivation"],
     "editor.codeActionWidget.includeNearbyQuickFixes": true,
     "workbench.productIconTheme": "material-product-icons",
-    // new settings below
-    "python.languageServer": "Jedi",
 }
