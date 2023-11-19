@@ -298,7 +298,7 @@
             "pro:ms-python.flake8",
             "pro:ms-python.mypy-type-checker",
             // "pro:ms-python.vscode-pylance", // doesn't work on vscodium
-            "pro:ms-pyright.pyright", // pylance alternative
+            "opn:ms-pyright.pyright", // pylance alternative
             "pro:ms-python.debugpy",
             "pro:EricSia.pythonsnippets3", // not necessary yet
         ],
