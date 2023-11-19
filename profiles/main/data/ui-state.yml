@@ -63,7 +63,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \",\"themeIcon\":{\"id\":\"defaultProfile-icon\"},\"name\":\"Profiles\",\"isB\
   uiltin\":true,\"views\":[]}]"
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["markdown",true],["python",true],["yaml",true],["jsonc",true],["plaintext",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["markdown",true],["python",true],["plaintext",true],["yaml",true],["properties",true],["xml",true],["jsonc",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.emptyView","isHidden":false},{"id":"npm","isHidden":true},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"commitViewProvider","isHidden":false},{"id":"compareCommitViewProvider","isHidden":false},{"id":"cell-tag","isHidden":false},{"id":"checkpointsTreeViewExplorer","isHidden":false},{"id":"gitTreeCompare","isHidden":false}]'
 workbench.grid.size: '{"height":688,"width":1024}'
 workbench.panel.alignment: center
@@ -81,7 +81,7 @@ workbench.panel.repl.hidden: '[{"id":"workbench.panel.repl.view","isHidden":fals
 workbench.panel.size: "256"
 workbench.scm.views.state.hidden: '[{"id":"workbench.scm.repositories","isHidden":true},{"id":"workbench.scm","isHidden":false},{"id":"workbench.scm.sync","isHidden":false},{"id":"checkpointsTreeViewScm","isHidden":false}]'
 workbench.sideBar.size: "256"
-workbench.statusbar.hidden: '["status.workspaceTrust.ef0e929c66da571af13f7e6d33c7dbea","status.workspaceTrust.1700355669396"]'
+workbench.statusbar.hidden: '["status.workspaceTrust.ef0e929c66da571af13f7e6d33c7dbea","status.workspaceTrust.1700355669396","status.workspaceTrust.455d67210222a71c86c542f1e5531c08"]'
 workbench.view.debug.state.hidden: '[{"id":"workbench.debug.welcome","isHidden":false},{"id":"workbench.debug.variablesView","isHidden":false},{"id":"workbench.debug.watchExpressionsView","isHidden":false},{"id":"workbench.debug.callStackView","isHidden":false},{"id":"workbench.debug.loadedScriptsView","isHidden":false},{"id":"workbench.debug.breakPointsView","isHidden":false},{"id":"jsBrowserBreakpoints","isHidden":false},{"id":"jsExcludedCallers","isHidden":false}]'
 workbench.view.extension.gitTreeCompare.state.hidden: '[{"id":"gitTreeCompare","isHidden":false}]'
 workbench.view.extension.sqltoolsActivityBarContainer.state.hidden:

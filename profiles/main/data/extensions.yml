@@ -1,5 +1,7 @@
 disabled: []
 enabled:
+  - id: syler.sass-indented
+    uuid: 466468c3-1861-4ad1-bf3e-f9ad46545ebb
   - id: zokugun.cron-tasks
     uuid: eb05256f-c7aa-4554-95c6-1bb8e30e0cea
   - id: zokugun.vsix-manager
