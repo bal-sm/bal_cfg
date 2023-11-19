@@ -320,11 +320,13 @@
             "pro:Syler.sass-indented",
         ],
         "jupyter": [
-            // "pro:ms-toolsai.jupyter", this is extensions pack.
-            "pro:ms-toolsai.jupyter-keymap",
-            "pro:ms-toolsai.jupyter-renderers",
-            "pro:ms-toolsai.vscode-jupyter-slideshow",
-            "pro:ms-toolsai.vscode-jupyter-cell-tags",
+            // ! USE `opn` PRETTY PLEASE, 'CAUSE THEY ARE FROM MICROSOFT.
+            // "opn:ms-toolsai.jupyter", this is extensions pack.
+            "opn:ms-toolsai.jupyter-keymap",
+            "opn:ms-toolsai.jupyter-renderers",
+            "opn:ms-toolsai.vscode-jupyter-powertoys",
+            "opn:ms-toolsai.vscode-jupyter-slideshow",
+            "opn:ms-toolsai.vscode-jupyter-cell-tags",
         ],
         "other": [
             "pro:redhat.vscode-yaml",
@@ -397,5 +399,4 @@
     "GitLive.Special branches": "main|master|trunk|dev|develop|qa|test|release[-/].*",
     "python.experiments.optInto": ["pythonTerminalEnvVarActivation"],
     "editor.codeActionWidget.includeNearbyQuickFixes": true,
-    "workbench.productIconTheme": "material-product-icons",
 }
