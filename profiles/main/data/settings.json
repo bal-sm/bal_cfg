@@ -325,7 +325,7 @@
             // "opn:ms-toolsai.jupyter", this is extensions pack.
             "opn:ms-toolsai.jupyter-keymap",
             "opn:ms-toolsai.jupyter-renderers",
-            "opn:ms-toolsai.vscode-jupyter-powertoys",
+            // "opn:ms-toolsai.vscode-jupyter-powertoys", // incompatible cenah
             "opn:ms-toolsai.vscode-jupyter-slideshow",
             "opn:ms-toolsai.vscode-jupyter-cell-tags",
         ],
@@ -400,4 +400,5 @@
     "GitLive.Special branches": "main|master|trunk|dev|develop|qa|test|release[-/].*",
     "python.experiments.optInto": ["pythonTerminalEnvVarActivation"],
     "editor.codeActionWidget.includeNearbyQuickFixes": true,
+    "workbench.productIconTheme": "material-product-icons",
 }
