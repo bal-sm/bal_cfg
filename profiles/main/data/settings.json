@@ -235,6 +235,7 @@
         "dev.containers.dockerPath",
     ],
     "telemetry.telemetryLevel": "off",
+    "terminal.integrated.defaultProfile.linux": "zsh",
     "todo-tree.general.tags": [
         // default tags frpm better-comments
         "!",
