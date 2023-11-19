@@ -316,7 +316,7 @@
             "pro:ecmel.vscode-html-css",
             "pro:HTMLHint.vscode-htmlhint",
             "pro:Syler.sass-indented",
-       x ],
+        ],
         "jupyter": [
             // "pro:ms-toolsai.jupyter", this is extensions pack.
             "pro:ms-toolsai.jupyter-keymap",
@@ -394,5 +394,6 @@
     "GitLive.Special branches": "main|master|trunk|dev|develop|qa|test|release[-/].*",
     "python.experiments.optInto": ["pythonTerminalEnvVarActivation"],
     "editor.codeActionWidget.includeNearbyQuickFixes": true,
+    "workbench.productIconTheme": "material-product-icons",
     // new settings below
 }
