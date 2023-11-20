@@ -261,17 +261,139 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.preferredDarkColorTheme": "Default Dark+",
     "workbench.preferredLightColorTheme": "Default Light+",
-    "workbench.productIconTheme": "material-product-icons",
     "workbench.startupEditor": "welcomePageInEmptyWorkbench",
-    // experimental settings
+    // vscodium settings
+    "vsix.sources": {
+        "opn": {
+            "type": "marketplace",
+            "serviceUrl": "https://open-vsx.org/vscode/gallery",
+            // * USE THIS FOR MICROSOFT THINGS
+        },
+        "pro": {
+            "type": "marketplace",
+            "serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+        }, // * use this for indie devs, DON'T IF ITS PROPRIETARY MICROSOFT THINGS
+    },
+    "vsix.groups": {
+        "necessary": [
+            "pro:albert.TabOut",
+        ],
+        "theme": [
+            "pro:PKief.material-icon-theme",
+            "pro:PKief.material-product-icons",
+        ],
+        "git": [
+            "pro:waderyan.gitblame",
+            "pro:donjayamanne.githistory",
+        ],
+        "python": [
+            // ! USE `opn` PRETTY PLEASE, 'CAUSE THEY ARE FROM MICROSOFT.
+            "opn:ms-python.python",
+            "opn:ms-python.black-formatter",
+            "pro:batisteo.vscode-django",
+            "opn:ms-python.flake8",
+            "opn:ms-python.mypy-type-checker",
+            // "pro:ms-python.vscode-pylance", // doesn't work on vscodium
+            "opn:ms-pyright.pyright", // pylance alternative
+            // "pro:ms-python.debugpy", // too new
+            "pro:EricSia.pythonsnippets3", // not necessary yet
+        ],
+        "markdown_ultimate": [
+            "pro:yzhang.markdown-all-in-one",
+            // "pro:bierner.github-markdown-preview", this is extensions pack.
+            "pro:bierner.markdown-preview-github-styles",
+            "pro:bierner.markdown-emoji",
+            "pro:bierner.markdown-checkbox",
+            "pro:bierner.markdown-yaml-preamble",
+            "pro:bierner.markdown-mermaid",
+            "pro:bierner.markdown-footnotes",
+            "pro:DavidAnson.vscode-markdownlint",
+        ],
+        "html": [
+            "pro:ecmel.vscode-html-css",
+            "pro:HTMLHint.vscode-htmlhint",
+            "pro:Syler.sass-indented",
+        ],
+        "jupyter": [
+            // ! USE `opn` PRETTY PLEASE, 'CAUSE THEY ARE FROM MICROSOFT.
+            // "opn:ms-toolsai.jupyter", this is extensions pack.
+            "opn:ms-toolsai.jupyter-keymap",
+            "opn:ms-toolsai.jupyter-renderers",
+            // "opn:ms-toolsai.vscode-jupyter-powertoys", // incompatible cenah
+            "opn:ms-toolsai.vscode-jupyter-slideshow",
+            "opn:ms-toolsai.vscode-jupyter-cell-tags",
+        ],
+        "other": [
+            "pro:redhat.vscode-yaml",
+            "pro:PKief.copy-branch-name",
+            "pro:tamasfe.even-better-toml",
+            "pro:mtxr.sqltools",
+            "pro:mtxr.sqltools-driver-pg",
+            "pro:mtxr.sqltools-driver-sqlite",
+            "pro:aaron-bond.better-comments",
+        ],
+        // "unnecessary": [ // not neccessary yet
+        //     "pro:micnil.vscode-checkpoints",
+        //     "pro:ericliu.coldcode",
+        //     "pro:vivaxy.vscode-conventional-commits",
+        //     "pro:dbaeumer.vscode-eslint",
+        //     "pro:letmaik.git-tree-compare",
+        //     "pro:antfu.iconify",
+        //     "pro:mads-hartmann.bash-ide-vscode",
+        //     "pro:foxundermoon.shell-format",
+        //     "pro:timonwong.shellcheck",
+        // ],
+        // "bloat": [
+        //     "pro:GitHub.vscode-github-actions",
+        //     "pro:GitHub.codespaces",
+        //     "pro:GitHub.copilot",
+        //     "pro:GitHub.copilot-chat",
+        //     "pro:GitHub.copilot-labs",
+        //     "pro:GitHub.vscode-pull-request-github",
+        //     "pro:VisualStudioExptTeam.vscodeintellicode",
+        //     "pro:VisualStudioExptTeam.intellicode-api-usage-examples",
+        //     "pro:ms-vscode-remote.vscode-remote-extensionpack",
+        //     "pro:ms-vscode-remote.remote-wsl",
+        //     "pro:ms-vscode-remote.remote-containers",
+        //     "pro:ms-vscode-remote.remote-ssh",
+        //     "pro:ms-vscode.remote-server",
+        // ],
+    },
+    "vsix.extensions": [
+        // {
+        //     "id": "python",
+        //     "enabled": false
+        // },
+        // BUG: It doesn't installed on disabled state.
+        "necessary",
+        "theme",
+        "git",
+        "python",
+        "markdown_ultimate",
+        "html",
+        "jupyter",
+        "other",
+        // ~~unnecessary~~,
+        // ~~bloat~~,
+        //
+        // independent ext
+        // ---------------
+        // nothing
+    ],
+    "vsix.crons": {
+        "update": "0 12 * * *"
+    },
+    "vsix.debug": true,
+    // end of vscodium settings
+    // obscure settings
     "debug.toolBarLocation": "commandCenter",
     "notebook.gotoSymbols.showAllSymbols": true,
     "scm.experimental.showSyncView": true,
     "workbench.experimental.share.enabled": true,
-    // obscure settings
     "GitLive.Issue tracker integration": "Disabled",
     "GitLive.Special branches": "main|master|trunk|dev|develop|qa|test|release[-/].*",
     "python.experiments.optInto": ["pythonTerminalEnvVarActivation"],
     "editor.codeActionWidget.includeNearbyQuickFixes": true,
+    "workbench.productIconTheme": "material-product-icons",
     // new settings below
 }
