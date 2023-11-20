@@ -63,7 +63,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \",\"themeIcon\":{\"id\":\"defaultProfile-icon\"},\"name\":\"Profiles\",\"isB\
   uiltin\":true,\"views\":[]}]"
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["yaml",true],["plaintext",true],["python",true],["jsonc",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["yaml",true],["git-rebase",true],["plaintext",true],["python",true],["jsonc",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"commitViewProvider","isHidden":false},{"id":"compareCommitViewProvider","isHidden":false},{"id":"cell-tag","isHidden":false}]'
 workbench.grid.size: '{"height":663,"width":1024}'
 workbench.panel.alignment: center
