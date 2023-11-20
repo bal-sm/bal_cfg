@@ -6,15 +6,16 @@
 State: idle
 Deployments:
 ● fedora:fedora/38/x86_64/kinoite
-                  Version: 38.20231015.0 (2023-10-15T00:58:22Z)
-               BaseCommit: 85d9b122f6af9aab7369cb1c2aecfc91500e58df790bac59719429073524b0f8
+                  Version: 38.20231119.0 (2023-11-19T01:24:29Z)
+               BaseCommit: ab0d151f0516f201729606a41c651b770375fb649981d26b70a4f46ec0170acf
              GPGSignature: Valid signature by 6A51BBABBA3D5467B6171221809A8D7CEB10B464
-      RemovedBasePackages: libavfilter-free libavformat-free libpostproc-free libswresample-free libavutil-free libswscale-free libavcodec-free 6.0-4.fc38
-                           mesa-va-drivers 23.1.8-1.fc38
-          LayeredPackages: bottles distrobox ebook-tools ffmpeg git-lfs gnome-software gnome-themes-extra gstreamer1-plugins-bad-free-extras
-                           gstreamer1-plugins-bad-freeworld gstreamer1-plugins-ugly gstreamer1-vaapi insync insync-dolphin java-1.8.0-openjdk.x86_64
-                           java-17-openjdk.x86_64 java-latest-openjdk.x86_64 kate kvantum mesa-va-drivers-freeworld mesa-vdpau-drivers-freeworld
-                           rpmfusion-free-release rpmfusion-nonfree-release strawberry vlc wine winetricks zsh
+      RemovedBasePackages: libavfilter-free libavformat-free libpostproc-free libswresample-free libavutil-free libswscale-free libavcodec-free 6.0.1-1.fc38
+                           mesa-va-drivers 23.1.9-1.fc38
+          LayeredPackages: bottles code codium distrobox ebook-tools ffmpeg git-lfs gnome-software gnome-themes-extra
+                           gstreamer1-plugins-bad-free-extras gstreamer1-plugins-bad-freeworld gstreamer1-plugins-ugly gstreamer1-vaapi insync
+                           insync-dolphin java-1.8.0-openjdk.x86_64 java-17-openjdk.x86_64 java-latest-openjdk.x86_64 kate kvantum
+                           mesa-va-drivers-freeworld mesa-vdpau-drivers-freeworld podman-docker rpmfusion-free-release rpmfusion-nonfree-release
+                           strawberry vlc waydroid wine winetricks zsh
 
 ...
 ```
