@@ -401,4 +401,46 @@
     "workbench.editor.tabCloseButton": "off",
     "gitlens.defaultDateFormat": "YYYY-mm-D, HH:mm",
     "gitlens.defaultDateShortFormat": "D MMM YYYY",
+    // let's see all options and its default, guys
+    "editor.fontSize": 14,
+    "editor.tabSize": 4,
+    "editor.renderWhitespace": "selection",
+    "editor.cursorStyle": "line",
+    "editor.multiCursorModifier": "alt",
+    "editor.insertSpaces": true,
+    "editor.wordWrap": "off",
+    "workbench.editor.enablePreview": true, // True aja da emang suka pindah-pindah file.
+    // "editor.accessibilityPageSize": 10, // bebas aja
+    "editor.autoClosingBrackets": "languageDefined",
+    "editor.autoClosingComments": "languageDefined",
+    "editor.autoClosingDelete": "auto",
+    "editor.autoClosingOvertype": "always", // jadinya gak ribet, kalo mau ditulis lagi.
+    "editor.autoClosingQuotes": "never", // jadinya gak usah ribet mau ketik `"""` (tiga kali).
+    "editor.autoIndent": "full", // full aja, aku suka.
+    "editor.autoSurround": "languageDefined", // suka
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
+    // wow = {
+    //     1: ("Dua", "Tiga"),
+    // }
+    "editor.codeActionWidget.showHeaders": true, // gak_ngerti
+    "editor.codeLens": true, // gak_ngerti
+    "editor.codeLensFontFamily": "", // gak_ngerti
+    "editor.codeLensFontSize": 0, // gak_ngerti
+    "editor.colorDecorators": true, // bagus kayaknya, gak_ngerti tapi kayaknya
+    "editor.colorDecoratorsActivatedOn": "clickAndHover", // 2-2nya aja
+    "editor.colorDecoratorsLimit": 500,
+    // "editor.columnSelection": false, kalo true -v
+    // cobain aja, tuh misal
+    // cobain aja, tuh misal
+    // cobain aja, tuh misal
+    // cobain aja, tuh misal
+    // cobain aja, tuh misal
+    "editor.comments.ignoreEmptyLines": false,
+    // def cobain_yuk():
+    //     print("something")
+    //     print("something")
+    //     print("something")
+    //
+    //     print("cuman suka dipisah gening, biar readability")
 }
