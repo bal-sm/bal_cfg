@@ -399,4 +399,6 @@
     // new settings below
     "workbench.editor.showTabs": "multiple",
     "workbench.editor.tabCloseButton": "off",
+    "gitlens.defaultDateFormat": "YYYY-mm-D, HH:mm",
+    "gitlens.defaultDateShortFormat": "D MMM YYYY",
 }
