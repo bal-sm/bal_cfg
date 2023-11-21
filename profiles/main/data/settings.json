@@ -441,6 +441,6 @@
     //     print("something")
     //     print("something")
     //     print("something")
-    //
+    // // <-- Tuh liat jadinya line ini ke comment.
     //     print("cuman suka dipisah gening, biar readability")
 }
