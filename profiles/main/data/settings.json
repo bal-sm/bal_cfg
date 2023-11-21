@@ -443,4 +443,9 @@
     //     print("something")
     // // <-- Tuh liat jadinya line ini ke comment.
     //     print("cuman suka dipisah gening, biar readability")
+    "editor.comments.insertSpace": true, //_tuh spasi sebaris
+    "editor.copyWithSyntaxHighlighting": true, // jadinya formatting and style nya disimpen
+    "editor.defaultColorDecorators": false, // gak_ngerti, ada hubungan sama `editor.colorDecorators`
+    "editor.defaultFoldingRangeProvider": null, // udah we all aja
+    "editor.defaultFormatter": null, // samain
 }
