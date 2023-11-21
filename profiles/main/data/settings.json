@@ -283,8 +283,9 @@
             "pro:PKief.material-product-icons",
         ],
         "git": [
-            "pro:waderyan.gitblame",
-            "pro:donjayamanne.githistory",
+            // "pro:waderyan.gitblame",
+            // "pro:donjayamanne.githistory",
+            "opn:KylinIdeTeam.gitlens",
         ],
         "python": [
             // ! USE `opn` PRETTY PLEASE, 'CAUSE THEY ARE FROM MICROSOFT.
@@ -396,4 +397,6 @@
     "editor.codeActionWidget.includeNearbyQuickFixes": true,
     "workbench.productIconTheme": "material-product-icons",
     // new settings below
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.tabCloseButton": "off",
 }

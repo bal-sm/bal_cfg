@@ -1,5 +1,7 @@
 disabled: []
 enabled:
+  - id: KylinIDETeam.gitlens
+    uuid: 60f5f3c1-a693-4d84-907a-5315b79617a0
   - id: syler.sass-indented
     uuid: 466468c3-1861-4ad1-bf3e-f9ad46545ebb
   - id: zokugun.cron-tasks
