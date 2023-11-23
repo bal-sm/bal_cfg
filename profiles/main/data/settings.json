@@ -291,13 +291,16 @@
             // ! USE `opn` PRETTY PLEASE, 'CAUSE THEY ARE FROM MICROSOFT.
             "opn:ms-python.python",
             "opn:ms-python.black-formatter",
-            "pro:batisteo.vscode-django",
             "opn:ms-python.flake8",
             "opn:ms-python.mypy-type-checker",
             // "pro:ms-python.vscode-pylance", // doesn't work on vscodium
             "opn:ms-pyright.pyright", // pylance alternative
             // "pro:ms-python.debugpy", // too new
             "pro:EricSia.pythonsnippets3", // not necessary yet
+        ],
+        "python_django": [
+            "pro:batisteo.vscode-django",
+            "pro:mrorz.language-gettext",
         ],
         "markdown_ultimate": [
             "pro:yzhang.markdown-all-in-one",
@@ -370,6 +373,7 @@
         "theme",
         "git",
         "python",
+        "python_django",
         "markdown_ultimate",
         "html",
         "jupyter",
@@ -448,4 +452,6 @@
     "editor.defaultColorDecorators": false, // gak_ngerti, ada hubungan sama `editor.colorDecorators`
     "editor.defaultFoldingRangeProvider": null, // udah we all aja
     "editor.defaultFormatter": null, // samain
+    "editor.definitionLinkOpensInPeek": false,
+    "gitlens.codeLens.enabled": false,
 }
