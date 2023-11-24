@@ -139,7 +139,7 @@
     "editor.stickyScroll.enabled": true,
     "editor.tabCompletion": "on",
     "explorer.confirmUndo": "verbose",
-    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "extensions.autoUpdate": false,
     "files.associations": {
         "*.code-workspace.dist": "jsonc",
         ".git-blame-ignore-revs": "properties",
@@ -454,4 +454,5 @@
     "editor.defaultFormatter": null, // samain
     "editor.definitionLinkOpensInPeek": false,
     "gitlens.codeLens.enabled": false,
+    "workbench.editor.tabActionCloseVisibility": false,
 }
