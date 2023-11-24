@@ -335,6 +335,7 @@
             "pro:mtxr.sqltools-driver-pg",
             "pro:mtxr.sqltools-driver-sqlite",
             "pro:aaron-bond.better-comments",
+            "pro:DotJoshJohnson.xml",
         ],
         // "unnecessary": [ // not neccessary yet
         //     "pro:micnil.vscode-checkpoints",
