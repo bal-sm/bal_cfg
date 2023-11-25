@@ -53,6 +53,7 @@
     pkgs.tldr
     pkgs.bun
     pkgs.act
+    pkgs.python311Packages.pipx
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
