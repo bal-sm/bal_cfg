@@ -36,7 +36,10 @@
     # (pkgs.writeShellScriptBin "my-hello" ''
     #   echo "Hello, ${config.home.username}!"
     # '')
-    pkgs.vscode
+    # pkgs.vscode
+    # > - why?
+    # >   - let's andeulkeun rpm-ostree we
+    # >   - gui apps, pake native package manager we
     pkgs.lazygit
     pkgs.trash-cli
     pkgs.thefuck
