@@ -458,4 +458,7 @@
     "workbench.editor.tabActionCloseVisibility": false,
     "workbench.editor.pinnedTabSizing": "normal",
     "workbench.editor.tabActionUnpinVisibility": false,
+    "editor.detectIndentation": true, // ofc
+    "editor.dragAndDrop": true, // ofc
+    "editor.dropIntoEditor.enabled": true, // ofc
 }
