@@ -3,7 +3,9 @@
 ## `rpm-ostree status`
 
 ```
-State: idle
+State: busy
+Transaction: upgrade
+  Initiator: client(id:cli dbus:x.xxx unit:app-org.kde.konsole-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.scope uid:xxxx)
 Deployments:
 ● fedora:fedora/38/x86_64/kinoite
                   Version: 38.20231119.0 (2023-11-19T01:24:29Z)
@@ -11,7 +13,7 @@ Deployments:
              GPGSignature: Valid signature by 6A51BBABBA3D5467B6171221809A8D7CEB10B464
       RemovedBasePackages: libavfilter-free libavformat-free libpostproc-free libswresample-free libavutil-free libswscale-free libavcodec-free 6.0.1-1.fc38
                            mesa-va-drivers 23.1.9-1.fc38
-          LayeredPackages: bottles code codium distrobox ebook-tools ffmpeg git-lfs gnome-software gnome-themes-extra
+          LayeredPackages: bottles code codium codium-insiders distrobox ebook-tools ffmpeg git-lfs gnome-software gnome-themes-extra
                            gstreamer1-plugins-bad-free-extras gstreamer1-plugins-bad-freeworld gstreamer1-plugins-ugly gstreamer1-vaapi insync
                            insync-dolphin java-1.8.0-openjdk.x86_64 java-17-openjdk.x86_64 java-latest-openjdk.x86_64 kate kvantum
                            mesa-va-drivers-freeworld mesa-vdpau-drivers-freeworld podman-docker rpmfusion-free-release rpmfusion-nonfree-release
