@@ -463,4 +463,5 @@
     "editor.dropIntoEditor.enabled": true, // ofc
     "editor.smoothScrolling": true, // ofc
     "editor.dropIntoEditor.showDropSelector": "afterDrop",
+    "editor.minimap.renderCharacters": false,
 }
