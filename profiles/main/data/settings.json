@@ -464,4 +464,10 @@
     "editor.smoothScrolling": true, // ofc
     "editor.dropIntoEditor.showDropSelector": "afterDrop",
     "editor.minimap.renderCharacters": false,
+    "editor.linkedEditing": true, // wtf naha default nya false ya?
+    // <tagbisadiubahlangsungsamapairnyaotomatis></tagbisadiubahlangsungsamapairnyaotomatis>
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+    "javascript.updateImportsOnFileMove.enabled": "prompt",
+    "typescript.updateImportsOnFileMove.enabled": "prompt",
 }
