@@ -36,10 +36,13 @@
     # (pkgs.writeShellScriptBin "my-hello" ''
     #   echo "Hello, ${config.home.username}!"
     # '')
-    # pkgs.vscode
-    # > - why?
-    # >   - let's andeulkeun rpm-ostree we
-    # >   - gui apps, pake native package manager we
+    # ~~pkgs.vscode~~
+    pkgs.vscodium
+    # > ~~- why?~~
+    # >   ~~- let's andeulkeun rpm-ostree we~~
+    # >   ~~- gui apps, pake native package manager we~~
+    # > just kidding, BAGUS DA, jadi bersebelahan sama yang di `rpm-ostree`
+    # > terus yang ini stable experience terus di update sesuka hati.
     pkgs.lazygit
     pkgs.trash-cli
     pkgs.thefuck
