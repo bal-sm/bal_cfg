@@ -139,7 +139,7 @@
     "editor.stickyScroll.enabled": true,
     "editor.tabCompletion": "on",
     "explorer.confirmUndo": "verbose",
-    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "extensions.autoUpdate": false,
     "files.associations": {
         "*.code-workspace.dist": "jsonc",
         ".git-blame-ignore-revs": "properties",
@@ -291,13 +291,16 @@
             // ! USE `opn` PRETTY PLEASE, 'CAUSE THEY ARE FROM MICROSOFT.
             "opn:ms-python.python",
             "opn:ms-python.black-formatter",
-            "pro:batisteo.vscode-django",
             "opn:ms-python.flake8",
             "opn:ms-python.mypy-type-checker",
             // "pro:ms-python.vscode-pylance", // doesn't work on vscodium
             "opn:ms-pyright.pyright", // pylance alternative
             // "pro:ms-python.debugpy", // too new
             "pro:EricSia.pythonsnippets3", // not necessary yet
+        ],
+        "python_django": [
+            "pro:batisteo.vscode-django",
+            "pro:mrorz.language-gettext",
         ],
         "markdown_ultimate": [
             "pro:yzhang.markdown-all-in-one",
@@ -332,6 +335,7 @@
             "pro:mtxr.sqltools-driver-pg",
             "pro:mtxr.sqltools-driver-sqlite",
             "pro:aaron-bond.better-comments",
+            "pro:DotJoshJohnson.xml",
         ],
         // "unnecessary": [ // not neccessary yet
         //     "pro:micnil.vscode-checkpoints",
@@ -370,6 +374,7 @@
         "theme",
         "git",
         "python",
+        "python_django",
         "markdown_ultimate",
         "html",
         "jupyter",
@@ -448,4 +453,26 @@
     "editor.defaultColorDecorators": false, // gak_ngerti, ada hubungan sama `editor.colorDecorators`
     "editor.defaultFoldingRangeProvider": null, // udah we all aja
     "editor.defaultFormatter": null, // samain
+    "editor.definitionLinkOpensInPeek": false,
+    "gitlens.codeLens.enabled": false,
+    "workbench.editor.tabActionCloseVisibility": false,
+    "workbench.editor.pinnedTabSizing": "normal",
+    "workbench.editor.tabActionUnpinVisibility": false,
+    "editor.detectIndentation": true, // ofc
+    "editor.dragAndDrop": true, // ofc
+    "editor.dropIntoEditor.enabled": true, // ofc
+    "editor.smoothScrolling": true, // ofc
+    "editor.dropIntoEditor.showDropSelector": "afterDrop",
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.enabled": true,
+    "editor.linkedEditing": true, // wtf naha default nya false ya?
+    // <tagbisadiubahlangsungsamapairnyaotomatis></tagbisadiubahlangsungsamapairnyaotomatis>
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+    "javascript.updateImportsOnFileMove.enabled": "prompt",
+    "typescript.updateImportsOnFileMove.enabled": "prompt",
+    "python.venvFolders": [
+        ".local/pipx/venvs"
+    ],
+    "gitlens.advanced.fileHistoryFollowsRenames": true,
 }
