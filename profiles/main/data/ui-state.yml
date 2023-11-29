@@ -69,7 +69,7 @@ workbench.activity.placeholderViewlets: "[{\"id\":\"workbench.view.explorer\",\
   \":\"defaultProfile-icon\"},\"name\":\"Profiles\",\"isBuiltin\":true,\"views\
   \":[]}]"
 workbench.auxiliaryBar.size: "256"
-workbench.editor.languageDetectionOpenedLanguages.global: '[["yaml",true],["git-rebase",true],["markdown",true],["json",true],["plaintext",true],["git-commit",true],["xml",true],["python",true],["css",true],["jsonc",true],["django-html",true],["html",true]]'
+workbench.editor.languageDetectionOpenedLanguages.global: '[["yaml",true],["git-rebase",true],["markdown",true],["json",true],["plaintext",true],["git-commit",true],["xml",true],["python",true],["css",true],["django-html",true],["html",true],["jsonc",true]]'
 workbench.explorer.views.state.hidden: '[{"id":"outline","isHidden":false},{"id":"timeline","isHidden":false},{"id":"workbench.explorer.openEditorsView","isHidden":true},{"id":"workbench.explorer.fileView","isHidden":false},{"id":"npm","isHidden":true},{"id":"commitViewProvider","isHidden":false},{"id":"compareCommitViewProvider","isHidden":false},{"id":"cell-tag","isHidden":false},{"id":"xmlTreeView","isHidden":false}]'
 workbench.grid.size: '{"height":663,"width":1024}'
 workbench.panel.alignment: center

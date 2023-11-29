@@ -255,7 +255,7 @@
     "window.commandCenter": true,
     "window.titleBarStyle": "custom",
     "workbench.activityBar.location": "top",
-    "workbench.colorTheme": "Default Light+",
+    "workbench.colorTheme": "Default Dark+",
     "workbench.editor.labelFormat": "short",
     "workbench.editor.pinnedTabsOnSeparateRow": true,
     "workbench.iconTheme": "material-icon-theme",
