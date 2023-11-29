@@ -320,6 +320,7 @@
             "pro:ecmel.vscode-html-css",
             "pro:HTMLHint.vscode-htmlhint",
             "pro:Syler.sass-indented",
+            "pro:AnbuselvanRocky.bootstrap5-vscode", // <- Bootstrap
         ],
         "jupyter": [
             // ! USE `opn` PRETTY PLEASE, 'CAUSE THEY ARE FROM MICROSOFT.
