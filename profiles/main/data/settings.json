@@ -279,7 +279,7 @@
             // "pro:albert.TabOut", // disabled in favor of IntelliJ Idea Keybindings.
         ],
         "interesting": [
-            "k--kato.intellij-idea-keybindings",
+            "pro:k--kato.intellij-idea-keybindings",
         ],
         "theme": [
             "pro:PKief.material-icon-theme",
