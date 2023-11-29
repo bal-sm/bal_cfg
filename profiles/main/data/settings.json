@@ -374,6 +374,7 @@
         // },
         // BUG: It doesn't installed on disabled state.
         "necessary",
+        "interesting",
         "theme",
         "git",
         "python",
