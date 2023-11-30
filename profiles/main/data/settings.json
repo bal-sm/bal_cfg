@@ -279,7 +279,7 @@
             // "pro:albert.TabOut", // disabled in favor of IntelliJ Idea Keybindings.
         ],
         "interesting": [
-            "pro:k--kato.intellij-idea-keybindings",
+            // "pro:k--kato.intellij-idea-keybindings", // terlalu banyak overwrite built-in VSCode, and I don't like the new way.
         ],
         "theme": [
             "pro:PKief.material-icon-theme",

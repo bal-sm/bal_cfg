@@ -1,47 +1,47 @@
 // Place your key bindings in this file to override the defaults
 [
+    // {
+    //     "key": "ctrl+y",
+    //     "command": "-editor.action.deleteLines",
+    //     "when": "editorTextFocus && !editorReadonly"
+    // },
     {
-        "key": "ctrl+y",
-        "command": "-editor.action.deleteLines",
-        "when": "editorTextFocus && !editorReadonly"
+        "key": "ctrl+tab",
+        "command": "markdowntable.nextCell",
+        "when": "editorTextFocus && markdowntable.contextkey.selection.InMarkdownTable && !editorReadonly && !editorTabMovesFocus && !inSnippetMode && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+    },
+    {
+        "key": "tab",
+        "command": "-markdowntable.nextCell",
+        "when": "editorTextFocus && markdowntable.contextkey.selection.InMarkdownTable && !editorReadonly && !editorTabMovesFocus && !inSnippetMode && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+    },
+    {
+        "key": "shift+tab",
+        "command": "-markdowntable.prevCell",
+        "when": "editorTextFocus && markdowntable.contextkey.selection.InMarkdownTable && !editorReadonly && !editorTabMovesFocus && !inSnippetMode && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+shift+tab",
+        "command": "markdowntable.prevCell"
+    },
+    {
+        "key": "ctrl+alt+[",
+        "command": "-jupyter.gotoPrevCellInFile",
+        "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+alt+]",
+        "command": "-jupyter.gotoNextCellInFile",
+        "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+shift+[",
+        "command": "editor.emmet.action.balanceIn",
+        "when": "editorTextFocus && editorLangId == html"
+    },
+    {
+        "key": "ctrl+shift+]",
+        "command": "editor.emmet.action.balanceOut",
+        "when": "editorTextFocus && editorLangId == html"
     }
-    // {
-    //     "key": "ctrl+tab",
-    //     "command": "markdowntable.nextCell",
-    //     "when": "editorTextFocus && markdowntable.contextkey.selection.InMarkdownTable && !editorReadonly && !editorTabMovesFocus && !inSnippetMode && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
-    // },
-    // {
-    //     "key": "tab",
-    //     "command": "-markdowntable.nextCell",
-    //     "when": "editorTextFocus && markdowntable.contextkey.selection.InMarkdownTable && !editorReadonly && !editorTabMovesFocus && !inSnippetMode && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
-    // },
-    // {
-    //     "key": "shift+tab",
-    //     "command": "-markdowntable.prevCell",
-    //     "when": "editorTextFocus && markdowntable.contextkey.selection.InMarkdownTable && !editorReadonly && !editorTabMovesFocus && !inSnippetMode && !suggestWidgetMultipleSuggestions && !suggestWidgetVisible"
-    // },
-    // {
-    //     "key": "ctrl+shift+tab",
-    //     "command": "markdowntable.prevCell"
-    // },
-    // {
-    //     "key": "ctrl+alt+[",
-    //     "command": "-jupyter.gotoPrevCellInFile",
-    //     "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
-    // },
-    // {
-    //     "key": "ctrl+alt+]",
-    //     "command": "-jupyter.gotoNextCellInFile",
-    //     "when": "editorTextFocus && jupyter.hascodecells && !jupyter.webExtension && !notebookEditorFocused"
-    // },
-    // {
-    //     "key": "ctrl+shift+[",
-    //     "command": "editor.emmet.action.balanceIn",
-    //     "when": "editorTextFocus && editorLangId == html"
-    // },
-    // {
-    //     "key": "ctrl+shift+]",
-    //     "command": "editor.emmet.action.balanceOut",
-    //     "when": "editorTextFocus && editorLangId == html"
-    // }
 ]
