@@ -57,6 +57,7 @@
     pkgs.bun
     pkgs.act
     pkgs.python311Packages.pipx
+    pkgs.nushellFull
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
