@@ -1,3 +1,7 @@
+builtin:
+  disabled:
+    - vscode.github-authentication
+    - vscode.microsoft-authentication
 disabled: []
 enabled:
   - id: KylinIDETeam.gitlens
