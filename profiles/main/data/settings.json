@@ -200,7 +200,9 @@
     ],
     "git.suggestSmartCommit": false,
     "git.showActionButton": {
-        "commit": false
+        "commit": true,
+        "publish": true,
+        "sync": true,
     },
     "git.terminalGitEditor": true,
     "git.verboseCommit": true,
