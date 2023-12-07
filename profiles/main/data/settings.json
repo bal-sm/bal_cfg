@@ -401,7 +401,7 @@
     // obscure settings
     "debug.toolBarLocation": "commandCenter",
     "notebook.gotoSymbols.showAllSymbols": true,
-    "scm.experimental.showSyncView": true,
+    "scm.experimental.showSyncView": false,
     "workbench.experimental.share.enabled": true,
     "GitLive.Issue tracker integration": "Disabled",
     "GitLive.Special branches": "main|master|trunk|dev|develop|qa|test|release[-/].*",
