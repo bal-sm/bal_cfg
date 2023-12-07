@@ -482,4 +482,5 @@
         ".local/pipx/venvs"
     ],
     "gitlens.advanced.fileHistoryFollowsRenames": true,
+    "python.languageServer": "None",
 }
