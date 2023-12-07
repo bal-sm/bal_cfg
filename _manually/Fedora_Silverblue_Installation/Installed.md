@@ -3,17 +3,16 @@
 ## `rpm-ostree status`
 
 ```
-State: busy
-Transaction: upgrade
-  Initiator: client(id:cli dbus:x.xxx unit:app-org.kde.konsole-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.scope uid:xxxx)
+State: idle
 Deployments:
 ● fedora:fedora/38/x86_64/kinoite
-                  Version: 38.20231119.0 (2023-11-19T01:24:29Z)
-               BaseCommit: ab0d151f0516f201729606a41c651b770375fb649981d26b70a4f46ec0170acf
+                  Version: 38.20231204.0 (2023-12-04T01:03:00Z)
+               BaseCommit: 7048f2eb346d267e452638d70f86d4500b03a800832b353c889b5bc61e06f94b
              GPGSignature: Valid signature by 6A51BBABBA3D5467B6171221809A8D7CEB10B464
-      RemovedBasePackages: libavfilter-free libavformat-free libpostproc-free libswresample-free libavutil-free libswscale-free libavcodec-free 6.0.1-1.fc38
+      RemovedBasePackages: firefox firefox-langpacks 120.0-3.fc38
+                           libavfilter-free libavformat-free libpostproc-free libswresample-free libavutil-free libavcodec-free libswscale-free 6.0.1-1.fc38
                            mesa-va-drivers 23.1.9-1.fc38
-          LayeredPackages: bottles code codium codium-insiders distrobox ebook-tools ffmpeg git-lfs gnome-software gnome-themes-extra
+          LayeredPackages: bottles code codium-insiders distrobox ebook-tools ffmpeg git-lfs gnome-software gnome-themes-extra
                            gstreamer1-plugins-bad-free-extras gstreamer1-plugins-bad-freeworld gstreamer1-plugins-ugly gstreamer1-vaapi insync
                            insync-dolphin java-1.8.0-openjdk.x86_64 java-17-openjdk.x86_64 java-latest-openjdk.x86_64 kate kvantum
                            mesa-va-drivers-freeworld mesa-vdpau-drivers-freeworld podman-docker rpmfusion-free-release rpmfusion-nonfree-release
