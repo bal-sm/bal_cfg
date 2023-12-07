@@ -146,7 +146,7 @@
         "*.nix": "properties",
         "TAG_EDITMSG": "git-commit"
     },
-    "files.autoSave": "afterDelay",
+    "files.autoSave": "onFocusChange",
     "files.exclude": {
         // "**/.git": false
     },
