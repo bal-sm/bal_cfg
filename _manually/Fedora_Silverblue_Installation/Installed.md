@@ -110,6 +110,9 @@ org.zim_wiki.Zim
 us.zoom.Zoom
 ```
 
+Note:
+> `com.github.Rosalie241.RMG` = N64 Emulator, bisi lupa lagi.
+
 ## How to install `nix`
 
 https://github.com/bal-sm/repo-for-learning/blob/fe4cbd94fcd716f0fdf527122b3c6ace12180464/systems/Linux/Personal_Fedora_Silverblue_Installs/Nix-Single-User.md
