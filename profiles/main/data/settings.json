@@ -278,7 +278,7 @@
     },
     "vsix.groups": {
         "necessary": [
-            "pro:albert.TabOut", // ~~disabled in favor of IntelliJ Idea Keybindings.~~
+            "pro:albert.TabOut",
         ],
         "interesting": [
             // "pro:k--kato.intellij-idea-keybindings", // terlalu banyak overwrite built-in VSCode, and I don't like the new way.
