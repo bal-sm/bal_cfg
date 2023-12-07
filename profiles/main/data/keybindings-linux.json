@@ -36,12 +36,12 @@
     },
     {
         "key": "ctrl+shift+[",
-        "command": "editor.emmet.action.balanceIn",
-        "when": "editorTextFocus && editorLangId == html"
+        "command": "editor.action.smartSelect.shrink",
+        "when": "editorTextFocus"
     },
     {
         "key": "ctrl+shift+]",
-        "command": "editor.emmet.action.balanceOut",
-        "when": "editorTextFocus && editorLangId == html"
+        "command": "editor.action.smartSelect.grow",
+        "when": "editorTextFocus"
     }
 ]
