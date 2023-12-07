@@ -30,6 +30,7 @@ Application ID
 com.axosoft.GitKraken
 com.calibre_ebook.calibre
 com.github.PintaProject.Pinta
+com.github.Rosalie241.RMG
 com.github.ahrm.sioyek
 com.github.k4zmu2a.spacecadetpinball
 com.github.libresprite.LibreSprite
@@ -90,11 +91,13 @@ org.gtk.Gtk3theme.Breeze
 org.kde.Platform
 org.kde.Platform
 org.kde.Platform
+org.kde.Platform
 org.kde.kdenlive
 org.kde.kommit
 org.keepassxc.KeePassXC
 org.libreoffice.LibreOffice
 org.libretro.RetroArch
+org.mozilla.firefox
 org.onlyoffice.desktopeditors
 org.ppsspp.PPSSPP
 org.ppsspp.PPSSPP.Locale
