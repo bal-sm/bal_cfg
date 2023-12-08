@@ -23,7 +23,11 @@
 	# -------------------------------------------------
 	# This updates all local branches that have a matching upstream branch.
 	# Need `hub` binary.
-	sync = "!hub sync"
+	#
+	#
+	# sync = "!hub sync" # disabled 'cause I rather use that `hub` CLI.
+	#
+	#
 	meg = "merge --no-ff"
 	pretty-log = "log --oneline --graph --decorate"
 	pretty-log-all = "log --oneline --graph --decorate --all"
