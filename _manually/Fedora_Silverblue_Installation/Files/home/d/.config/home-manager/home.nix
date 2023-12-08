@@ -37,9 +37,7 @@
     #   echo "Hello, ${config.home.username}!"
     # '')
     # ~~pkgs.vscode~~
-    #
-    # pkgs.vscodium # dipindahin ke bawah
-    #
+    pkgs.vscodium
     # > ~~- why?~~
     # >   ~~- let's andeulkeun rpm-ostree we~~
     # >   ~~- gui apps, pake native package manager we~~
@@ -92,11 +90,6 @@
   # if you don't want to manage your shell through Home Manager.
   home.sessionVariables = {
     # EDITOR = "emacs";
-  };
-
-  programs.vscode = {
-    enable = true;
-    package = pkgs.vscodium.fhs;
   };
 
   # Let Home Manager install and manage itself.
