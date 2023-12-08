@@ -149,3 +149,8 @@ if [ -e /home/d/.nix-profile/etc/profile.d/nix.sh ]; then . /home/d/.nix-profile
 #if [ -e /home/d/.nix-profile/etc/profile.d/nix.sh ]; then source /home/d/.nix-profile/etc/profile.d/nix.sh; fi
 #if [ -e /home/d/.nix-profile/etc/profile.d/bash_completion.sh ]; then source /home/d/.nix-profile/etc/profile.d/bash_completion.sh; fi
 #export XDG_DATA_DIRS="/home/d/.nix-profile/share/:/home/d/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share"
+
+# my aliases
+alias code="codium"
+alias code-heavy="code"
+#alias codium="flatpak run com.vscodium.codium "
