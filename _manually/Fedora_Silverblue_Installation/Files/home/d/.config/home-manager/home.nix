@@ -60,6 +60,7 @@
     pkgs.nushellFull
     pkgs.python311Packages.jedi
     pkgs.nodePackages_latest.pyright
+    pkgs.gh
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
