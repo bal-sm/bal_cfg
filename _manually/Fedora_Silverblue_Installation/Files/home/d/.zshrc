@@ -154,3 +154,5 @@ if [ -e /home/d/.nix-profile/etc/profile.d/nix.sh ]; then . /home/d/.nix-profile
 alias code="codium"
 alias code-heavy="code"
 #alias codium="flatpak run com.vscodium.codium "
+
+alias gh="gh" # Fix `gh` alias from `git` extension of zimfw
