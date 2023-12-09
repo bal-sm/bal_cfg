@@ -146,7 +146,7 @@
         "*.nix": "properties",
         "TAG_EDITMSG": "git-commit"
     },
-    "files.autoSave": "afterDelay",
+    "files.autoSave": "onFocusChange",
     "files.exclude": {
         // "**/.git": false
     },
@@ -200,7 +200,9 @@
     ],
     "git.suggestSmartCommit": false,
     "git.showActionButton": {
-        "commit": false
+        "commit": true,
+        "publish": true,
+        "sync": true,
     },
     "git.terminalGitEditor": true,
     "git.verboseCommit": true,
@@ -276,10 +278,10 @@
     },
     "vsix.groups": {
         "necessary": [
-            // "pro:albert.TabOut", // disabled in favor of IntelliJ Idea Keybindings.
+            "pro:albert.TabOut",
         ],
         "interesting": [
-            "pro:k--kato.intellij-idea-keybindings",
+            // "pro:k--kato.intellij-idea-keybindings", // terlalu banyak overwrite built-in VSCode, and I don't like the new way.
         ],
         "theme": [
             "pro:PKief.material-icon-theme",
@@ -399,7 +401,7 @@
     // obscure settings
     "debug.toolBarLocation": "commandCenter",
     "notebook.gotoSymbols.showAllSymbols": true,
-    "scm.experimental.showSyncView": true,
+    "scm.experimental.showSyncView": false,
     "workbench.experimental.share.enabled": true,
     "GitLive.Issue tracker integration": "Disabled",
     "GitLive.Special branches": "main|master|trunk|dev|develop|qa|test|release[-/].*",
@@ -409,7 +411,7 @@
     // new settings below
     "workbench.editor.showTabs": "multiple",
     "workbench.editor.tabCloseButton": "off",
-    "gitlens.defaultDateFormat": "YYYY-mm-D, HH:mm",
+    "gitlens.defaultDateFormat": "YYYY-MM-DD, HH:mm",
     "gitlens.defaultDateShortFormat": "D MMM YYYY",
     // let's see all options and its default, guys
     "editor.fontSize": 14,
@@ -480,4 +482,5 @@
         ".local/pipx/venvs"
     ],
     "gitlens.advanced.fileHistoryFollowsRenames": true,
+    "python.languageServer": "None",
 }

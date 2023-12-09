@@ -43,6 +43,9 @@
     # >   ~~- gui apps, pake native package manager we~~
     # > just kidding, BAGUS DA, jadi bersebelahan sama yang di `rpm-ostree`
     # > terus yang ini stable experience terus di update sesuka hati.
+    #
+    # Mine, Important:
+    # > Jangan pake yang `fhs`, soalnya butut pisan jadina.
     pkgs.lazygit
     pkgs.trash-cli
     pkgs.thefuck
@@ -57,6 +60,10 @@
     pkgs.bun
     pkgs.act
     pkgs.python311Packages.pipx
+    pkgs.nushellFull
+    pkgs.python311Packages.jedi
+    pkgs.nodePackages_latest.pyright
+    pkgs.gh
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
