@@ -37,13 +37,15 @@
     #   echo "Hello, ${config.home.username}!"
     # '')
     # ~~pkgs.vscode~~
-    pkgs.vscodium
+    # pkgs.vscodium
     # // - why?
     # //   - let's andeulkeun rpm-ostree we
     # //   - gui apps, pake native package manager we
-    # > just kidding, BAGUS DA, jadi bersebelahan sama yang di `rpm-ostree`
-    # > terus yang ini stable experience terus di update sesuka hati.
+    # // just kidding, BAGUS DA, jadi bersebelahan sama yang di `rpm-ostree`
+    # // terus yang ini stable experience terus di update sesuka hati.
     #
+    # * My new note:
+    # ": Used simple `tar.gz` version instead, let's see..
     pkgs.lazygit
     pkgs.trash-cli
     pkgs.thefuck
