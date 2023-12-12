@@ -64,7 +64,6 @@
     pkgs.python311Packages.jedi
     pkgs.nodePackages_latest.pyright
     pkgs.gh
-    pkgs.wineWowPackages.waylandFull
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
