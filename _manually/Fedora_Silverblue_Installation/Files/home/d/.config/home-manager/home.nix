@@ -44,8 +44,6 @@
     # > just kidding, BAGUS DA, jadi bersebelahan sama yang di `rpm-ostree`
     # > terus yang ini stable experience terus di update sesuka hati.
     #
-    # Mine, Important:
-    # > Jangan pake yang `fhs`, soalnya butut pisan jadina.
     pkgs.lazygit
     pkgs.trash-cli
     pkgs.thefuck
