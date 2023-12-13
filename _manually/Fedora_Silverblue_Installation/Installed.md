@@ -24,6 +24,21 @@ Deployments:
 
 > Lagi mau di `reset` terus pindah ke `bazzite` nih.
 
+Current (Yang atas pending):
+
+```
+State: idle
+Deployments:
+  ostree-unverified-registry:ghcr.io/ublue-os/bazzite:39
+                   Digest: sha256:e6244952206b8006397d220389ce2d30e0d953020db46c4b50131209ac05e749
+                  Version: 39.20231206.0 (2023-12-07T01:17:30Z)
+                     Diff: 1 upgraded, 13 downgraded, 87 removed, 722 added
+          LayeredPackages: bottles
+```
+
+Mine:
+> Belum dipindah-pindahin lagi, + mari kita liat gimana nix implementationnya.
+
 ## `flatpak list --columns=application`
 
 ```
