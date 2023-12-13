@@ -20,7 +20,9 @@ Deployments:
 ...
 ```
 
-> `VSCode` mah lewat `Nix` `home-manager` aja. Soalnya biar gampang switch ke `macOS` nya.
+> ~~`VSCode` mah lewat `Nix` `home-manager` aja. Soalnya biar gampang switch ke `macOS` nya.~~
+
+> Lagi mau di `reset` terus pindah ke `bazzite` nih.
 
 ## `flatpak list --columns=application`
 
