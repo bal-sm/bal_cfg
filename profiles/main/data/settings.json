@@ -343,7 +343,8 @@
             "pro:DavidAnson.vscode-markdownlint"
         ],
         "necessary": [
-            "pro:albert.TabOut"
+            "pro:albert.TabOut",
+            "pro:TakumiI.markdowntable"
         ],
         "other": [
             "pro:redhat.vscode-yaml",
