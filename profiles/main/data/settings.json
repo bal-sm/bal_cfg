@@ -262,6 +262,8 @@
         "dev.containers.dockerPath"
     ],
     "telemetry.telemetryLevel": "off",
+    "terminal.integrated.cursorStyle": "block",
+    "terminal.integrated.cursorStyleInactive": "outline",
     "terminal.integrated.defaultProfile.linux": "zsh",
     "todo-tree.general.tags": [
         "!",
@@ -414,9 +416,12 @@
         }
     },
     "window.commandCenter": true,
+    "window.confirmBeforeClose": "never",
+    "window.dialogStyle": "custom",
     "window.titleBarStyle": "custom",
     "workbench.activityBar.location": "top",
     "workbench.colorTheme": "Default Dark+",
+    "workbench.editor.dragToOpenWindow": false,
     "workbench.editor.enablePreview": true,
     "workbench.editor.labelFormat": "short",
     "workbench.editor.pinnedTabSizing": "normal",
@@ -430,10 +435,5 @@
     "workbench.preferredDarkColorTheme": "Default Dark+",
     "workbench.preferredLightColorTheme": "Default Light+",
     "workbench.productIconTheme": "material-product-icons",
-    "workbench.startupEditor": "welcomePageInEmptyWorkbench",
-    "workbench.editor.dragToOpenWindow": false,
-    "window.dialogStyle": "custom",
-    "window.confirmBeforeClose": "never",
-    "terminal.integrated.cursorStyle": "block",
-    "terminal.integrated.cursorStyleInactive": "outline"
+    "workbench.startupEditor": "welcomePageInEmptyWorkbench"
 }
