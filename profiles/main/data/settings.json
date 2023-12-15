@@ -430,5 +430,10 @@
     "workbench.preferredDarkColorTheme": "Default Dark+",
     "workbench.preferredLightColorTheme": "Default Light+",
     "workbench.productIconTheme": "material-product-icons",
-    "workbench.startupEditor": "welcomePageInEmptyWorkbench"
+    "workbench.startupEditor": "welcomePageInEmptyWorkbench",
+    "workbench.editor.dragToOpenWindow": false,
+    "window.dialogStyle": "custom",
+    "window.confirmBeforeClose": "never",
+    "terminal.integrated.cursorStyle": "block",
+    "terminal.integrated.cursorStyleInactive": "outline"
 }
