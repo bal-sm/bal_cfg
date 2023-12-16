@@ -288,7 +288,7 @@
     "window.confirmBeforeClose": "never",
     "window.dialogStyle": "custom",
     "window.titleBarStyle": "custom",
-    "workbench.activityBar.location": "top",
+    "workbench.activityBar.location": "side",
     "workbench.colorTheme": "Default Dark+",
     "workbench.editor.dragToOpenWindow": false,
     "workbench.editor.enablePreview": true,
