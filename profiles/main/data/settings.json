@@ -325,7 +325,8 @@
         ],
         "interesting": [
             // "pro:k--kato.intellij-idea-keybindings", // terlalu banyak overwrite built-in VSCode, and I don't like the new way.
-            "pro:antfu.iconify"
+            "pro:antfu.iconify",
+            "johnpapa.vscode-peacock"
         ],
         "jupyter": [
             // ! USE `opn` PRETTY PLEASE, 'CAUSE THEY ARE FROM MICROSOFT.
