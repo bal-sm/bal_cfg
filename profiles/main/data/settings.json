@@ -439,4 +439,6 @@
     "workbench.preferredLightColorTheme": "Default Light+",
     "workbench.productIconTheme": "material-product-icons",
     "workbench.startupEditor": "welcomePageInEmptyWorkbench"
+    // \_ last entry -> "workbench.startupEditor": "welcomePageInEmptyWorkbench"
+    // new settings below
 }
