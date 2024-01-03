@@ -404,6 +404,7 @@
             "pro:mrorz.language-gettext"
         ],
         "theme": [
+            "pro:GitHub.github-vscode-theme",
             "pro:PKief.material-icon-theme",
             "pro:PKief.material-product-icons"
         ]
