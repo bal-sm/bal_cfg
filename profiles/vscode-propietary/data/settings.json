@@ -176,7 +176,7 @@
     "editor.tabSize": 4,
     "editor.wordWrap": "off",
     "explorer.confirmUndo": "verbose",
-    "extensions.autoUpdate": false,
+    "extensions.autoUpdate": "onlyEnabledExtensions",
     "files.associations": {
         "*.code-workspace.dist": "jsonc",
         "*.nix": "properties",
@@ -254,7 +254,7 @@
     "python.experiments.optInto": [
         "pythonTerminalEnvVarActivation"
     ],
-    "python.languageServer": "None",
+    "python.languageServer": "Pylance",
     "python.venvFolders": [
         ".local/pipx/venvs"
     ],
@@ -284,145 +284,11 @@
     ],
     "typescript.suggest.autoImports": true,
     "typescript.updateImportsOnFileMove.enabled": "prompt",
-    "vsix.crons": {
-        "update": "0 12 * * *"
-    },
-    "vsix.debug": true,
-    "vsix.extensions": [
-        // {
-        //     "id": "python",
-        //     "enabled": false
-        // },
-        // BUG: It doesn't installed on disabled state.
-        "necessary",
-        "interesting",
-        "theme",
-        "git",
-        "python",
-        "python_django",
-        "markdown_ultimate",
-        "html",
-        "jupyter",
-        "other"
-        // ~~unnecessary~~,
-        // ~~bloat~~,
-        //
-        // independent ext
-        // ---------------
-        // nothing
-    ],
-    "vsix.groups": {
-        "git": [
-            // "pro:waderyan.gitblame",
-            // "pro:donjayamanne.githistory",
-            "opn:KylinIdeTeam.gitlens"
-        ],
-        "html": [
-            "pro:ecmel.vscode-html-css",
-            "pro:HTMLHint.vscode-htmlhint",
-            "pro:Syler.sass-indented",
-            "pro:AnbuselvanRocky.bootstrap5-vscode" // <- Bootstrap
-        ],
-        "interesting": [
-            // "pro:k--kato.intellij-idea-keybindings", // terlalu banyak overwrite built-in VSCode, and I don't like the new way.
-            "pro:antfu.iconify",
-            "johnpapa.vscode-peacock"
-        ],
-        "jupyter": [
-            // ! USE `opn` PRETTY PLEASE, 'CAUSE THEY ARE FROM MICROSOFT.
-            // "opn:ms-toolsai.jupyter", this is extensions pack.
-            "opn:ms-toolsai.jupyter-keymap",
-            "opn:ms-toolsai.jupyter-renderers",
-            // "opn:ms-toolsai.vscode-jupyter-powertoys", // incompatible cenah
-            "opn:ms-toolsai.vscode-jupyter-slideshow",
-            "opn:ms-toolsai.vscode-jupyter-cell-tags"
-        ],
-        "markdown_ultimate": [
-            "pro:yzhang.markdown-all-in-one",
-            // "pro:bierner.github-markdown-preview", this is extensions pack.
-            "pro:bierner.markdown-preview-github-styles",
-            "pro:bierner.markdown-emoji",
-            "pro:bierner.markdown-checkbox",
-            "pro:bierner.markdown-yaml-preamble",
-            "pro:bierner.markdown-mermaid",
-            "pro:bierner.markdown-footnotes",
-            "pro:DavidAnson.vscode-markdownlint"
-        ],
-        "necessary": [
-            "pro:albert.TabOut",
-            "pro:TakumiI.markdowntable"
-        ],
-        "other": [
-            "pro:redhat.vscode-yaml",
-            "pro:PKief.copy-branch-name",
-            "pro:tamasfe.even-better-toml",
-            "pro:mtxr.sqltools",
-            "pro:mtxr.sqltools-driver-pg",
-            "pro:mtxr.sqltools-driver-sqlite",
-            "pro:aaron-bond.better-comments",
-            "pro:DotJoshJohnson.xml"
-        ],
-        // "unnecessary": [ // not neccessary yet
-        //     "pro:micnil.vscode-checkpoints",
-        //     "pro:ericliu.coldcode",
-        //     "pro:vivaxy.vscode-conventional-commits",
-        //     "pro:dbaeumer.vscode-eslint",
-        //     "pro:letmaik.git-tree-compare",
-        //     "pro:antfu.iconify",
-        //     "pro:mads-hartmann.bash-ide-vscode",
-        //     "pro:foxundermoon.shell-format",
-        //     "pro:timonwong.shellcheck",
-        // ],
-        // "bloat": [
-        //     "pro:GitHub.vscode-github-actions",
-        //     "pro:GitHub.codespaces",
-        //     "pro:GitHub.copilot",
-        //     "pro:GitHub.copilot-chat",
-        //     "pro:GitHub.copilot-labs",
-        //     "pro:GitHub.vscode-pull-request-github",
-        //     "pro:VisualStudioExptTeam.vscodeintellicode",
-        //     "pro:VisualStudioExptTeam.intellicode-api-usage-examples",
-        //     "pro:ms-vscode-remote.vscode-remote-extensionpack",
-        //     "pro:ms-vscode-remote.remote-wsl",
-        //     "pro:ms-vscode-remote.remote-containers",
-        //     "pro:ms-vscode-remote.remote-ssh",
-        //     "pro:ms-vscode.remote-server",
-        // ],
-        "python": [
-            // ! USE `opn` PRETTY PLEASE, 'CAUSE THEY ARE FROM MICROSOFT.
-            "opn:ms-python.python",
-            "opn:ms-python.black-formatter",
-            "opn:ms-python.flake8",
-            "opn:ms-python.mypy-type-checker",
-            // "pro:ms-python.vscode-pylance", // doesn't work on vscodium
-            "opn:ms-pyright.pyright", // pylance alternative
-            // "pro:ms-python.debugpy", // too new
-            "pro:EricSia.pythonsnippets3" // not necessary yet
-        ],
-        "python_django": [
-            "pro:batisteo.vscode-django",
-            "pro:mrorz.language-gettext"
-        ],
-        "theme": [
-            "pro:PKief.material-icon-theme",
-            "pro:PKief.material-product-icons"
-        ]
-    },
-    "vsix.sources": {
-        "opn": {
-            "serviceUrl": "https://open-vsx.org/vscode/gallery",
-            "type": "marketplace"
-        },
-        "pro": {
-            "serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
-            "type": "marketplace"
-        }
-    },
     "window.commandCenter": true,
     "window.confirmBeforeClose": "never",
     "window.dialogStyle": "custom",
     "window.titleBarStyle": "custom",
-    "workbench.activityBar.location": "top",
+    "workbench.activityBar.location": "side",
     "workbench.colorTheme": "Default Dark+",
     "workbench.editor.dragToOpenWindow": false,
     "workbench.editor.enablePreview": true,
@@ -438,7 +304,46 @@
     "workbench.preferredDarkColorTheme": "Default Dark+",
     "workbench.preferredLightColorTheme": "Default Light+",
     "workbench.productIconTheme": "material-product-icons",
-    "workbench.startupEditor": "welcomePageInEmptyWorkbench"
+    "workbench.startupEditor": "welcomePageInEmptyWorkbench",
     // \_ last entry -> "workbench.startupEditor": "welcomePageInEmptyWorkbench"
     // new settings below
+	"peacock.favoriteColors": [
+		{
+			"name": "Angular Red",
+			"value": "#dd0531"
+		},
+		{
+			"name": "Azure Blue",
+			"value": "#007fff"
+		},
+		{
+			"name": "JavaScript Yellow",
+			"value": "#f9e64f"
+		},
+		{
+			"name": "Mandalorian Blue",
+			"value": "#1857a4"
+		},
+		{
+			"name": "Node Green",
+			"value": "#215732"
+		},
+		{
+			"name": "React Blue",
+			"value": "#61dafb"
+		},
+		{
+			"name": "Something Different",
+			"value": "#832561"
+		},
+		{
+			"name": "Svelte Orange",
+			"value": "#ff3d00"
+		},
+		{
+			"name": "Vue Green",
+			"value": "#42b883"
+		},
+        { "name": "Silk Blue", "value": "001F4F" }
+	]
 }

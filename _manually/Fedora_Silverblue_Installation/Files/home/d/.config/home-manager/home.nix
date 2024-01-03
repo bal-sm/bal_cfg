@@ -15,7 +15,7 @@
   # You should not change this value, even if you update Home Manager. If you do
   # want to update the value, then make sure to first check the Home Manager
   # release notes.
-  home.stateVersion = "23.05"; # Please read the comment before changing.
+  home.stateVersion = "23.11"; # Please read the comment before changing.
 
   # The home.packages option allows you to install Nix packages into your
   # environment.
@@ -37,15 +37,15 @@
     #   echo "Hello, ${config.home.username}!"
     # '')
     # ~~pkgs.vscode~~
-    pkgs.vscodium
-    # > ~~- why?~~
-    # >   ~~- let's andeulkeun rpm-ostree we~~
-    # >   ~~- gui apps, pake native package manager we~~
-    # > just kidding, BAGUS DA, jadi bersebelahan sama yang di `rpm-ostree`
-    # > terus yang ini stable experience terus di update sesuka hati.
+    # pkgs.vscodium
+    # // - why?
+    # //   - let's andeulkeun rpm-ostree we
+    # //   - gui apps, pake native package manager we
+    # // just kidding, BAGUS DA, jadi bersebelahan sama yang di `rpm-ostree`
+    # // terus yang ini stable experience terus di update sesuka hati.
     #
-    # Mine, Important:
-    # > Jangan pake yang `fhs`, soalnya butut pisan jadina.
+    # * My new note:
+    # ": Used simple `tar.gz` version instead, let's see..
     pkgs.lazygit
     pkgs.trash-cli
     pkgs.thefuck
