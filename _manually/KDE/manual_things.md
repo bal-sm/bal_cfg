@@ -21,3 +21,4 @@
     - <https://marketplace.visualstudio.com/items?itemName=m-thorsen.vscode-materia>
       - > vscode theme
   - > Thanks to this user -> <https://www.reddit.com/r/kde/comments/10cnu1m/theme_users_what_theme_except_breeze_have_you/>
+  - > TERUS TEH AVAILABLE ON THE REPO SUMPAH.
