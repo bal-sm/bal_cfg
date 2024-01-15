@@ -6,6 +6,7 @@
   rpm-ostree install latte-dock
   ```
 
+```
 - Install `Kvantum`
   - Install [`KvLibadwaita`](https://github.com/GabePoel/KvLibadwaita)
     - (meureun) install ieu <https://github.com/vinceliuice/Colloid-kde>
@@ -22,3 +23,9 @@
       - > vscode theme
   - > Thanks to this user -> <https://www.reddit.com/r/kde/comments/10cnu1m/theme_users_what_theme_except_breeze_have_you/>
   - > TERUS TEH AVAILABLE ON THE REPO SUMPAH.
+```
+
+- Pakai Breeze Dark seperti biasa
+  - > JUST KIDDING, pek teh balik lagi ke Breeze. Soalnya Breeze sungguh bekerja baik dalam KDE daripada theme indie lain.
+  - Use this accent color `#94472d`
+    - > Thanks to d_machine sayang.
