@@ -1,7 +1,5 @@
 [ActivityManager][Global Shortcuts]
 switch-to-activity-09db50d0-706e-423f-a4bb-3edda1acddf4=
-switch-to-activity-375f483a-12e8-4892-b192-f8526575f324=
-switch-to-activity-4ff0a233-5955-4af8-8a28-110457742fca=
 
 [KDE Keyboard Layout Switcher][Global Shortcuts]
 Switch to Next Keyboard Layout=Meta+Alt+K
@@ -132,6 +130,7 @@ ExposeClass=Ctrl+F7
 ExposeClassCurrentDesktop=
 Increase Opacity=
 Kill Window=Meta+Ctrl+Esc
+Move Tablet to Next Output=
 MoveMouseToCenter=Meta+F6
 MoveMouseToFocus=Meta+F5
 MoveZoomDown=
@@ -189,6 +188,7 @@ Switch to Screen to the Left=
 Switch to Screen to the Right=
 Toggle Night Color=
 Toggle Window Raise/Lower=
+ToggleCurrentThumbnail=Meta+Ctrl+T
 Walk Through Desktop List=
 Walk Through Desktop List (Reverse)=
 Walk Through Desktops=
@@ -294,6 +294,11 @@ _launch=Meta+E
 [org.kde.kcalc.desktop][Global Shortcuts]
 _launch=Launch (1)
 
+[org.kde.konsole.desktop][Global Shortcuts]
+NewTab=
+NewWindow=
+_launch=Ctrl+Alt+T
+
 [org.kde.krunner.desktop][Global Shortcuts]
 RunClipboard=Alt+Shift+F2
 _launch=Alt+F2; Search; Alt+Space
@@ -352,6 +357,12 @@ stop current activity=Meta+Ctrl+S
 switch to next activity=
 switch to previous activity=
 toggle do not disturb=
+
+[strawberry][Global Shortcuts]
+next_track=
+play_pause=
+prev_track=
+stop=
 
 [systemsettings.desktop][Global Shortcuts]
 _launch=Tools
