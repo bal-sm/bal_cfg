@@ -19,6 +19,8 @@
   - > pastiin aja
 - Spectacle/Launch Spectacle = Print
   - > pastiin aja juga
+- Kill Window = Meta + Ctrl + Esc
+  - > jangan lupa ih inget
 
 ### I just like it, soalnya emang bagusnya gini gak sih
 
@@ -27,19 +29,13 @@
   - Latte Dock/Activate Entry 11 dan seterusnya = ~~Meta+Z dst~~
     - > soalnya pake huruf biasa tanpa kombinasi lain
 
-### Etc
+### Notes
 
-Matiin:
-Latte Dock/Activate Entry 11 dan seterusnya = Meta+Z dst => Mati
-
-Dimana sih:
-Clipboard Items? Tapi udah munculnya pake Meta + V
+Bingung:
+> Dimana sih Clipboard Items? Tapi munculnya biasanya udah Meta + V
 
 Gak usah:
-Print some portion of screen pake Meta + Shift + S gening, udah we langsung print screen aja terus edit gambarnya
+> Print some portion of screen pake Meta + Shift + S gening, udah we langsung Print Screen aja terus edit gambarnya
 
 Inget ih:
-Kalo main Latte Dock harus rapih nanti shortcut nya goblok, udah we ke preferences terus Layout Manager.
-
-Wow siah eta:
-Kill Window Meta + Ctrl + Esc
+> Kalo main Latte Dock harus rapih nanti shortcut nya goblok, udah we ke preferences terus Layout Manager.
