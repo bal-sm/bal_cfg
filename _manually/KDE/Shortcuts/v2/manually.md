@@ -1,12 +1,17 @@
-1. Switch to Desktop Meta + W/A/S/D
-   - Matiin juga defaultnya nu meta ctrl blablabla gening
-2. Switch to Next Desktop Meta + E
-3. Switch to Previous Desktop Meta + Q
-4. Walk through windows ~~Alt + `~~ ~~Meta + Tab~~ Meta + ~ (gening hese soalna md), reverse nya ~~Alt + Tab~~ ~~Meta + Shift + Tab~~ Meta + Shift + ~
-5. Activate Application Launcher Widget => Meta + Z
-6. Toggle Overview = disable Meta + W => Alt + Tab
-   - > disable Meta + W, soalnya kan sering dipake, di VSCode => nutup window ayeuna
-7. Show Desktop Grid = disable Meta + F8 => Meta + Tab
+# v2 - Manually assign these keys
+
+## Desktop and Windows things
+
+1. Switch to Desktop = ~~Meta + Ctrl + Up/Left/Down/Right~~ => Meta + W/A/S/D
+2. Switch to Next/Previous Desktop => Meta + E / Meta + Q
+3. Walk Through Windows = ~~Alt + Tab~~ => Meta + ~ (gening hese soalna md), 
+   - Reverse nya = ~~Alt + Shift + Tab~~ => Meta + Shift + ~
+4. Activate Application Launcher Widget => Meta + Z
+5. Toggle Overview = ~~Meta + W~~ => Alt + Tab
+   - > ~~Meta + W~~, soalnya kan sering dipake, di VSCode => nutup window ayeuna
+6. Show Desktop Grid = ~~Meta + F8~~ => Meta + Tab
+
+## Etc
 
 Pastiin:
 KRunner = Alt + Space
