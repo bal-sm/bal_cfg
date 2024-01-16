@@ -30,7 +30,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][19][Applets][112][Configuration]
-PreloadWeight=94
+PreloadWeight=99
 
 [Containments][19][Applets][112][Configuration][ConfigDialog]
 DialogHeight=570
@@ -42,7 +42,7 @@ icon=homerun
 systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 
 [Containments][19][Applets][112][Shortcuts]
-global=Meta+Z
+global=
 
 [Containments][19][Applets][117]
 immutability=1
@@ -51,8 +51,14 @@ plugin=org.kde.plasma.taskmanager
 [Containments][19][Applets][117][Configuration]
 PreloadWeight=42
 
+[Containments][19][Applets][117][Configuration][ConfigDialog]
+DialogHeight=570
+DialogWidth=760
+
 [Containments][19][Applets][117][Configuration][General]
 launchers=preferred://filemanager,preferred://browser
+middleClickAction=ToggleGrouping
+minimizeActiveTaskOnClick=false
 
 [Containments][19][ConfigDialog]
 DialogHeight=1254
