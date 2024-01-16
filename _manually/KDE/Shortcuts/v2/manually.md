@@ -2,7 +2,7 @@
    - Matiin juga defaultnya nu meta ctrl blablabla gening
 2. Switch to Next Desktop Meta + E
 3. Switch to Previous Desktop Meta + Q
-4. Walk through windows ~~Alt + `~~ ~~Meta + Tab~~, reverse nya ~~Alt + Tab~~ Meta + Shift + Tab
+4. Walk through windows ~~Alt + `~~ ~~Meta + Tab~~ Meta + ~ (gening hese soalna md), reverse nya ~~Alt + Tab~~ ~~Meta + Shift + Tab~~ Meta + Shift + ~
 5. Activate Application Launcher Widget => Meta + Z
 6. Toggle Overview = disable Meta + W => Alt + Tab
 7. Show Desktop Grid = disable Meta + F8 => Meta + Tab
