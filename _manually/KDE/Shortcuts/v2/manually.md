@@ -11,9 +11,7 @@
    - > ~~Meta + W~~, soalnya kan sering dipake, di VSCode => nutup window ayeuna
 6. Show Desktop Grid = ~~Meta + F8~~ => Meta + Tab
 
-## Etc
-
-### Functions yang saya suka
+## Functions yang saya suka
 
 - KRunner = Alt + Space
   - > pastiin aja
@@ -22,14 +20,14 @@
 - Kill Window = Meta + Ctrl + Esc
   - > jangan lupa ih inget
 
-### I just like it, soalnya emang bagusnya gini gak sih
+## I just like it, soalnya emang bagusnya gini gak sih
 
 - Latte Dock/Activate Entry 1 sampe 10 = Meta + 1 sampe 10
   - > yknow pastiin aja tapi-
   - Latte Dock/Activate Entry 11 dan seterusnya = ~~Meta+Z dst~~
     - > soalnya pake huruf biasa tanpa kombinasi lain
 
-### Notes
+## Notes
 
 Bingung:
 > Dimana sih Clipboard Items? Tapi munculnya biasanya udah Meta + V
