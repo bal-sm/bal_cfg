@@ -10,6 +10,7 @@
 Pastiin:
 KRunner = Alt + Space
 Spectacle/Launch Spectacle = Print
+Latte Dock/Activate Entry 1 sampe 10 pake Meta + 1 sampe 10 (default)
 
 Matiin:
 Latte Dock/Activate Entry 11 dan seterusnya = Meta+Z dst => Mati
