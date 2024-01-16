@@ -13,10 +13,16 @@
 
 ## Etc
 
-Pastiin:
-KRunner = Alt + Space
-Spectacle/Launch Spectacle = Print
-Latte Dock/Activate Entry 1 sampe 10 pake Meta + 1 sampe 10 (default)
+### Functions yang saya suka
+
+- KRunner = Alt + Space
+  - > pastiin aja
+- Spectacle/Launch Spectacle = Print
+  - > pastiin aja juga
+- Latte Dock/Activate Entry 1 sampe 10 = Meta + 1 sampe 10
+  - > yknow lagi
+
+### Etc
 
 Matiin:
 Latte Dock/Activate Entry 11 dan seterusnya = Meta+Z dst => Mati
