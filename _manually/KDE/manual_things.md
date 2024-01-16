@@ -29,3 +29,6 @@
   - > JUST KIDDING, pek teh balik lagi ke Breeze. Soalnya Breeze sungguh bekerja baik dalam KDE daripada theme indie lain.
   - Use this accent color `#94472d`
     - > Thanks to d_machine sayang.
+- Install [`plasma5-wallpapers-dynamic`](https://github.com/zzag/plasma5-wallpapers-dynamic)
+  - Use the Catalina wallpaper
+    - > find it in here -> <https://github.com/jmshrv/kde-dynamic-wallpaper-catalina>
