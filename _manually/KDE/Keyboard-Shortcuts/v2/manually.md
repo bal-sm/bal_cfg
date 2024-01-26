@@ -19,6 +19,8 @@
   - > pastiin aja juga
 - Kill Window = Meta + Ctrl + Esc
   - > jangan lupa ih inget
+- Lock Session = ~~Meta + L~~ => Meta + Ctrl + L
+  - > ~~Meta + L~~ soalnya dipake switch desktop tea.
 
 ## ~~I just like it, soalnya emang bagusnya gini gak sih~~
 
