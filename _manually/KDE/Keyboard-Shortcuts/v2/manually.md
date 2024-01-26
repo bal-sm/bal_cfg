@@ -2,7 +2,7 @@
 
 ## Desktop and Windows things
 
-1. Switch to Desktop = ~~Meta + Ctrl + Up/Left/Down/Right~~ => Meta + W/A/S/D
+1. Switch to Desktop = ~~Meta + Ctrl + Up/Left/Down/Right~~ => Meta + W/A/S/D =more-alternative=> Meta + I/J/K/L
 2. Switch to Next/Previous Desktop => Meta + E / Meta + Q
 3. Walk Through Windows = ~~Alt + Tab~~ => Meta + ~ (gening hese soalna md), 
    - Reverse nya = ~~Alt + Shift + Tab~~ => Meta + Shift + ~
