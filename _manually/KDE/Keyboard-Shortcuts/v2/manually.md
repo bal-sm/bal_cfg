@@ -20,12 +20,17 @@
 - Kill Window = Meta + Ctrl + Esc
   - > jangan lupa ih inget
 
-## I just like it, soalnya emang bagusnya gini gak sih
+## ~~I just like it, soalnya emang bagusnya gini gak sih~~
 
+```
 - Latte Dock/Activate Entry 1 sampe 10 = Meta + 1 sampe 10
   - > yknow pastiin aja tapi-
   - Latte Dock/Activate Entry 11 dan seterusnya = ~~Meta+Z dst~~
     - > soalnya pake huruf biasa tanpa kombinasi lain
+```
+
+Mine:
+> I don't use Latte Dock anymore, udah bagus Plasma, set-sat-set.
 
 ## Notes
 
