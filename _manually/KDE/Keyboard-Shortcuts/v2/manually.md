@@ -2,7 +2,7 @@
 
 ## Desktop and Windows things
 
-1. Switch to Desktop = ~~Meta + Ctrl + Up/Left/Down/Right~~ => Meta + W/A/S/D
+1. Switch to Desktop = ~~Meta + Ctrl + Up/Left/Down/Right~~ => Meta + W/A/S/D =more-alternative=> Meta + I/J/K/L
 2. Switch to Next/Previous Desktop => Meta + E / Meta + Q
 3. Walk Through Windows = ~~Alt + Tab~~ => Meta + ~ (gening hese soalna md), 
    - Reverse nya = ~~Alt + Shift + Tab~~ => Meta + Shift + ~
@@ -19,13 +19,20 @@
   - > pastiin aja juga
 - Kill Window = Meta + Ctrl + Esc
   - > jangan lupa ih inget
+- Lock Session = ~~Meta + L~~ => Meta + Ctrl + L
+  - > ~~Meta + L~~ soalnya dipake switch desktop tea.
 
-## I just like it, soalnya emang bagusnya gini gak sih
+## ~~I just like it, soalnya emang bagusnya gini gak sih~~
 
+```
 - Latte Dock/Activate Entry 1 sampe 10 = Meta + 1 sampe 10
   - > yknow pastiin aja tapi-
   - Latte Dock/Activate Entry 11 dan seterusnya = ~~Meta+Z dst~~
     - > soalnya pake huruf biasa tanpa kombinasi lain
+```
+
+Mine:
+> I don't use Latte Dock anymore, udah bagus Plasma, set-sat-set.
 
 ## Notes
 
