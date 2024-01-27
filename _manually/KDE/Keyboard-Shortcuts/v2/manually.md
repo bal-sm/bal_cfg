@@ -3,9 +3,11 @@
 ## Desktop and Windows things
 
 1. Switch to Desktop = ~~Meta + Ctrl + Up/Left/Down/Right~~ => Meta + W/A/S/D =more-alternative=> Meta + I/J/K/L
-2. Switch to Next/Previous Desktop => Meta + E / Meta + Q
+2. Switch to Next/Previous Desktop => Meta + E / Meta + Q =more-alternative=> Meta + U/O
 3. Walk Through Windows = ~~Alt + Tab~~ => Meta + ~ (gening hese soalna md), 
    - Reverse nya = ~~Alt + Shift + Tab~~ => Meta + Shift + ~
+   - Walk Through Windows of Current Application =pastiin=aja= Alt + ~
+     - Walk Through Windows of Current Application (Reverse) = Alt + Shift + ~
 4. Activate Application Launcher Widget => Meta + Z
 5. Toggle Overview = ~~Meta + W~~ => Alt + Tab
    - > ~~Meta + W~~, soalnya kan sering dipake, di VSCode => nutup window ayeuna
