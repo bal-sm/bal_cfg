@@ -2,6 +2,9 @@
 
 # Update with `nix-channel --update` then `home-manager switch` to see the effects of these changes.
 
+# !: Most likely broken 'cause unadjusted to `flake.nix`
+# TODO: Then **adjust it**
+
 {
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
