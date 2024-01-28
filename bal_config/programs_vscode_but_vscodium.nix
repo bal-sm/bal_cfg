@@ -14,123 +14,123 @@
     userSettings = {
       "accessibility.dimUnfocused.enabled": false,
       "better-comments.tags": [
-          {
-              "backgroundColor": "transparent",
-              "bold": true,
-              "color": "#FF2D00",
-              "italic": false,
-              "strikethrough": false,
-              "tag": "!",
-              "underline": true
-          },
-          {
-              "backgroundColor": "transparent",
-              "bold": false,
-              "color": "#3498DB",
-              "italic": true,
-              "strikethrough": false,
-              "tag": "?",
-              "underline": false
-          },
-          {
-              "backgroundColor": "transparent",
-              "bold": false,
-              "color": "#474747",
-              "italic": false,
-              "strikethrough": true,
-              "tag": "//",
-              "underline": false
-          },
-          {
-              "backgroundColor": "transparent",
-              "bold": true,
-              "color": "#FF8C00",
-              "italic": false,
-              "strikethrough": false,
-              "tag": "TODO",
-              "underline": false
-          },
-          {
-              "backgroundColor": "transparent",
-              "bold": false,
-              "color": "#98C379",
-              "italic": false,
-              "strikethrough": false,
-              "tag": "*",
-              "underline": false
-          },
-          {
-              "backgroundColor": "transparent",
-              "bold": false,
-              "color": "#309EC4",
-              "italic": true,
-              "strikethrough": false,
-              "tag": "\":",
-              "underline": false
-          },
-          {
-              "backgroundColor": "transparent",
-              "bold": true,
-              "color": "#FF2D00",
-              "italic": false,
-              "strikethrough": false,
-              "tag": "BUG",
-              "underline": false
-          },
-          {
-              "backgroundColor": "transparent",
-              "bold": true,
-              "color": "#FF8C00",
-              "italic": false,
-              "strikethrough": false,
-              "tag": "HACK",
-              "underline": false
-          },
-          {
-              "backgroundColor": "transparent",
-              "bold": true,
-              "color": "#FF2D00",
-              "italic": false,
-              "strikethrough": false,
-              "tag": "FIXME",
-              "underline": false
-          },
-          {
-              "backgroundColor": "transparent",
-              "bold": true,
-              "color": "#FF2D00",
-              "italic": false,
-              "strikethrough": false,
-              "tag": "XXX",
-              "underline": false
-          },
-          {
-              "backgroundColor": "transparent",
-              "bold": true,
-              "color": "#FF8C00",
-              "italic": false,
-              "strikethrough": false,
-              "tag": "[ ]",
-              "underline": false
-          },
-          {
-              "backgroundColor": "transparent",
-              "bold": true,
-              "color": "#98C379",
-              "italic": false,
-              "strikethrough": false,
-              "tag": "[x]",
-              "underline": false
-          },
-          {
-              "backgroundColor": "transparent",
-              "bold": true,
-              "color": "#FF2D00",
-              "italic": false,
-              "strikethrough": false,
-              "tag": "LEGACY",
-              "underline": false
-          }
+        {
+            "backgroundColor": "transparent",
+            "bold": true,
+            "color": "#FF2D00",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "!",
+            "underline": true
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#3498DB",
+            "italic": true,
+            "strikethrough": false,
+            "tag": "?",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#474747",
+            "italic": false,
+            "strikethrough": true,
+            "tag": "//",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": true,
+            "color": "#FF8C00",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "TODO",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#98C379",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "*",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": false,
+            "color": "#309EC4",
+            "italic": true,
+            "strikethrough": false,
+            "tag": "\":",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": true,
+            "color": "#FF2D00",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "BUG",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": true,
+            "color": "#FF8C00",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "HACK",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": true,
+            "color": "#FF2D00",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "FIXME",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": true,
+            "color": "#FF2D00",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "XXX",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": true,
+            "color": "#FF8C00",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "[ ]",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": true,
+            "color": "#98C379",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "[x]",
+            "underline": false
+        },
+        {
+            "backgroundColor": "transparent",
+            "bold": true,
+            "color": "#FF2D00",
+            "italic": false,
+            "strikethrough": false,
+            "tag": "LEGACY",
+            "underline": false
+        }
       ],
       "debug.toolBarLocation": "commandCenter",
       "dev.containers.dockerPath": "podman",
@@ -179,9 +179,9 @@
       "editor.multiCursorModifier": "alt",
       "editor.renderWhitespace": "selection",
       "editor.rulers": [
-          80,
-          88,
-          120
+        80,
+        88,
+        120
       ],
       "editor.smoothScrolling": true,
       "editor.stickyScroll.enabled": true,
@@ -191,10 +191,10 @@
       "explorer.confirmUndo": "verbose",
       "extensions.autoUpdate": "onlyEnabledExtensions",
       "files.associations": {
-          "*.code-workspace.dist": "jsonc",
-          "*.nix": "properties",
-          ".git-blame-ignore-revs": "properties",
-          "TAG_EDITMSG": "git-commit"
+        "*.code-workspace.dist": "jsonc",
+        "*.nix": "properties",
+        ".git-blame-ignore-revs": "properties",
+        "TAG_EDITMSG": "git-commit"
       },
       "files.autoSave": "onFocusChange",
       "files.exclude": {},
@@ -202,40 +202,40 @@
       "files.readonlyExclude": {},
       "files.readonlyFromPermissions": true,
       "files.readonlyInclude": {
-          "**/.venv/*/**": true
+        "**/.venv/*/**": true
       },
       "files.simpleDialog.enable": false,
       "files.trimFinalNewlines": false,
       "files.trimTrailingWhitespace": false,
       "files.watcherExclude": {
-          "**/.venv/*/**": true
+        "**/.venv/*/**": true
       },
       "git.autofetch": "all",
       "git.branchProtection": [
-          "master"
+        "master"
       ],
       "git.confirmSync": false,
       "git.defaultBranchName": "",
       "git.enableSmartCommit": false,
       "git.repositoryScanIgnoredFolders": [
-          "node_modules",
-          ".venv"
+        "node_modules",
+        ".venv"
       ],
       "git.showActionButton": {
-          "commit": true,
-          "publish": false,
-          "sync": true
+        "commit": true,
+        "publish": false,
+        "sync": true
       },
       "git.suggestSmartCommit": false,
       "git.terminalGitEditor": true,
       "git.verboseCommit": true,
       "github.copilot.enable": {
-          "*": true,
-          "json": false,
-          "markdown": true,
-          "plaintext": true,
-          "scminput": false,
-          "yaml": false
+        "*": true,
+        "json": false,
+        "markdown": true,
+        "plaintext": true,
+        "scminput": false,
+        "yaml": false
       },
       "github.gitProtocol": "ssh",
       "githubPullRequests.pullBranch": "never",
@@ -254,99 +254,99 @@
       "markdown.extension.theming.decoration.renderStrikethrough": false,
       "markdown.preferredMdPathExtensionStyle": "includeExtension",
       "markdownlint.config": {
-          "blanks-around-lists": true,
-          "emphasis-style": false,
-          "fenced-code-language": false,
-          "no-duplicate-heading": false,
-          "no-emphasis-as-heading": false,
-          "no-inline-html": false,
-          "no-trailing-punctuation": false,
-          "no-trailing-spaces": false,
-          "ul-indent": false
+        "blanks-around-lists": true,
+        "emphasis-style": false,
+        "fenced-code-language": false,
+        "no-duplicate-heading": false,
+        "no-emphasis-as-heading": false,
+        "no-inline-html": false,
+        "no-trailing-punctuation": false,
+        "no-trailing-spaces": false,
+        "ul-indent": false
       },
       "myst.preview.extensions": [
-          "amsmath",
-          "colon_fence",
-          "deflist",
-          "dollarmath"
+        "amsmath",
+        "colon_fence",
+        "deflist",
+        "dollarmath"
       ],
       "notebook.gotoSymbols.showAllSymbols": true,
       "peacock.favoriteColors": [
-          {
-              "name": "Angular Red",
-              "value": "#dd0531"
-          },
-          {
-              "name": "Azure Blue",
-              "value": "#007fff"
-          },
-          {
-              "name": "JavaScript Yellow",
-              "value": "#f9e64f"
-          },
-          {
-              "name": "Mandalorian Blue",
-              "value": "#1857a4"
-          },
-          {
-              "name": "Node Green",
-              "value": "#215732"
-          },
-          {
-              "name": "React Blue",
-              "value": "#61dafb"
-          },
-          {
-              "name": "Something Different",
-              "value": "#832561"
-          },
-          {
-              "name": "Svelte Orange",
-              "value": "#ff3d00"
-          },
-          {
-              "name": "Vue Green",
-              "value": "#42b883"
-          },
-          {
-              "name": "Silk Blue",
-              "value": "001F4F"
-          }
+        {
+            "name": "Angular Red",
+            "value": "#dd0531"
+        },
+        {
+            "name": "Azure Blue",
+            "value": "#007fff"
+        },
+        {
+            "name": "JavaScript Yellow",
+            "value": "#f9e64f"
+        },
+        {
+            "name": "Mandalorian Blue",
+            "value": "#1857a4"
+        },
+        {
+            "name": "Node Green",
+            "value": "#215732"
+        },
+        {
+            "name": "React Blue",
+            "value": "#61dafb"
+        },
+        {
+            "name": "Something Different",
+            "value": "#832561"
+        },
+        {
+            "name": "Svelte Orange",
+            "value": "#ff3d00"
+        },
+        {
+            "name": "Vue Green",
+            "value": "#42b883"
+        },
+        {
+            "name": "Silk Blue",
+            "value": "001F4F"
+        }
       ],
       "python.analysis.inlayHints.callArgumentNames": "all",
       "python.analysis.inlayHints.functionReturnTypes": true,
       "python.analysis.inlayHints.pytestParameters": true,
       "python.analysis.inlayHints.variableTypes": true,
       "python.experiments.optInto": [
-          "pythonTerminalEnvVarActivation"
+        "pythonTerminalEnvVarActivation"
       ],
       "python.languageServer": "None",
       "python.venvFolders": [
-          ".local/pipx/venvs"
+        ".local/pipx/venvs"
       ],
       "scm.experimental.showSyncView": false,
       "settingsSync.ignoredSettings": [
-          "terminal.integrated.defaultProfile.linux",
-          "dev.containers.dockerPath"
+        "terminal.integrated.defaultProfile.linux",
+        "dev.containers.dockerPath"
       ],
       "telemetry.telemetryLevel": "off",
       "terminal.integrated.cursorStyle": "block",
       "terminal.integrated.cursorStyleInactive": "outline",
       "terminal.integrated.defaultProfile.linux": "zsh",
       "todo-tree.general.tags": [
-          "!",
-          "?",
-          "//",
-          "TODO",
-          "*",
-          "\":",
-          "BUG",
-          "HACK",
-          "FIXME",
-          "XXX",
-          "[ ]",
-          "[x]",
-          "LEGACY"
+        "!",
+        "?",
+        "//",
+        "TODO",
+        "*",
+        "\":",
+        "BUG",
+        "HACK",
+        "FIXME",
+        "XXX",
+        "[ ]",
+        "[x]",
+        "LEGACY"
       ],
       "typescript.suggest.autoImports": true,
       "typescript.updateImportsOnFileMove.enabled": "prompt",
@@ -370,7 +370,7 @@
       "workbench.preferredLightColorTheme": "Default Light Modern",
       "workbench.productIconTheme": "material-product-icons",
       "workbench.startupEditor": "welcomePageInEmptyWorkbench"
-    }; # ~~fill plz~~ done
+    };
     userTasks = { }; # gimana nanti
   };
 }
