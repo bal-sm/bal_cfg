@@ -4,7 +4,7 @@
     enableExtensionUpdateCheck = true;
     enableUpdateCheck = true;
     package = pkgs.vscodium;
-    extensions = [ ]; # fill plz
+    extensions = [ ]; # fill plz, nanti aja we banyak soalnya
     globalSnippets = { }; # gak usah dulu
     # haskell things, liat geura vscode options-nya
     keybindings = [ ];
