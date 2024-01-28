@@ -289,7 +289,6 @@
     "window.dialogStyle": "custom",
     "window.titleBarStyle": "custom",
     "workbench.activityBar.location": "side",
-    "workbench.colorTheme": "Default Dark+",
     "workbench.editor.dragToOpenWindow": false,
     "workbench.editor.enablePreview": true,
     "workbench.editor.labelFormat": "short",
