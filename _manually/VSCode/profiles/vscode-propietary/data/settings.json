@@ -210,7 +210,7 @@
     ],
     "git.showActionButton": {
         "commit": true,
-        "publish": true,
+        "publish": false,
         "sync": true
     },
     "git.suggestSmartCommit": false,
