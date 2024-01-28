@@ -301,8 +301,8 @@
     "workbench.editor.tabCloseButton": "off",
     "workbench.experimental.share.enabled": true,
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.preferredDarkColorTheme": "Default Dark+",
-    "workbench.preferredLightColorTheme": "Default Light+",
+    "workbench.preferredDarkColorTheme": "Default Dark Modern",
+    "workbench.preferredLightColorTheme": "Default Light Modern",
     "workbench.productIconTheme": "material-product-icons",
     "workbench.startupEditor": "welcomePageInEmptyWorkbench",
     // \_ last entry -> "workbench.startupEditor": "welcomePageInEmptyWorkbench"
