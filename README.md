@@ -13,4 +13,5 @@ Powered by `nix`, `NixOS`, and `flake.nix`.
    - [ ] Don't forget to use `disko`, [Quickstart Guide, here](https://github.com/nix-community/disko/blob/master/docs/quickstart.md),.
      - [ ] Compare <https://github.com/nix-community/disko/blob/master/example/luks-btrfs-subvolumes.nix> and <https://github.com/nix-community/disko/blob/master/example/btrfs-subvolumes.nix>.
        - [ ] Choose which better / Build upon one of them and improve.
+     - [ ] Barengi dengan membaca [`NixOS` Manual](https://nixos.org/manual/nixos/stable/).
 ...
