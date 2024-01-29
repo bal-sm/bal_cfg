@@ -9,6 +9,7 @@
       pkgs.vscode-extensions.ms-python.black-formatter
       pkgs.vscode-extensions.batisteo.vscode-django
       pkgs.vscode-extensions.tamasfe.even-better-toml
+      pkgs.vscode-extensions.eamodio.gitlens # fun
       # pkgs.vscode-extensions.ms-vscode.cmake-tools
       # pkgs.vscode-extensions.ms-vscode.cpptools
       # > Me: Disabled 'cause proprietary euy.
