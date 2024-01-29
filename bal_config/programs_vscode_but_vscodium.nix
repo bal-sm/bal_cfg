@@ -4,7 +4,9 @@
     enableExtensionUpdateCheck = true;
     enableUpdateCheck = true;
     package = pkgs.vscodium;
-    extensions = [ ]; # fill plz, nanti aja we banyak soalnya
+    extensions = [ # fill plz, nanti aja we banyak soalnya
+      pkgs.vscode-extensions.ms-python.black-formatter
+    ];
     globalSnippets = { }; # gak usah dulu
     # haskell things, liat geura vscode options-nya
     keybindings = [ ];
