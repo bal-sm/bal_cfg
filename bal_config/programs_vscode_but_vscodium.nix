@@ -11,6 +11,7 @@
       pkgs.vscode-extensions.tamasfe.even-better-toml
       pkgs.vscode-extensions.eamodio.gitlens # fun
       pkgs.vscode-extensions.ms-toolsai.jupyter
+      pkgs.vscode-extensions.ms-toolsai.vscode-jupyter-slideshow
       # pkgs.vscode-extensions.ms-vscode.cmake-tools
       # pkgs.vscode-extensions.ms-vscode.cpptools
       # > Me: Disabled 'cause proprietary euy.
