@@ -7,6 +7,7 @@
     extensions = [ # fill plz, nanti aja we banyak soalnya
       pkgs.vscode-extensions.ms-pyright.pyright
       pkgs.vscode-extensions.ms-python.black-formatter
+      pkgs.vscode-extensions.batisteo.vscode-django
       # pkgs.vscode-extensions.ms-vscode.cmake-tools
       # pkgs.vscode-extensions.ms-vscode.cpptools
       # > Me: Disabled 'cause proprietary euy.
