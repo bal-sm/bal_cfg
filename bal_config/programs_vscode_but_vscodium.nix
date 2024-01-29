@@ -5,6 +5,7 @@
     enableUpdateCheck = true;
     package = pkgs.vscodium;
     extensions = [ # fill plz, nanti aja we banyak soalnya
+      pkgs.vscode-extensions.ms-pyright.pyright
       pkgs.vscode-extensions.ms-python.black-formatter
     ];
     globalSnippets = { }; # gak usah dulu
