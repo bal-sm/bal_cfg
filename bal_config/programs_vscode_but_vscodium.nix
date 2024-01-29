@@ -16,6 +16,7 @@
       pkgs.vscode-extensions.ms-toolsai.jupyter-renderers
       pkgs.vscode-extensions.ms-toolsai.jupyter-keymap
       pkgs.vscode-extensions.yzhang.markdown-all-in-one
+      pkgs.vscode-extensions.davidanson.vscode-markdownlint
       # pkgs.vscode-extensions.ms-vscode.cmake-tools
       # pkgs.vscode-extensions.ms-vscode.cpptools
       # > Me: Disabled 'cause proprietary euy.
