@@ -7,6 +7,7 @@
     extensions = [ # fill plz, nanti aja we banyak soalnya
       pkgs.vscode-extensions.ms-pyright.pyright
       pkgs.vscode-extensions.ms-python.black-formatter
+      pkgs.vscode-extensions.ms-vscode.cpptools
     ];
     globalSnippets = { }; # gak usah dulu
     # haskell things, liat geura vscode options-nya
