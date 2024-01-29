@@ -7,8 +7,9 @@
     extensions = [ # fill plz, nanti aja we banyak soalnya
       pkgs.vscode-extensions.ms-pyright.pyright
       pkgs.vscode-extensions.ms-python.black-formatter
-      pkgs.vscode-extensions.ms-vscode.cmake-tools
-      pkgs.vscode-extensions.ms-vscode.cpptools
+      # pkgs.vscode-extensions.ms-vscode.cmake-tools
+      # pkgs.vscode-extensions.ms-vscode.cpptools
+      # > Me: Disabled 'cause proprietary euy.
     ];
     globalSnippets = { }; # gak usah dulu
     # haskell things, liat geura vscode options-nya
