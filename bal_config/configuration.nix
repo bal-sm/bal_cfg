@@ -1,3 +1,6 @@
+# <https://nixos.org/manual/nixos/unstable/options>
+# -----
+
 {pkgs, user, ...}: {
 
   imports = [
