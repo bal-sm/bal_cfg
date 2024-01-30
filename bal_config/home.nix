@@ -68,6 +68,7 @@
     pkgs.nodePackages_latest.pyright
     pkgs.gh
     pkgs.micro
+    pkgs.ruff
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
