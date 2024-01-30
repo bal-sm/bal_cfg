@@ -2,6 +2,7 @@
 
   imports = [
     # ./hardware-configuration.nix
+    # TODO: Uncomment when `hardware-configuration.nix` is done
   ];
 
 # ...
