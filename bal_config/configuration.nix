@@ -26,7 +26,7 @@
 # ..., skipped `boot` things for a while
 
   networking = {
-    # ...
+    hostName = "bal-frame-work-13";
   };
 
 # ...
