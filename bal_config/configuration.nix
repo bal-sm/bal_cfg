@@ -32,6 +32,8 @@
     firewall.enable = false;
   };
 
+  time.timeZone = "Asia/Jakarta";
+
 # ...
 
 }
