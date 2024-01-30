@@ -19,6 +19,7 @@
       pkgs.vscode-extensions.davidanson.vscode-markdownlint
       pkgs.vscode-extensions.redhat.vscode-xml
       pkgs.vscode-extensions.redhat.vscode-yaml
+      pkgs.vscode-extensions.charliermarsh.ruff
 
       # Disabled
       # --------
