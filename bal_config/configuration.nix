@@ -25,6 +25,10 @@
 
 # ..., skipped `boot` things for a while
 
+  networking = {
+    # ...
+  };
+
 # ...
 
 }
