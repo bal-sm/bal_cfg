@@ -19,9 +19,14 @@
       pkgs.vscode-extensions.davidanson.vscode-markdownlint
       pkgs.vscode-extensions.redhat.vscode-xml
       pkgs.vscode-extensions.redhat.vscode-yaml
+
+      # Disabled
+      # --------
+
+      # > Me: Disabled 'cause proprietary euy.
+      # --------
       # pkgs.vscode-extensions.ms-vscode.cmake-tools
       # pkgs.vscode-extensions.ms-vscode.cpptools
-      # > Me: Disabled 'cause proprietary euy.
     ];
     globalSnippets = { }; # gak usah dulu
     # haskell things, liat geura vscode options-nya
