@@ -20,6 +20,7 @@
       pkgs.vscode-extensions.redhat.vscode-xml
       pkgs.vscode-extensions.redhat.vscode-yaml
       pkgs.vscode-extensions.charliermarsh.ruff
+      pkgs.vscode-extensions.jnoortheen.nix-ide
 
       # Disabled
       # --------
