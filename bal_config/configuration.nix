@@ -19,7 +19,7 @@
 
   nixpkgs = {
     config = {
-      # ...
+      allowUnfree = true;
     };
   };
 
