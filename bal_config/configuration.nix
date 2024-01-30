@@ -28,6 +28,7 @@
   networking = {
     hostName = "bal-frame-work-13";
     networkmanager.enable = true;
+    enableIPv6 = false;
   };
 
 # ...
