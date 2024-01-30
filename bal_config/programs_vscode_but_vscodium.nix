@@ -34,7 +34,7 @@
     keybindings = [ ];
     # look keybindings for more options
     languageSnippets = { }; # gimana nanti
-    mutableExtensionsDir = true; # aja we
+    mutableExtensionsDir = false; # biar FUN.
     userSettings = {
       "accessibility.dimUnfocused.enabled": false,
       "better-comments.tags": [
