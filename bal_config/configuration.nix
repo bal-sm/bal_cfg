@@ -102,6 +102,6 @@
 
   # skipped `security.polkit` terus sama `systemd` servicenya, again, soalnya ada KDE.
 
-# ...
+  system.stateVersion = "23.11";
 
 }
