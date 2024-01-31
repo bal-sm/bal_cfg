@@ -33,6 +33,17 @@
       "exFAT"
       "FAT"
     ]; # ?: meureun kieu ieu teh maksudna
+    # loader = {
+    #   efi.canTouchEfiVariables = true;
+    #   grub = {
+    #     device = "nodev";
+    #     efiSupport = true;
+    #     enable = true;
+    #     useOSProber = true;
+    #     timeoutStyle = "menu";
+    #   };
+    #   timeout = 300;
+    # };
   };
 
   networking = {
