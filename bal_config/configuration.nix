@@ -76,6 +76,9 @@
   # skipped `programs.steam` things 'cause mau use flatpak instead.
 
   fonts = {
+    # <https://nixos.wiki/wiki/Fonts>
+    # -----
+
     packages = [
       (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
       pkgs.noto-fonts
