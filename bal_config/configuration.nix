@@ -69,7 +69,7 @@
       "root"
       "wheel"
       "flatpak" # ?
-    ];
+    ]; # TODO: Find out more about `extraGroups` and `/etc/group`
   };
 
 # ...
