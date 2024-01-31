@@ -95,6 +95,7 @@
     pkgs.nano
     pkgs.micro
     pkgs.git
+    pkgs.git-lfs
   ];
 
   # skipped `virtualisation` things.
