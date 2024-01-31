@@ -38,7 +38,7 @@
     #   grub = {
     #     # device = "nodev"; # ?: soalnya udah we nixos aja gak sih yang managenya + disko lagian
     #     efiSupport = true;
-    #     enable = true;
+    #     enable = true; # * defaultnya: !config.boot.isContainer . wow. liat di `search.nixos.org`.
     #     useOSProber = true;
     #     timeoutStyle = "menu";
     #   };
