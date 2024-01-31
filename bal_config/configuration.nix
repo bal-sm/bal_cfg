@@ -44,6 +44,11 @@
 
   services = {
     flatpak.enable = true;
+
+    xserver = {
+      # ...
+    };
+
   };
 
 # ...
