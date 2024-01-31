@@ -20,6 +20,7 @@
     self,
     nixpkgs,
     home-manager,
+    plasma-manager,
     ...
   }: 
     let
@@ -37,6 +38,7 @@
           home-manager.users.d = import ./bal__nix__cfg/home/home.nix;
           home-manager.extraSpecialArgs = {inherit inputs self user;};
         }
+        plasma-manager.homeManagerModules.plasma-manager
       ];
     };
   };
