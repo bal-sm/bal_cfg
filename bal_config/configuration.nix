@@ -74,6 +74,10 @@
 
   # skipped `programs.steam` things 'cause mau use flatpak instead.
 
+  fonts = {
+    # ...
+  };
+
 # ...
 
 }
