@@ -1,6 +1,19 @@
 # Fedora Silverblue Installation
 
-## `rpm-ostree status`
+## `rpm-ostree status` - lagi pake bazzite
+
+```
+State: idle
+Deployments:
+● ostree-image-signed:docker://ghcr.io/ublue-os/bazzite:39
+                   Digest: sha256:166528926a9aa695d719322ca9657149210fd9b33123fce4822547942a4c00ab
+                Timestamp: 2024-01-25T06:52:58Z
+          LayeredPackages: bottles code codium git-lfs insync-dolphin kvantum materia-gtk-theme materia-kde plasma-wallpapers-dynamic zsh
+            LocalPackages: insync-3.8.6.50504-fc39.x86_64
+                Initramfs: '"-I /etc/crypttab /etc/modprobe.d/amdgpu.conf"'
+```
+
+## `rpm-ostree status` - waktu pake kinoite
 
 ```
 State: idle
