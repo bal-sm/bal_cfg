@@ -1,7 +1,7 @@
 # <https://nixos.org/manual/nixos/unstable/options>
 # -----
 
-{pkgs, user, ...}: {
+{ pkgs, ... }: {
 
   imports = [
     # ./hardware-configuration.nix
