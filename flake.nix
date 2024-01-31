@@ -24,12 +24,12 @@
       system = "x86_64-linux";
       specialArgs = {inherit inputs self user;};
       modules = [
-        ./bal_config/system/configuration.nix
+        ./bal__nix__cfg/system/configuration.nix
         home-manager.nixosModules.home-manager
         {
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
-          home-manager.users.d = import ./bal_config/home/home.nix;
+          home-manager.users.d = import ./bal__nix__cfg/home/home.nix;
           home-manager.extraSpecialArgs = {inherit inputs self user;};
         }
       ];
