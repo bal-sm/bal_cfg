@@ -46,7 +46,7 @@
     flatpak.enable = true;
 
     xserver = {
-      # ...
+      enable = true;
     };
 
   };
