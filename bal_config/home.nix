@@ -69,6 +69,7 @@
     pkgs.gh
     pkgs.micro
     pkgs.ruff
+    pkgs.insync
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
