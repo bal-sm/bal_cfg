@@ -94,6 +94,7 @@
   environment.systemPackages = [
     pkgs.nano
     pkgs.micro
+    pkgs.git
   ];
 
   # skipped `virtualisation` things.
