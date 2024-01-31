@@ -33,17 +33,18 @@
       "exFAT"
       "FAT"
     ]; # ?: meureun kieu ieu teh maksudna
-    # loader = {
-    #   efi.canTouchEfiVariables = true;
-    #   grub = {
-    #     # device = "nodev"; # ?: soalnya udah we nixos aja gak sih yang managenya + disko lagian
-    #     efiSupport = true;
-    #     enable = true; # * defaultnya: !config.boot.isContainer . wow. liat di `search.nixos.org`.
-    #     useOSProber = false;
-    #     timeoutStyle = "menu";
-    #   };
-    #   timeout = 13;
-    # };
+
+    loader = {
+      efi.canTouchEfiVariables = true;
+      grub = {
+        # device = "nodev"; # ?: soalnya udah we nixos aja gak sih yang managenya + disko lagian
+        efiSupport = true;
+        enable = true; # * defaultnya: !config.boot.isContainer . wow. liat di `search.nixos.org`.
+        useOSProber = false;
+        timeoutStyle = "menu";
+      };
+      timeout = 13;
+    };
   };
 
   networking = {
