@@ -66,6 +66,7 @@
   programs.zsh.enable = true;
 
   users = {
+    defaultUserShell = pkgs.zsh;
     users.d = {
       isNormalUser = true;
       description = "d is my account.";
