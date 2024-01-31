@@ -98,6 +98,8 @@
 
   # skipped `virtualisation` things.
 
+  # skipped `xdg.portal` soalnya ada KDE.
+
 # ...
 
 }
