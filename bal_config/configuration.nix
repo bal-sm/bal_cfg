@@ -36,11 +36,12 @@
 
   i18n.defaultLocale = "en_US.UTF-8";
 
-  console = {
-    packages = [ pkgs.jetbrains-mono ];
-    font = "JetBrains Mono";
-    useXkbConfig = true;
-  };
+  # console = {
+  #   packages = [ pkgs.jetbrains-mono ];
+  #   font = "JetBrains Mono";
+  #   useXkbConfig = true;
+  # };
+  # * Disabled 'cause ada `fonts` options tea dibawah.
 
   services = {
     flatpak.enable = true;
