@@ -1,6 +1,19 @@
 # Fedora Silverblue Installation
 
-## `rpm-ostree status`
+## `rpm-ostree status` - lagi pake bazzite
+
+```
+State: idle
+Deployments:
+● ostree-image-signed:docker://ghcr.io/ublue-os/bazzite:39
+                   Digest: sha256:166528926a9aa695d719322ca9657149210fd9b33123fce4822547942a4c00ab
+                Timestamp: 2024-01-25T06:52:58Z
+          LayeredPackages: bottles code codium git-lfs insync-dolphin kvantum materia-gtk-theme materia-kde plasma-wallpapers-dynamic zsh
+            LocalPackages: insync-3.8.6.50504-fc39.x86_64
+                Initramfs: '"-I /etc/crypttab /etc/modprobe.d/amdgpu.conf"'
+```
+
+## `rpm-ostree status` - waktu pake kinoite
 
 ```
 State: idle
@@ -49,6 +62,7 @@ com.github.Rosalie241.RMG
 com.github.ahrm.sioyek
 com.github.k4zmu2a.spacecadetpinball
 com.github.libresprite.LibreSprite
+com.github.marhkb.Pods
 com.github.tchx84.Flatseal
 com.google.ChromeDev
 com.logseq.Logseq
@@ -76,42 +90,46 @@ org.audacityteam.Audacity
 org.audacityteam.Audacity.Codecs
 org.duckstation.DuckStation
 org.freedesktop.LinuxAudio.Plugins.TAP
+org.freedesktop.LinuxAudio.Plugins.TAP
+org.freedesktop.LinuxAudio.Plugins.swh
 org.freedesktop.LinuxAudio.Plugins.swh
 org.freedesktop.Platform
 org.freedesktop.Platform
 org.freedesktop.Platform
 org.freedesktop.Platform.Compat.i386
-org.freedesktop.Platform.Compat.i386
 org.freedesktop.Platform.GL.default
 org.freedesktop.Platform.GL.default
 org.freedesktop.Platform.GL.default
 org.freedesktop.Platform.GL.default
 org.freedesktop.Platform.GL.default
-org.freedesktop.Platform.GL32.default
-org.freedesktop.Platform.GL32.default
-org.freedesktop.Platform.GL32.default
 org.freedesktop.Platform.GL32.default
 org.freedesktop.Platform.VulkanLayer.MangoHud
 org.freedesktop.Platform.VulkanLayer.OBSVkCapture
 org.freedesktop.Platform.VulkanLayer.vkBasalt
 org.freedesktop.Platform.ffmpeg-full
-org.freedesktop.Platform.ffmpeg-full
-org.freedesktop.Platform.ffmpeg_full.i386
 org.freedesktop.Platform.ffmpeg_full.i386
 org.freedesktop.Platform.openh264
 org.freedesktop.Platform.openh264
 org.freedesktop.Sdk
 org.freedesktop.Sdk
 org.freedesktop.Sdk
+org.gnome.Calculator
 org.gnome.Cheese
 org.gnome.Platform
 org.gnome.Platform
-org.gnome.Platform.Compat.i386
 org.gnome.Shotwell
 org.gnome.clocks
 org.gnome.gitg
 org.gtk.Gtk3theme.Adwaita-dark
 org.gtk.Gtk3theme.Breeze
+org.gtk.Gtk3theme.Materia
+org.gtk.Gtk3theme.Materia-compact
+org.gtk.Gtk3theme.Materia-dark
+org.gtk.Gtk3theme.Materia-dark-compact
+org.gtk.Gtk3theme.Materia-light
+org.gtk.Gtk3theme.Materia-light-compact
+org.gtk.Gtk3theme.adw-gtk3
+org.gtk.Gtk3theme.adw-gtk3-dark
 org.kde.KStyle.Adwaita
 org.kde.KStyle.Adwaita
 org.kde.KStyle.Adwaita
@@ -120,6 +138,7 @@ org.kde.Platform
 org.kde.Platform
 org.kde.Platform
 org.kde.gwenview
+org.kde.haruna
 org.kde.kcalc
 org.kde.kdenlive
 org.kde.kommit
@@ -130,7 +149,6 @@ org.libretro.RetroArch
 org.mozilla.firefox
 org.onlyoffice.desktopeditors
 org.ppsspp.PPSSPP
-org.ppsspp.PPSSPP.Locale
 org.qbittorrent.qBittorrent
 org.qownnotes.QOwnNotes
 org.signal.Signal
@@ -138,10 +156,7 @@ org.telegram.desktop
 org.telegram.desktop.webview
 org.videolan.VLC
 org.winehq.Wine.DLLs.dxvk
-org.winehq.Wine.DLLs.dxvk
 org.winehq.Wine.gecko
-org.winehq.Wine.gecko
-org.winehq.Wine.mono
 org.winehq.Wine.mono
 org.zim_wiki.Zim
 us.zoom.Zoom
