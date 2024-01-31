@@ -39,7 +39,7 @@
     #     # device = "nodev"; # ?: soalnya udah we nixos aja gak sih yang managenya + disko lagian
     #     efiSupport = true;
     #     enable = true; # * defaultnya: !config.boot.isContainer . wow. liat di `search.nixos.org`.
-    #     useOSProber = true;
+    #     useOSProber = false;
     #     timeoutStyle = "menu";
     #   };
     #   timeout = 300;
