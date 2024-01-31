@@ -24,7 +24,7 @@
   };
 
   boot = {
-    # ...
+    kernelParams = [ "nohibernate" ];
   };
 
   networking = {
