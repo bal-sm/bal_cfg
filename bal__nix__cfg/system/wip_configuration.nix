@@ -39,12 +39,15 @@
     loader = {
       efi.canTouchEfiVariables = true;
       grub = {
-        # device = "nodev"; # ?: soalnya udah we nixos aja gak sih yang managenya + disko lagian
+        # device = "nodev"; # // ?: soalnya udah we nixos aja gak sih yang managenya + disko lagian
         efiSupport = true;
         efiInstallAsRemovable = false; # ketang
         enable = true; # * defaultnya: !config.boot.isContainer . wow. liat di `search.nixos.org`.
         useOSProber = false;
         timeoutStyle = "menu";
+        devices = [
+          "dev/sda"
+        ]; # TODO: Caranya biar integrate langsung sama `disko` gimana tuch.
       };
       timeout = 13;
     };
