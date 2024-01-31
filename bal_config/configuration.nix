@@ -83,6 +83,9 @@
       pkgs.source-han-sans
       pkgs.source-han-serif
     ];
+
+    # skipped `fontconfig` soalnya ada KDE tea.
+  
   };
 
 # ...
