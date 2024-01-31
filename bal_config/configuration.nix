@@ -88,6 +88,10 @@
   
   };
 
+  environment.systemPackages = [
+    pkgs.nano
+  ];
+
 # ...
 
 }
