@@ -7,6 +7,7 @@ Powered by `nix`, `NixOS`, and `flake.nix`.
 1. Build to complete flake-ready `nix` and `NixOS` config.
    - KDE ✔️
    - VSCod(ium) ✔️
+     - [ ] WAIT! the settings json structure might be wrong.
    - Flatpak with [`nix-flatpak`](https://github.com/gmodena/nix-flatpak) ❌ (kapan-kapan)
    - etc of `home-manager` ✔️
      - `.zshrc` ✔️
