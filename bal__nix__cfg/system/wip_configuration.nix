@@ -6,7 +6,7 @@
   imports = [
     ./hardware-configuration.nix
     # TODO: Uncomment when `hardware-configuration.nix` is done
-    "${builtins.fetchTarball "https://github.com/nix-community/disko/archive/master.tar.gz"}/module.nix"
+    "${builtins.fetchTarball "https://github.com/nix-community/disko/archive/master.tar.gz"}/module.nix" # TODO: Kalo udah ditulis di `flake.nix`, hapus.
     ./disko-config.nix
   ];
 
