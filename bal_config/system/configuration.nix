@@ -36,7 +36,7 @@
     # loader = {
     #   efi.canTouchEfiVariables = true;
     #   grub = {
-    #     device = "nodev";
+    #     # device = "nodev"; # ?: soalnya udah we nixos aja gak sih yang managenya + disko lagian
     #     efiSupport = true;
     #     enable = true;
     #     useOSProber = true;
