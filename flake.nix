@@ -27,6 +27,20 @@
       user = "d";
     in {
     nixosConfigurations.nixos-studio = nixpkgs.lib.nixosSystem {
+      # ?: What is `nixpkgs.lib.nixosSystem`?
+      # Unless you want to handwire something together or use another higher level function from some
+      # 3rd party library, your want to use this function. It is basically the entrypoint to a flake based nixos
+      # system configuration.
+      #
+      # See <https://github.com/NixOS/templates/blob/master/simple-container/flake.nix> for an example.
+      #
+      # The arguments can be found here
+      # <https://github.com/NixOS/nixpkgs/blob/master/nixos/lib/eval-config.nix>
+      # but system and modules are the only two arguments you need for now. There is
+      # probably some documentation in the manual but there is no API documentation.
+      #
+      # Thanks to <https://www.reddit.com/r/NixOS/comments/13oat7j/comment/jl3lgqp/>.
+
       system = "x86_64-linux";
       specialArgs = {inherit inputs self user;};
       modules = [
