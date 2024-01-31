@@ -42,6 +42,10 @@
     useXkbConfig = true;
   };
 
+  services = {
+    # ...
+  };
+
 # ...
 
 }
