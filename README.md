@@ -7,8 +7,9 @@ Powered by `nix`, `NixOS`, and `flake.nix`.
 1. Build to complete flake-ready `nix` and `NixOS` config.
    - KDE ✔️
    - VSCod(ium) ✔️
-   - [ ] Flatpak with [`nix-flatpak`](https://github.com/gmodena/nix-flatpak)
-   - ...
+   - Flatpak with [`nix-flatpak`](https://github.com/gmodena/nix-flatpak) ❌ (kapan-kapan)
+   - etc of `home-manager` ✔️
+   - `configuration.nix` ✔️
 2. Test drive with real `NixOS` installation
    - [ ] Don't forget to use `disko`, [Quickstart Guide, here](https://github.com/nix-community/disko/blob/master/docs/quickstart.md),.
      - [ ] Compare <https://github.com/nix-community/disko/blob/master/example/luks-btrfs-subvolumes.nix> and <https://github.com/nix-community/disko/blob/master/example/btrfs-subvolumes.nix>.
