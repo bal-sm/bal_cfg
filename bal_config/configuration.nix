@@ -96,6 +96,8 @@
     pkgs.micro
   ];
 
+  # skipped `virtualisation` things.
+
 # ...
 
 }
