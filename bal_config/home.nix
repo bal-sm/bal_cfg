@@ -49,6 +49,7 @@
     #
     # * My new note:
     # ": Used simple `tar.gz` version instead, let's see..
+    pkgs.bottles
     pkgs.lazygit
     pkgs.trash-cli
     pkgs.thefuck
