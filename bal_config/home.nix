@@ -58,7 +58,6 @@
     pkgs.starship
     pkgs.python312
     pkgs.nodejs_20
-    # pkgs.zsh, mending zsh di system, soalnya duplicate
     pkgs.pre-commit
     pkgs.tldr
     pkgs.bun
