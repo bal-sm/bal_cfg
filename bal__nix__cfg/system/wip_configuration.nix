@@ -4,8 +4,10 @@
 { config, pkgs, ... }: {
 
   imports = [
-    # ./hardware-configuration.nix
+    ./hardware-configuration.nix
     # TODO: Uncomment when `hardware-configuration.nix` is done
+    "${builtins.fetchTarball "https://github.com/nix-community/disko/archive/master.tar.gz"}/module.nix"
+    ./disko-config.nix
   ];
 
   documentation.nixos.enable = true; # aing mah
