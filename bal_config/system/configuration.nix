@@ -25,6 +25,7 @@
 
   boot = {
     kernelParams = [ "nohibernate" ];
+    tmp.cleanOnBoot = true;
   };
 
   networking = {
