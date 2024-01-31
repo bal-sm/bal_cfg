@@ -6,6 +6,10 @@
 # TODO: **Adjust it** then
 
 {
+  imports = [
+    ./programs
+  ];
+
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
   home.username = "d";
