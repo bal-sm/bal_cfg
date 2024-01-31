@@ -100,6 +100,8 @@
 
   # skipped `xdg.portal` soalnya ada KDE.
 
+  # skipped `security.polkit` terus sama `systemd` servicenya, again, soalnya ada KDE.
+
 # ...
 
 }
