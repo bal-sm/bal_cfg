@@ -3,6 +3,10 @@
 # Update with `nix-channel --update` then `home-manager switch` to see the effects of these changes.
 
 {
+  imports = [
+    ./programs
+  ];
+
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
   home.username = "d";
@@ -46,6 +50,7 @@
     #
     # * My new note:
     # ": Used simple `tar.gz` version instead, let's see..
+    pkgs.bottles
     pkgs.lazygit
     pkgs.trash-cli
     pkgs.thefuck
@@ -54,7 +59,6 @@
     pkgs.starship
     pkgs.python312
     pkgs.nodejs_20
-    # pkgs.zsh, mending zsh di system, soalnya duplicate
     pkgs.pre-commit
     pkgs.tldr
     pkgs.bun
@@ -65,6 +69,8 @@
     pkgs.nodePackages_latest.pyright
     pkgs.gh
     pkgs.micro
+    pkgs.ruff
+    pkgs.insync
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
@@ -102,18 +108,37 @@
   # to allow install pkgs yang unfree
   nixpkgs.config.allowUnfree = true;
 
-  # To enable Insiders Build
-  # https://nixos.wiki/wiki/Visual_Studio_Code#Insiders_Build
-  # programs.vscode.package = (pkgs.vscode.override{ isInsiders = true; }).overrideAttrs (oldAttrs: rec {
-  #   src = (builtins.fetchTarball {
-  #     url = "https://update.code.visualstudio.com/latest/linux-x64/insider";
-  #     sha256 = "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
-  #   });
-  #   version = "latest";
-  #
-  #   buildInputs = oldAttrs.buildInputs ++ [ pkgs.krb5 ];
-  # });
-  #
-  # ! It doesn't work.
-  # TODO: Fix it.
+  programs.zsh = {
+    enable = true;
+    shellAliases = {
+      ll = "ls -l";
+      update = "sudo nixos-rebuild switch";
+    };
+    histSize = 10000;
+    histFile = "${config.xdg.dataHome}/zsh/history";
+
+    oh-my-zsh = {
+      enable = true;
+      plugins = [ "git" "thefuck" ];
+      # theme = "robbyrussell";
+    };
+
+  };
+
+  programs.starship = {
+    # https://starship.rs/installing/#nix
+    enable = true;
+    # Configuration written to ~/.config/starship.toml
+    settings = {
+      # add_newline = false;
+
+      # character = {
+      #   success_symbol = "[➜](bold green)";
+      #   error_symbol = "[➜](bold red)";
+      # };
+
+      # package.disabled = true;
+    };
+  };
+
 }
