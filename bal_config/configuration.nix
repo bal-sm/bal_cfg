@@ -59,6 +59,10 @@
   # To fix: KDE things: GTK themes are not applied in Wayland applications
   programs.dconf.enable = true;
 
+  users.users.d = {
+    # ...
+  };
+
 # ...
 
 }
