@@ -68,6 +68,7 @@
     extraGroups = [
       "root"
       "wheel"
+      "flatpak" # ?
     ];
   };
 
