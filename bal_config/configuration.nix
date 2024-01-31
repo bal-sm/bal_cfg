@@ -65,6 +65,9 @@
   users.users.d = {
     isNormalUser = true;
     description = "d is my account.";
+    extraGroups = [
+      # ...
+    ];
   };
 
 # ...
