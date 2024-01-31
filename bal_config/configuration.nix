@@ -72,6 +72,8 @@
     ]; # TODO: Find out more about `extraGroups` and `/etc/group`
   };
 
+  # skipped `programs.steam` things 'cause mau use flatpak instead.
+
 # ...
 
 }
