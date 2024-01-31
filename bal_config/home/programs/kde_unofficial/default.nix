@@ -2,6 +2,8 @@
 # `nix run github:pjones/plasma-manager > output.txt`
 # TODO: Modify this to proper `.nix` file and structure, referenced by `flake.nix`
 # <https://github.com/pjones/plasma-manager>
+{ ... }:
+
 {
   programs.plasma = {
     enable = true;
