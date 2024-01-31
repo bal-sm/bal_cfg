@@ -65,14 +65,16 @@
 
   programs.zsh.enable = true;
 
-  users.users.d = {
-    isNormalUser = true;
-    description = "d is my account.";
-    extraGroups = [
-      "root"
-      "wheel"
-      "flatpak" # ?
-    ]; # TODO: Find out more about `extraGroups` and `/etc/group`
+  users = {
+    users.d = {
+      isNormalUser = true;
+      description = "d is my account.";
+      extraGroups = [
+        "root"
+        "wheel"
+        "flatpak" # ?
+      ]; # TODO: Find out more about `extraGroups` and `/etc/group`
+    };
   };
 
   # skipped `programs.steam` things 'cause mau use flatpak instead.
