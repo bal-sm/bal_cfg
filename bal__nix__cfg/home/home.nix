@@ -2,9 +2,6 @@
 
 # Update with `nix-channel --update` then `home-manager switch` to see the effects of these changes.
 
-# !: Most likely broken 'cause unadjusted to `flake.nix`
-# TODO: **Adjust it** then
-
 {
   imports = [
     ./programs
