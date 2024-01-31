@@ -63,7 +63,7 @@
   programs.dconf.enable = true;
 
   users.users.d = {
-    # ...
+    isNormalUser = true;
   };
 
 # ...
