@@ -66,7 +66,7 @@
     isNormalUser = true;
     description = "d is my account.";
     extraGroups = [
-      # ...
+      "root"
     ];
   };
 
