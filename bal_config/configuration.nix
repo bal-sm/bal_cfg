@@ -75,7 +75,13 @@
   # skipped `programs.steam` things 'cause mau use flatpak instead.
 
   fonts = {
-    # ...
+    packages = [
+      (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
+      pkgs.noto-fonts
+      pkgs.font-awesome
+      pkgs.source-han-sans
+      pkgs.source-han-serif
+    ];
   };
 
 # ...
