@@ -14,6 +14,10 @@
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.home-manager.follows = "home-manager";
     };
+    disko = {
+      url = "github:nix-community/disko"
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
   
   outputs = inputs @ {
@@ -21,6 +25,7 @@
     nixpkgs,
     home-manager,
     plasma-manager,
+    disko,
     ...
   }: 
     let
@@ -53,6 +58,7 @@
           home-manager.extraSpecialArgs = {inherit inputs self user;};
         }
         plasma-manager.homeManagerModules.plasma-manager
+        disko.nixosModules.disko
       ];
     };
   };
