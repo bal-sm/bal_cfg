@@ -46,6 +46,9 @@
     flatpak.enable = true;
 
     xserver = {
+      # <https://nixos.wiki/wiki/KDE>
+      # -----
+
       enable = true;
       displayManager = {
         sddm.enable = true;
