@@ -42,7 +42,7 @@
     #     useOSProber = false;
     #     timeoutStyle = "menu";
     #   };
-    #   timeout = 300;
+    #   timeout = 13;
     # };
   };
 
