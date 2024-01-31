@@ -54,8 +54,8 @@
           home-manager.useUserPackages = true;
           home-manager.users.d = import ./bal__nix__cfg/home/home.nix;
           home-manager.extraSpecialArgs = {inherit inputs self user;};
+          home-manager.sharedModules = [ plasma-manager.homeManagerModules.plasma-manager ]; # <https://github.com/pjones/plasma-manager/issues/14>
         }
-        plasma-manager.homeManagerModules.plasma-manager
         # disko.nixosModules.disko
       ];
     };
