@@ -11,8 +11,6 @@
     };
   };
 
-  # ...
-  
   home-manager.users.d = import ./bal_config/home.nix;
   
   # ...
