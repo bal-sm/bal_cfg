@@ -26,6 +26,13 @@
   boot = {
     kernelParams = [ "nohibernate" ];
     tmp.cleanOnBoot = true;
+    supportedFilesystems = [
+      "btrfs"
+      "ext4"
+      "ntfs"
+      "exFAT"
+      "FAT"
+    ]; # ?: meureun kieu ieu teh maksudna
   };
 
   networking = {
