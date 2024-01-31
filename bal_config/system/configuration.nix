@@ -23,7 +23,9 @@
     };
   };
 
-# ..., skipped `boot` things for a while
+  boot = {
+    # ...
+  };
 
   networking = {
     hostName = "bal-frame-work-13";
