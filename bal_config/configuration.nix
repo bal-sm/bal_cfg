@@ -67,6 +67,7 @@
     description = "d is my account.";
     extraGroups = [
       "root"
+      "wheel"
     ];
   };
 
