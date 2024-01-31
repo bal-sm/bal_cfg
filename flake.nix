@@ -29,7 +29,7 @@
         {
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
-          home-manager.users.d = import ./bal_config/home.nix;
+          home-manager.users.d = import ./bal_config/home/home.nix;
           home-manager.extraSpecialArgs = {inherit inputs self user;};
         }
       ];
