@@ -63,6 +63,8 @@
   # To fix: KDE things: GTK themes are not applied in Wayland applications
   programs.dconf.enable = true;
 
+  programs.zsh.enable = true;
+
   users.users.d = {
     isNormalUser = true;
     description = "d is my account.";
@@ -103,8 +105,6 @@
   # skipped `xdg.portal` soalnya ada KDE.
 
   # skipped `security.polkit` terus sama `systemd` servicenya, again, soalnya ada KDE.
-
-  programs.zsh.enable = true;
 
   system.stateVersion = "23.11";
 
