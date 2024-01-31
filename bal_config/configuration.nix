@@ -38,6 +38,7 @@
 
   console = {
     packages = [ pkgs.jetbrains-mono ];
+    font = "JetBrains Mono";
   };
 
 # ...
