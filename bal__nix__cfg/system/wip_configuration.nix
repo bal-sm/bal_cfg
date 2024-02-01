@@ -46,7 +46,7 @@
         useOSProber = false;
         timeoutStyle = "menu";
         devices = [
-          "dev/sda"
+          "/dev/sda"
         ]; # TODO: Caranya biar integrate langsung sama `disko` gimana tuch.
       };
       timeout = 13;
