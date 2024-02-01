@@ -4,8 +4,10 @@
 { config, pkgs, ... }: {
 
   imports = [
-    # ./hardware-configuration.nix
+    ./hardware-configuration.nix
     # TODO: Uncomment when `hardware-configuration.nix` is done
+    "${builtins.fetchTarball "https://github.com/nix-community/disko/archive/master.tar.gz"}/module.nix" # TODO: Kalo udah ditulis di `flake.nix`, hapus.
+    ./disko-config.nix
   ];
 
   documentation.nixos.enable = true; # aing mah
@@ -35,12 +37,13 @@
     ]; # ?: meureun kieu ieu teh maksudna
 
     loader = {
-      efi.canTouchEfiVariables = true;
+      #efi.canTouchEfiVariables = true;
       grub = {
-        # device = "nodev"; # ?: soalnya udah we nixos aja gak sih yang managenya + disko lagian
+        device = "nodev";
         efiSupport = true;
+        efiInstallAsRemovable = false; # ketang
         enable = true; # * defaultnya: !config.boot.isContainer . wow. liat di `search.nixos.org`.
-        useOSProber = false;
+        #useOSProber = false;
         timeoutStyle = "menu";
       };
       timeout = 13;

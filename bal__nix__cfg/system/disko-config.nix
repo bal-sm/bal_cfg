@@ -1,10 +1,9 @@
 {
-  # Taken from <https://github.com/nix-community/disko/blob/01ec6024d655430f252263969a46a64c2833eeb4/example/luks-btrfs-subvolumes.nix>
   disko.devices = {
     disk = {
-      vdb = {
+      main = {
         type = "disk";
-        device = "/dev/vdb";
+        device = "/dev/sda";
         content = {
           type = "gpt";
           partitions = {
@@ -31,7 +30,7 @@
                   allowDiscards = true;
                   #keyFile = "/tmp/secret.key";
                 };
-                additionalKeyFiles = [ "/tmp/additionalSecret.key" ];
+                #additionalKeyFiles = [ "/tmp/additionalSecret.key" ];
                 content = {
                   type = "btrfs";
                   extraArgs = [ "-f" ];
