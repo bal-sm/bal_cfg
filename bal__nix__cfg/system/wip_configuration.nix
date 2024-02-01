@@ -43,7 +43,7 @@
         efiSupport = true;
         efiInstallAsRemovable = false; # ketang
         enable = true; # * defaultnya: !config.boot.isContainer . wow. liat di `search.nixos.org`.
-        useOSProber = false;
+        #useOSProber = false;
         timeoutStyle = "menu";
       };
       timeout = 13;
