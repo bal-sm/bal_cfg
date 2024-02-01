@@ -37,7 +37,7 @@
     ]; # ?: meureun kieu ieu teh maksudna
 
     loader = {
-      efi.canTouchEfiVariables = true;
+      #efi.canTouchEfiVariables = true;
       grub = {
         device = "nodev";
         efiSupport = true;
