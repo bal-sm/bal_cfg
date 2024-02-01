@@ -12,10 +12,10 @@
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.home-manager.follows = "home-manager";
     };
-    # disko = {
-    #   url = "github:nix-community/disko"
-    #   inputs.nixpkgs.follows = "nixpkgs";
-    # };
+    disko = {
+      url = "github:nix-community/disko";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
   
   outputs = inputs @ {
@@ -23,7 +23,7 @@
     nixpkgs,
     home-manager,
     plasma-manager,
-    # disko,
+    disko,
     ...
   }: 
     let
@@ -47,6 +47,11 @@
       system = "x86_64-linux";
       specialArgs = {inherit inputs self user;};
       modules = [
+        disko.nixosModules.disko
+        ./bal__nix__cfg/disko-config.nix
+        {
+          _module.args.disks = [ "/dev/sda" ];
+        }
         ./bal__nix__cfg/system/configuration.nix
         home-manager.nixosModules.home-manager
         {
@@ -56,7 +61,6 @@
           home-manager.extraSpecialArgs = {inherit inputs self user;};
           home-manager.sharedModules = [ plasma-manager.homeManagerModules.plasma-manager ]; # <https://github.com/pjones/plasma-manager/issues/14>
         }
-        # disko.nixosModules.disko
       ];
     };
   };
