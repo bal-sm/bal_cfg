@@ -48,7 +48,7 @@
       specialArgs = {inherit inputs self user;};
       modules = [
         disko.nixosModules.disko
-        ./bal__nix__cfg/disko-config.nix
+        ./bal__nix__cfg/system/disko-config.nix
         {
           _module.args.disks = [ "/dev/sda" ];
         }
