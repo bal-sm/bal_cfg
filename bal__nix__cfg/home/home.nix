@@ -110,10 +110,13 @@
     #histSize = 10000;
     #histFile = "${config.xdg.dataHome}/zsh/history";
 
-    oh-my-zsh = {
+    zplug = {
       enable = true;
-      plugins = [ "git" "thefuck" ];
-      # theme = "robbyrussell";
+      plugins = [
+        # { name = "zsh-users/zsh-autosuggestions"; } # Simple plugin installation
+        { name = "zsh-users/zsh-syntax-highlighting"; }
+        { name = "marlonrichert/zsh-autocomplete"; }
+      ];
     };
 
   };
