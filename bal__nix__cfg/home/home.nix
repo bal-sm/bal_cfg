@@ -41,7 +41,11 @@
     #   echo "Hello, ${config.home.username}!"
     # '')
 
+    # GUI apps
     pkgs.bottles
+    pkgs.insync
+
+    # CLI apps
     pkgs.lazygit
     pkgs.trash-cli
     pkgs.thefuck
@@ -53,7 +57,7 @@
     pkgs.pre-commit
     pkgs.tldr
     pkgs.bun
-    pkgs.act
+    pkgs.act #?
     pkgs.python311Packages.pipx
     pkgs.nushellFull
     pkgs.python311Packages.jedi
@@ -61,7 +65,6 @@
     pkgs.gh
     pkgs.micro
     pkgs.ruff
-    pkgs.insync
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
