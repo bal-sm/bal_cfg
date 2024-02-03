@@ -145,6 +145,10 @@
 
   # skipped `security.polkit` terus sama `systemd` servicenya, again, soalnya ada KDE.
 
+  # To enable support for Bluetooth devices
+  hardware.bluetooth.enable = true; # enables support for Bluetooth
+  hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
+
   system.stateVersion = "23.11";
 
 }
