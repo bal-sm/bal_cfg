@@ -57,7 +57,6 @@
     pkgs.pre-commit
     pkgs.tldr
     pkgs.bun
-    pkgs.act #?
     pkgs.python311Packages.pipx
     pkgs.nushellFull
     pkgs.python311Packages.jedi
