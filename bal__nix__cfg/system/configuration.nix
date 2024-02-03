@@ -133,12 +133,15 @@
   };
 
   environment.systemPackages = [
+    # GUI apps
+    pkgs.libsForQt5.kate
+
+    # CLI apps
     pkgs.nano
     pkgs.micro
     pkgs.git
     pkgs.git-lfs
     pkgs.p7zip
-    pkgs.libsForQt5.kate
   ];
 
   # skipped `virtualisation` things.
