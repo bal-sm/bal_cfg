@@ -137,6 +137,7 @@
     pkgs.micro
     pkgs.git
     pkgs.git-lfs
+    pkgs.p7zip
   ];
 
   # skipped `virtualisation` things.
