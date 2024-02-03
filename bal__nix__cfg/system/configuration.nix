@@ -82,7 +82,19 @@
       desktopManager.plasma5.enable = true;
     };
 
+    pipewire = {
+      enable = true;
+      alsa.enable = true;
+      alsa.support32Bit = true;
+      pulse.enable = true;
+      # If you want to use JACK applications, uncomment this
+      #jack.enable = true;
+    };
+
   };
+
+  # rtkit is optional for `pipewire` but recommended, cenah
+  security.rtkit.enable = true;
 
   # To fix: KDE things: GTK themes are not applied in Wayland applications
   programs.dconf.enable = true;
@@ -121,10 +133,15 @@
   };
 
   environment.systemPackages = [
+    # GUI apps
+    pkgs.libsForQt5.kate
+
+    # CLI apps
     pkgs.nano
     pkgs.micro
     pkgs.git
     pkgs.git-lfs
+    pkgs.p7zip
   ];
 
   # skipped `virtualisation` things.
@@ -132,6 +149,10 @@
   # skipped `xdg.portal` soalnya ada KDE.
 
   # skipped `security.polkit` terus sama `systemd` servicenya, again, soalnya ada KDE.
+
+  # To enable support for Bluetooth devices
+  hardware.bluetooth.enable = true; # enables support for Bluetooth
+  hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
 
   system.stateVersion = "23.11";
 

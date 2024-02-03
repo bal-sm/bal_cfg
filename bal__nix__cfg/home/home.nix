@@ -40,17 +40,12 @@
     # (pkgs.writeShellScriptBin "my-hello" ''
     #   echo "Hello, ${config.home.username}!"
     # '')
-    # ~~pkgs.vscode~~
-    # pkgs.vscodium
-    # // - why?
-    # //   - let's andeulkeun rpm-ostree we
-    # //   - gui apps, pake native package manager we
-    # // just kidding, BAGUS DA, jadi bersebelahan sama yang di `rpm-ostree`
-    # // terus yang ini stable experience terus di update sesuka hati.
-    #
-    # * My new note:
-    # ": Used simple `tar.gz` version instead, let's see..
+
+    # GUI apps
     pkgs.bottles
+    pkgs.insync
+
+    # CLI apps
     pkgs.lazygit
     pkgs.trash-cli
     pkgs.thefuck
@@ -62,7 +57,6 @@
     pkgs.pre-commit
     pkgs.tldr
     pkgs.bun
-    pkgs.act
     pkgs.python311Packages.pipx
     pkgs.nushellFull
     pkgs.python311Packages.jedi
@@ -70,7 +64,6 @@
     pkgs.gh
     pkgs.micro
     pkgs.ruff
-    pkgs.insync
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
@@ -117,10 +110,13 @@
     #histSize = 10000;
     #histFile = "${config.xdg.dataHome}/zsh/history";
 
-    oh-my-zsh = {
+    zplug = {
       enable = true;
-      plugins = [ "git" "thefuck" ];
-      # theme = "robbyrussell";
+      plugins = [
+        # { name = "zsh-users/zsh-autosuggestions"; } # Simple plugin installation
+        { name = "zsh-users/zsh-syntax-highlighting"; }
+        { name = "marlonrichert/zsh-autocomplete"; }
+      ];
     };
 
   };

@@ -27,6 +27,8 @@
     let
       user = "d";
     in {
+    # ! HINT: switch to this flake output with:
+    # * `sudo nixos-rebuild switch --flake .#nixos-studio`
     nixosConfigurations.nixos-studio = nixpkgs.lib.nixosSystem {
       # ?: What is `nixpkgs.lib.nixosSystem`?
       # Unless you want to handwire something together or use another higher level function from some
