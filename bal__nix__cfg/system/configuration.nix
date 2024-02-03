@@ -82,7 +82,19 @@
       desktopManager.plasma5.enable = true;
     };
 
+    pipewire = {
+      enable = true;
+      alsa.enable = true;
+      alsa.support32Bit = true;
+      pulse.enable = true;
+      # If you want to use JACK applications, uncomment this
+      #jack.enable = true;
+    };
+
   };
+
+  # rtkit is optional for `pipewire` but recommended, cenah
+  security.rtkit.enable = true;
 
   # To fix: KDE things: GTK themes are not applied in Wayland applications
   programs.dconf.enable = true;
