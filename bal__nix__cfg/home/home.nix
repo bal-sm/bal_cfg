@@ -40,7 +40,7 @@
     # (pkgs.writeShellScriptBin "my-hello" ''
     #   echo "Hello, ${config.home.username}!"
     # '')
-    #
+
     pkgs.bottles
     pkgs.lazygit
     pkgs.trash-cli
