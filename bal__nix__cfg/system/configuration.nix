@@ -138,6 +138,7 @@
     pkgs.git
     pkgs.git-lfs
     pkgs.p7zip
+    pkgs.libsForQt5.kate
   ];
 
   # skipped `virtualisation` things.
