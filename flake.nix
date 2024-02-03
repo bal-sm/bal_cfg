@@ -14,6 +14,7 @@
       url = "github:nix-community/disko";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    nix-flatpak.url = "github:gmodena/nix-flatpak/main";
   };
   
   outputs = inputs @ {
@@ -22,6 +23,7 @@
     home-manager,
     plasma-manager,
     disko,
+    nix-flatpak,
     ...
   }: 
     let
@@ -59,7 +61,10 @@
           home-manager.useUserPackages = true;
           home-manager.users.d = import ./bal__nix__cfg/home/home.nix;
           home-manager.extraSpecialArgs = {inherit inputs self user;};
-          home-manager.sharedModules = [ plasma-manager.homeManagerModules.plasma-manager ]; # <https://github.com/pjones/plasma-manager/issues/14>
+          home-manager.sharedModules = [
+            plasma-manager.homeManagerModules.plasma-manager
+            nix-flatpak.homeManagerModules.nix-flatpak
+          ]; # <https://github.com/pjones/plasma-manager/issues/14>
         }
       ];
     };
