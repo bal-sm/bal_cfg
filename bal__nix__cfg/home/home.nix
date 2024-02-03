@@ -48,8 +48,6 @@
     # // just kidding, BAGUS DA, jadi bersebelahan sama yang di `rpm-ostree`
     # // terus yang ini stable experience terus di update sesuka hati.
     #
-    # * My new note:
-    # ": Used simple `tar.gz` version instead, let's see..
     pkgs.bottles
     pkgs.lazygit
     pkgs.trash-cli
