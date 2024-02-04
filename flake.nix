@@ -16,7 +16,7 @@
     };
     nix-flatpak.url = "github:gmodena/nix-flatpak/?ref=v0.2.0";
   };
-  
+
   outputs = inputs @ {
     self,
     nixpkgs,
@@ -25,7 +25,7 @@
     disko,
     nix-flatpak,
     ...
-  }: 
+  }:
     let
       user = "d";
     in {
