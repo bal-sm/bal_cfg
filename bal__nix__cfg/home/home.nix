@@ -155,6 +155,7 @@
       new-branch = "checkout -b";
       list-branch = "branch -a";
       delete-branch = "branch -d";
+      meg = "merge --no-ff";
     };
   };
 
