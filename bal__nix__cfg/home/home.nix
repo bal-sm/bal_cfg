@@ -160,6 +160,7 @@
       pretty-log = "log --oneline --graph --decorate";
       pretty-log-all = "log --oneline --graph --decorate --all";
       push-force = "push --force-with-lease";
+      tag-it = "!f() { git tag -a \"$@\" && git push origin \"$@\"; }; f";
     };
   };
 
