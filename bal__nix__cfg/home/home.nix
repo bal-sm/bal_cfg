@@ -155,6 +155,7 @@
       new-branch = "checkout -b";
       list-branch = "branch -a";
       delete-branch = "branch -d";
+      delete-branch-yes = "branch -D";
       meg = "merge --no-ff";
       pretty-log = "log --oneline --graph --decorate";
       pretty-log-all = "log --oneline --graph --decorate --all";
