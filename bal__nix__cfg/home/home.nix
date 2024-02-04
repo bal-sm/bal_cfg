@@ -149,6 +149,9 @@
     enable = true;
     userName  = "Mahmuda";
     userEmail = "bal.mahmuda@gmail.com";
+    aliases = {
+      cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 -r git branch -d";
+    };
   };
 
 }
