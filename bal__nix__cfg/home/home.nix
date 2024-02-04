@@ -145,4 +145,23 @@
     };
   };
 
+  programs.git = {
+    enable = true;
+    userName  = "Mahmuda";
+    userEmail = "bal.mahmuda@gmail.com";
+    aliases = {
+      cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 -r git branch -d";
+      rb = "rebase --interactive --autosquash --rebase-merges";
+      new-branch = "checkout -b";
+      list-branch = "branch -a";
+      delete-branch = "branch -d";
+      delete-branch-yes = "branch -D";
+      meg = "merge --no-ff";
+      pretty-log = "log --oneline --graph --decorate";
+      pretty-log-all = "log --oneline --graph --decorate --all";
+      push-force = "push --force-with-lease";
+      tag-it = "!f() { git tag -a \"$@\" && git push origin \"$@\"; }; f";
+    };
+  };
+
 }
