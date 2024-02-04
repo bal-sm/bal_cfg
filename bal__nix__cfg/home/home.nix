@@ -63,7 +63,7 @@
     pkgs.nodePackages_latest.pyright
     pkgs.gh
     pkgs.micro
-    pkgs.ruff
+    #pkgs.ruff soalnya mending pre-commit / poetry langsung
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
