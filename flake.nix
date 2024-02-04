@@ -14,7 +14,7 @@
       url = "github:nix-community/disko";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    nix-flatpak.url = "github:gmodena/nix-flatpak/main";
+    nix-flatpak.url = "github:gmodena/nix-flatpak/?ref=v0.2.0";
   };
   
   outputs = inputs @ {
