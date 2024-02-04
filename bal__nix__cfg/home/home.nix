@@ -46,24 +46,30 @@
     pkgs.insync
 
     # CLI apps
-    pkgs.lazygit
     pkgs.trash-cli
     pkgs.thefuck
-    pkgs.poetry
-    pkgs.hub
     pkgs.starship
-    pkgs.python312
-    pkgs.nodejs_20
-    #pkgs.pre-commit soalnya ngandelin poetry dong
     pkgs.tldr
-    pkgs.bun
-    pkgs.python311Packages.pipx
     pkgs.nushellFull
-    pkgs.python311Packages.jedi
-    pkgs.nodePackages_latest.pyright
-    pkgs.gh
     pkgs.micro
+
+    # CLI/Python things
     #pkgs.ruff soalnya mending pre-commit / poetry langsung
+    #pkgs.pre-commit soalnya ngandelin poetry dong
+    pkgs.python312
+    pkgs.nodePackages_latest.pyright
+    pkgs.python311Packages.jedi
+    pkgs.python311Packages.pipx
+    pkgs.poetry
+
+    # CLI/JS things
+    pkgs.nodejs_20
+    pkgs.bun
+
+    # CLI/Git things
+    pkgs.gh
+    pkgs.hub
+    pkgs.lazygit
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
