@@ -154,6 +154,7 @@
       rb = "rebase --interactive --autosquash --rebase-merges";
       new-branch = "checkout -b";
       list-branch = "branch -a";
+      delete-branch = "branch -d";
     };
   };
 
