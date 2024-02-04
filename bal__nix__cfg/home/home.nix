@@ -145,4 +145,10 @@
     };
   };
 
+  programs.git = {
+    enable = true;
+    userName  = "Mahmuda";
+    userEmail = "bal.mahmuda@gmail.com";
+  };
+
 }
