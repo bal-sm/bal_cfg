@@ -54,7 +54,7 @@
     pkgs.starship
     pkgs.python312
     pkgs.nodejs_20
-    pkgs.pre-commit
+    #pkgs.pre-commit soalnya ngandelin poetry dong
     pkgs.tldr
     pkgs.bun
     pkgs.python311Packages.pipx
