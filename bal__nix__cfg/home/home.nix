@@ -156,6 +156,7 @@
       list-branch = "branch -a";
       delete-branch = "branch -d";
       meg = "merge --no-ff";
+      pretty-log = "log --oneline --graph --decorate";
     };
   };
 
