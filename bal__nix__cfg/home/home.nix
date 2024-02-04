@@ -159,6 +159,7 @@
       meg = "merge --no-ff";
       pretty-log = "log --oneline --graph --decorate";
       pretty-log-all = "log --oneline --graph --decorate --all";
+      push-force = "push --force-with-lease";
     };
   };
 
