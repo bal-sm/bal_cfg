@@ -54,7 +54,7 @@
     pkgs.starship
     pkgs.python312
     pkgs.nodejs_20
-    pkgs.pre-commit
+    #pkgs.pre-commit soalnya ngandelin poetry dong
     pkgs.tldr
     pkgs.bun
     pkgs.python311Packages.pipx
@@ -63,7 +63,7 @@
     pkgs.nodePackages_latest.pyright
     pkgs.gh
     pkgs.micro
-    pkgs.ruff
+    #pkgs.ruff soalnya mending pre-commit / poetry langsung
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
