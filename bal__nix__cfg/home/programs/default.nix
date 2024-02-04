@@ -2,7 +2,7 @@
 
 {
   imports = [
-    # ./flatpak_unofficial # TODO: uncomment when it's written.
+    ./flatpak_unofficial
     ./kde_unofficial
     ./vscode
   ];
