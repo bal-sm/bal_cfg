@@ -69,19 +69,19 @@
 
   services.flatpak.enable = true;
 
-  services = {
+  services.xserver = {
+    # <https://nixos.wiki/wiki/KDE>
+    # -----
 
-    xserver = {
-      # <https://nixos.wiki/wiki/KDE>
-      # -----
-
-      enable = true;
-      displayManager = {
-        sddm.enable = true;
-        defaultSession = "plasmawayland";
-      };
-      desktopManager.plasma5.enable = true;
+    enable = true;
+    displayManager = {
+      sddm.enable = true;
+      defaultSession = "plasmawayland";
     };
+    desktopManager.plasma5.enable = true;
+  };
+
+  services = {
 
     pipewire = {
       enable = true;
