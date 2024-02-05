@@ -67,8 +67,9 @@
   # };
   # * Disabled 'cause ada `fonts` options tea dibawah.
 
+  services.flatpak.enable = true;
+
   services = {
-    flatpak.enable = true;
 
     xserver = {
       # <https://nixos.wiki/wiki/KDE>
@@ -129,7 +130,7 @@
     ];
 
     # skipped `fontconfig` soalnya ada KDE tea.
-  
+
   };
 
   environment.systemPackages = [
