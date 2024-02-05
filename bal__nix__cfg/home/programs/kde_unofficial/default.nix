@@ -294,6 +294,7 @@
       "kdeglobals"."General"."menuFont" = "SF Pro Display,11,-1,5,50,0,0,0,0,0";
       "kdeglobals"."General"."smallestReadableFont" = "SF Pro Text,9,-1,5,50,0,0,0,0,0";
       "kdeglobals"."General"."toolBarFont" = "SF Pro Display,11,-1,5,50,0,0,0,0,0";
+      "kdeglobals"."KDE"."SingleClick" = false;
       "kdeglobals"."KDE"."widgetStyle" = "Breeze";
       "kdeglobals"."KFileDialog Settings"."Allow Expansion" = false;
       "kdeglobals"."KFileDialog Settings"."Automatically select filename extension" = true;
