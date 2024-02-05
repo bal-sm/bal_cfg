@@ -44,6 +44,7 @@
     # GUI apps
     pkgs.bottles
     pkgs.insync
+    pkgs.jetbrains.pycharm-professional
 
     # CLI apps
     pkgs.trash-cli
