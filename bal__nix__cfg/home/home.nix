@@ -73,6 +73,7 @@
     pkgs.gh
     pkgs.hub
     pkgs.lazygit
+    pkgs.git-filter-repo
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
