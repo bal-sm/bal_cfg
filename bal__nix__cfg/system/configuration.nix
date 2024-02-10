@@ -67,30 +67,27 @@
   # };
   # * Disabled 'cause ada `fonts` options tea dibawah.
 
-  services = {
-    flatpak.enable = true;
+  services.flatpak.enable = true;
 
-    xserver = {
-      # <https://nixos.wiki/wiki/KDE>
-      # -----
+  services.xserver = {
+    # <https://nixos.wiki/wiki/KDE>
+    # -----
 
-      enable = true;
-      displayManager = {
-        sddm.enable = true;
-        defaultSession = "plasmawayland";
-      };
-      desktopManager.plasma5.enable = true;
+    enable = true;
+    displayManager = {
+      sddm.enable = true;
+      defaultSession = "plasmawayland";
     };
+    desktopManager.plasma5.enable = true;
+  };
 
-    pipewire = {
-      enable = true;
-      alsa.enable = true;
-      alsa.support32Bit = true;
-      pulse.enable = true;
-      # If you want to use JACK applications, uncomment this
-      #jack.enable = true;
-    };
-
+  services.pipewire = {
+    enable = true;
+    alsa.enable = true;
+    alsa.support32Bit = true;
+    pulse.enable = true;
+    # If you want to use JACK applications, uncomment this
+    #jack.enable = true;
   };
 
   # rtkit is optional for `pipewire` but recommended, cenah
@@ -129,7 +126,7 @@
     ];
 
     # skipped `fontconfig` soalnya ada KDE tea.
-  
+
   };
 
   environment.systemPackages = [

@@ -44,26 +44,36 @@
     # GUI apps
     pkgs.bottles
     pkgs.insync
+    pkgs.jetbrains.pycharm-professional
 
     # CLI apps
-    pkgs.lazygit
     pkgs.trash-cli
     pkgs.thefuck
-    pkgs.poetry
-    pkgs.hub
     pkgs.starship
-    pkgs.python312
-    pkgs.nodejs_20
-    pkgs.pre-commit
     pkgs.tldr
-    pkgs.bun
-    pkgs.python311Packages.pipx
     pkgs.nushellFull
-    pkgs.python311Packages.jedi
-    pkgs.nodePackages_latest.pyright
-    pkgs.gh
     pkgs.micro
+
+    # CLI/Python things
+    #pkgs.ruff soalnya mending pre-commit / poetry langsung
+    #pkgs.pre-commit soalnya ngandelin poetry dong
+    pkgs.python312
+    pkgs.nodePackages_latest.pyright
+    pkgs.python311Packages.jedi
+    pkgs.python311Packages.pipx
+    pkgs.poetry
     pkgs.ruff
+    pkgs.pre-commit
+
+    # CLI/JS things
+    pkgs.nodejs_20
+    pkgs.bun
+
+    # CLI/Git things
+    pkgs.gh
+    pkgs.hub
+    pkgs.lazygit
+    pkgs.git-filter-repo
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
@@ -134,6 +144,25 @@
       # };
 
       # package.disabled = true;
+    };
+  };
+
+  programs.git = {
+    enable = true;
+    userName  = "Mahmuda";
+    userEmail = "bal.mahmuda@gmail.com";
+    aliases = {
+      cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 -r git branch -d";
+      rb = "rebase --interactive --autosquash --rebase-merges";
+      new-branch = "checkout -b";
+      list-branch = "branch -a";
+      delete-branch = "branch -d";
+      delete-branch-yes = "branch -D";
+      meg = "merge --no-ff";
+      pretty-log = "log --oneline --graph --decorate";
+      pretty-log-all = "log --oneline --graph --decorate --all";
+      push-force = "push --force-with-lease";
+      tag-it = "!f() { git tag -a \"$@\" && git push origin \"$@\"; }; f";
     };
   };
 
