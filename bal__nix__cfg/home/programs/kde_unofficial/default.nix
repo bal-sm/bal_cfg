@@ -283,6 +283,7 @@
       "kded5rc"."PlasmaBrowserIntegration"."shownCount" = 4;
       "kdeglobals"."DirSelect Dialog"."DirSelectDialog Size" = "1068,512";
       "kdeglobals"."General"."AccentColor" = "148,71,45";
+      "kdeglobals"."General"."AllowKDEAppsToRememberWindowPositions" = true;
       "kdeglobals"."General"."BrowserApplication" = "org.mozilla.firefox.desktop";
       "kdeglobals"."General"."LastUsedCustomAccentColor" = "148,71,45";
       "kdeglobals"."General"."TerminalApplication" = "konsole";
@@ -830,6 +831,7 @@
       "khotkeysrc"."Desktop Entry"."DefaultProfile[$d]" = "";
       "khotkeysrc"."DirSelect Dialog"."DirSelectDialog Size[$d]" = "";
       "khotkeysrc"."General"."AccentColor[$d]" = "";
+      "khotkeysrc"."General"."AllowKDEAppsToRememberWindowPositions[$d]" = "";
       "khotkeysrc"."General"."BrowserApplication[$d]" = "";
       "khotkeysrc"."General"."ColorSchemeHash[$d]" = "";
       "khotkeysrc"."General"."ColorScheme[$d]" = "";
@@ -928,13 +930,7 @@
       "kwalletrc"."Wallet"."First Use" = false;
       "kwinrc"."Compositing"."LatencyPolicy" = "Medium";
       "kwinrc"."Compositing"."WindowsBlockCompositing" = false;
-      "kwinrc"."Desktops"."Id_1" = "e43cd201-a75d-46ee-a84a-d601aa200078";
-      "kwinrc"."Desktops"."Id_2" = "8c7bb955-bb91-4acf-b57c-461732d45ac2";
-      "kwinrc"."Desktops"."Id_3" = "eb4c92dd-a63e-4e83-b2bf-c74e50b49f5c";
-      "kwinrc"."Desktops"."Id_4" = "302899c1-196a-46bc-9853-95300a719903";
-      "kwinrc"."Desktops"."Id_5" = "02e63caf-87ff-4ba2-951c-17b456c8af2e";
-      "kwinrc"."Desktops"."Number" = 5;
-      "kwinrc"."Desktops"."Rows" = 2;
+      # `kwinrc` `Desktops` things are deleted, 'cause it should be unique(sic, wrong).
       "kwinrc"."Effect-desktopgrid"."BorderActivate" = 7;
       "kwinrc"."Effect-overview"."BorderActivate" = 3;
       "kwinrc"."Effect-windowview"."BorderActivateAll" = 9;
