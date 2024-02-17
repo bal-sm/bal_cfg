@@ -283,6 +283,7 @@
       "kded5rc"."PlasmaBrowserIntegration"."shownCount" = 4;
       "kdeglobals"."DirSelect Dialog"."DirSelectDialog Size" = "1068,512";
       "kdeglobals"."General"."AccentColor" = "148,71,45";
+      "kdeglobals"."General"."AllowKDEAppsToRememberWindowPositions" = true;
       "kdeglobals"."General"."BrowserApplication" = "org.mozilla.firefox.desktop";
       "kdeglobals"."General"."LastUsedCustomAccentColor" = "148,71,45";
       "kdeglobals"."General"."TerminalApplication" = "konsole";
