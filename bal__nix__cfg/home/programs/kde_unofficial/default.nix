@@ -831,6 +831,7 @@
       "khotkeysrc"."Desktop Entry"."DefaultProfile[$d]" = "";
       "khotkeysrc"."DirSelect Dialog"."DirSelectDialog Size[$d]" = "";
       "khotkeysrc"."General"."AccentColor[$d]" = "";
+      "khotkeysrc"."General"."AllowKDEAppsToRememberWindowPositions[$d]" = "";
       "khotkeysrc"."General"."BrowserApplication[$d]" = "";
       "khotkeysrc"."General"."ColorSchemeHash[$d]" = "";
       "khotkeysrc"."General"."ColorScheme[$d]" = "";
