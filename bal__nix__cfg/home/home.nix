@@ -132,6 +132,10 @@
 
   };
 
+  home.sessionPath = [
+    "$HOME/.local/bin" # for `pipx` installed binaries
+  ];
+
   programs.starship = {
     # https://starship.rs/installing/#nix
     enable = true;
