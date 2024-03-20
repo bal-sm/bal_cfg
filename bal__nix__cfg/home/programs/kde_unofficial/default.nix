@@ -1225,15 +1225,7 @@
       "kwinrulesrc"."eac1aa75-7894-4c3f-95a5-8710283848e4"."types" = 1;
       "kwinrulesrc"."eac1aa75-7894-4c3f-95a5-8710283848e4"."wmclass" = "vpetsettings";
       "kwinrulesrc"."eac1aa75-7894-4c3f-95a5-8710283848e4"."wmclassmatch" = 1;
-      "plasma-localerc"."Formats"."LANG" = "en_US.UTF-8";
-      "plasma-localerc"."Formats"."LC_ADDRESS" = "id_ID.UTF-8";
-      "plasma-localerc"."Formats"."LC_MEASUREMENT" = "C";
-      "plasma-localerc"."Formats"."LC_MONETARY" = "id_ID.UTF-8";
-      "plasma-localerc"."Formats"."LC_NAME" = "id_ID.UTF-8";
-      "plasma-localerc"."Formats"."LC_NUMERIC" = "id_ID.UTF-8";
-      "plasma-localerc"."Formats"."LC_PAPER" = "id_ID.UTF-8";
-      "plasma-localerc"."Formats"."LC_TELEPHONE" = "id_ID.UTF-8";
-      "plasma-localerc"."Formats"."LC_TIME" = "id_ID.UTF-8";
+      # Removed "plasma-localerc"."Formats" things 'cause udah ada lewat `i18n.extraLocaleSettings`
       "plasmarc"."Wallpapers"."usersWallpapers" = "/home/d/Pictures/ROG-euy-1.jpg,/home/d/Pictures/10110.jpg,/home/d/Pictures/wow_coding_from_wallpapercave.webp,/home/d/Pictures/wallpapersden.com_binary-numbers-raining_6500x3520.jpg";
       "systemsettingsrc"."KFileDialog Settings"."detailViewIconSize" = 16;
       "systemsettingsrc"."systemsettings_sidebar_mode"."HighlightNonDefaultSettings" = true;
