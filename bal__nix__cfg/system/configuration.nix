@@ -58,7 +58,21 @@
 
   time.timeZone = "Asia/Jakarta";
 
+  i18n.supportedLocales = [ "all" ];
+
   i18n.defaultLocale = "en_US.UTF-8";
+
+  i18n.extraLocaleSettings = {
+    LC_MESSAGES = "en_US.UTF-8";
+    LC_ADDRESS = "id_ID.UTF-8";
+    LC_MEASUREMENT = "C";
+    LC_MONETARY = "id_ID.UTF-8";
+    LC_NAME = "id_ID.UTF-8";
+    LC_NUMERIC = "id_ID.UTF-8";
+    LC_PAPER = "id_ID.UTF-8";
+    LC_TELEPHONE = "id_ID.UTF-8";
+    LC_TIME = "id_ID.UTF-8";
+  };
 
   # console = {
   #   packages = [ pkgs.jetbrains-mono ];
