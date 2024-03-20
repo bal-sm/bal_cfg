@@ -68,6 +68,7 @@
     # CLI/JS things
     pkgs.nodejs_20
     pkgs.bun
+    pkgs.sphinx
 
     # CLI/Git things
     pkgs.gh
