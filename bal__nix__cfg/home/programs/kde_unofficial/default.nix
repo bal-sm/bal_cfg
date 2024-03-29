@@ -9,6 +9,8 @@
     enable = true;
     shortcuts = {
       "ActivityManager"."switch-to-activity-09db50d0-706e-423f-a4bb-3edda1acddf4" = [ ];
+      "ActivityManager"."switch-to-activity-13c48c44-34be-46b5-b624-439c20b7a669" = [ ];
+      "ActivityManager"."switch-to-activity-69e82d6b-6d9c-4958-a148-9a004ec4ea01" = [ ];
       "KDE Keyboard Layout Switcher"."Switch to Next Keyboard Layout" = "Meta+Alt+K";
       "kaccess"."Toggle Screen Reader On and Off" = "Meta+Alt+S";
       "kcm_touchpad"."Disable Touchpad" = "Touchpad Off";
@@ -270,9 +272,13 @@
       "dolphinrc"."KFileDialog Settings"."Places Icons Static Size" = 22;
       "dolphinrc"."PreviewSettings"."Plugins" = "audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs";
       "kactivitymanagerdrc"."activities"."09db50d0-706e-423f-a4bb-3edda1acddf4" = "Default";
+      "kactivitymanagerdrc"."activities"."13c48c44-34be-46b5-b624-439c20b7a669" = "Coding";
+      "kactivitymanagerdrc"."activities"."69e82d6b-6d9c-4958-a148-9a004ec4ea01" = "Office";
+      "kactivitymanagerdrc"."activities-icons"."13c48c44-34be-46b5-b624-439c20b7a669" = "com.visualstudio.code.oss";
+      "kactivitymanagerdrc"."activities-icons"."69e82d6b-6d9c-4958-a148-9a004ec4ea01" = "org.libreoffice.LibreOffice.main";
       "kactivitymanagerdrc"."main"."currentActivity" = "09db50d0-706e-423f-a4bb-3edda1acddf4";
-      "kactivitymanagerdrc"."main"."runningActivities" = "09db50d0-706e-423f-a4bb-3edda1acddf4";
-      "kactivitymanagerdrc"."main"."stoppedActivities" = "";
+      "kactivitymanagerdrc"."main"."runningActivities" = "09db50d0-706e-423f-a4bb-3edda1acddf4,13c48c44-34be-46b5-b624-439c20b7a669";
+      "kactivitymanagerdrc"."main"."stoppedActivities" = "69e82d6b-6d9c-4958-a148-9a004ec4ea01";
       "kcminputrc"."Libinput.1267.12587.ELAN050B:00 04F3:312B Touchpad"."DisableWhileTyping" = false;
       "kcminputrc"."Libinput.1267.12587.ELAN050B:00 04F3:312B Touchpad"."NaturalScroll" = true;
       "kcminputrc"."Libinput.1267.12587.ELAN050B:00 04F3:312B Touchpad"."TapToClick" = true;
@@ -926,6 +932,7 @@
       "ksmserverrc"."SubSession: 375f483a-12e8-4892-b192-f8526575f324"."count" = 0;
       "ksmserverrc"."SubSession: 4ff0a233-5955-4af8-8a28-110457742fca"."count" = 0;
       "ksmserverrc"."SubSession: 51c8a3a6-b036-46ca-878e-af33e6736bcc"."count" = 0;
+      "ksmserverrc"."SubSession: 69e82d6b-6d9c-4958-a148-9a004ec4ea01"."count" = 0;
       "ksmserverrc"."SubSession: dde7123e-11fc-4563-99df-a09fa3f6a17f"."count" = 0;
       "kwalletrc"."Wallet"."First Use" = false;
       "kwinrc"."Compositing"."LatencyPolicy" = "Medium";
@@ -1074,6 +1081,8 @@
       "kwinrc"."SubSession: 09db50d0-706e-423f-a4bb-3edda1acddf4"."wmCommand5" = "firefox\s";
       "kwinrc"."SubSession: 375f483a-12e8-4892-b192-f8526575f324"."active" = "-1";
       "kwinrc"."SubSession: 375f483a-12e8-4892-b192-f8526575f324"."count" = 0;
+      "kwinrc"."SubSession: 69e82d6b-6d9c-4958-a148-9a004ec4ea01"."active" = "-1";
+      "kwinrc"."SubSession: 69e82d6b-6d9c-4958-a148-9a004ec4ea01"."count" = 0;
       "kwinrc"."SubSession: dde7123e-11fc-4563-99df-a09fa3f6a17f"."active" = "-1";
       "kwinrc"."SubSession: dde7123e-11fc-4563-99df-a09fa3f6a17f"."count" = 0;
       "kwinrc"."Tiling"."padding" = 4;
