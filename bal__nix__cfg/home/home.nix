@@ -53,6 +53,7 @@
     pkgs.tldr
     pkgs.nushellFull
     pkgs.micro
+    pkgs.gnumake
 
     # CLI/Python things
     #pkgs.ruff soalnya mending pre-commit / poetry langsung
