@@ -239,9 +239,9 @@
       "plasmashell"."cycleNextAction" = [ ];
       "plasmashell"."cyclePrevAction" = [ ];
       "plasmashell"."edit_clipboard" = [ ];
-      "plasmashell"."manage activities" = [ ];
-      "plasmashell"."next activity" = [ ];
-      "plasmashell"."previous activity" = "Meta+Shift+Tab";
+      "plasmashell"."manage activities" = "Meta+Ctrl+Tab";
+      "plasmashell"."next activity" = "Meta+Ctrl+E";
+      "plasmashell"."previous activity" = "Meta+Ctrl+Q";
       "plasmashell"."repeat_action" = "Meta+Ctrl+R";
       "plasmashell"."show dashboard" = "Ctrl+F12";
       "plasmashell"."show-barcode" = [ ];
