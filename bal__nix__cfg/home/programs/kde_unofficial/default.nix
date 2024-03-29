@@ -271,6 +271,7 @@
       "dolphinrc"."KFileDialog Settings"."Places Icons Auto-resize" = false;
       "dolphinrc"."KFileDialog Settings"."Places Icons Static Size" = 22;
       "dolphinrc"."PreviewSettings"."Plugins" = "audiothumbnail,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs";
+      "kactivitymanagerdrc"."Plugins"."org.kde.ActivityManager.VirtualDesktopSwitchEnabled" = true;
       "kactivitymanagerdrc"."activities"."09db50d0-706e-423f-a4bb-3edda1acddf4" = "Default";
       "kactivitymanagerdrc"."activities"."13c48c44-34be-46b5-b624-439c20b7a669" = "Coding";
       "kactivitymanagerdrc"."activities"."69e82d6b-6d9c-4958-a148-9a004ec4ea01" = "Office";
@@ -283,11 +284,12 @@
       "kcminputrc"."Libinput.1267.12587.ELAN050B:00 04F3:312B Touchpad"."NaturalScroll" = true;
       "kcminputrc"."Libinput.1267.12587.ELAN050B:00 04F3:312B Touchpad"."TapToClick" = true;
       "kcminputrc"."Mouse"."X11LibInputXAccelProfileFlat" = true;
+      "kcminputrc"."Mouse"."cursorTheme" = "breeze_cursors";
       "kcminputrc"."Tmp"."update_info" = "delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize";
       "kded5rc"."Module-browserintegrationreminder"."autoload" = false;
       "kded5rc"."Module-device_automounter"."autoload" = false;
       "kded5rc"."PlasmaBrowserIntegration"."shownCount" = 4;
-      "kdeglobals"."DirSelect Dialog"."DirSelectDialog Size" = "1068,512";
+      "kdeglobals"."DirSelect Dialog"."DirSelectDialog Size" = "910,512";
       "kdeglobals"."General"."AccentColor" = "148,71,45";
       "kdeglobals"."General"."AllowKDEAppsToRememberWindowPositions" = true;
       "kdeglobals"."General"."BrowserApplication" = "org.mozilla.firefox.desktop";
