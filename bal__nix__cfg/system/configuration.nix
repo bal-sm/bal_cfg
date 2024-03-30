@@ -145,7 +145,7 @@
 
   environment.systemPackages = [
     # GUI apps
-    pkgs.libsForQt5.kate
+    pkgs.kdePackages.kate
 
     # CLI apps
     pkgs.nano
