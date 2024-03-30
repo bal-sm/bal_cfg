@@ -90,7 +90,8 @@
     enable = true;
     displayManager = {
       sddm.enable = true;
-      defaultSession = "plasmawayland";
+      sddm.wayland.enable = true;
+      defaultSession = "plasma";
     };
     #desktopManager.plasma5.enable = true;
   };
