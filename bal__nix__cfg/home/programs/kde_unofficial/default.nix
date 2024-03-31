@@ -55,7 +55,6 @@
       "kwin"."Overview" = "Alt+Tab";
       "kwin"."Setup Window Shortcut" = [ ];
       "kwin"."Show Desktop" = [ ];
-      "kwin"."ShowDesktopGrid" = "Meta+Tab";
       "kwin"."Suspend Compositing" = "Alt+Shift+F12";
       "kwin"."Switch One Desktop Down" = ["Meta+S" "Meta+K"];
       "kwin"."Switch One Desktop Up" = ["Meta+I" "Meta+W"];
