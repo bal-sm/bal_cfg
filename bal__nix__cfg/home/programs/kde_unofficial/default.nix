@@ -928,7 +928,6 @@
       "kwinrc"."Effect-desktopgrid"."BorderActivate".value = 7;
       "kwinrc"."Effect-windowview"."BorderActivateAll".value = 9;
       "kwinrc"."ElectricBorders"."BottomLeft".value = "ApplicationLauncher";
-      "kwinrc"."ElectricBorders"."TopRight".value = "ShowDesktop";
       "kwinrc"."Input"."TabletMode".value = "off";
       "kwinrc"."ModifierOnlyShortcuts"."Meta".value = "";
       "kwinrc"."NightColor"."Active".value = true;
