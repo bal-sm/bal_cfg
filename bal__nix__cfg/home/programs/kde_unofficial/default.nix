@@ -335,7 +335,7 @@
       "kglobalshortcutsrc"."ksmserver"."_k_friendly_name".value = "Session Management";
       "kglobalshortcutsrc"."kwin"."_k_friendly_name".value = "KWin";
       "kglobalshortcutsrc"."mediacontrol"."_k_friendly_name".value = "Media Controller";
-      "kglobalshortcutsrc"."org_kde_powerdevil"."_k_friendly_name".value = "Power Management";
+      "kglobalshortcutsrc"."org_kde_powerdevil"."_k_friendly_name".value = "KDE Power Management System";
       "kglobalshortcutsrc"."plasmashell"."_k_friendly_name".value = "plasmashell";
       "khotkeysrc"."Data"."DataCount".value = 3;
       "khotkeysrc"."Data_1"."Comment".value = "KMenuEdit Global Shortcuts";
