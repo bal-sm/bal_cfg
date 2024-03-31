@@ -90,10 +90,13 @@
     enable = true;
     displayManager = {
       sddm.enable = true;
-      defaultSession = "plasmawayland";
+      sddm.wayland.enable = true;
+      defaultSession = "plasma";
     };
-    desktopManager.plasma5.enable = true;
+    #desktopManager.plasma5.enable = true;
   };
+
+  services.desktopManager.plasma6.enable = true;
 
   services.pipewire = {
     enable = true;
@@ -145,7 +148,7 @@
 
   environment.systemPackages = [
     # GUI apps
-    pkgs.libsForQt5.kate
+    pkgs.kdePackages.kate
 
     # CLI apps
     pkgs.nano
