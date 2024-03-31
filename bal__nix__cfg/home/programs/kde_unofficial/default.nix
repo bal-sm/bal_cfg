@@ -42,7 +42,7 @@
       "kwin"."ExposeAll" = ["Ctrl+F10" "Launch (C)"];
       "kwin"."ExposeClass" = "Ctrl+F7";
       "kwin"."ExposeClassCurrentDesktop" = [ ];
-      "kwin"."Grid View" = "Meta+G";
+      "kwin"."Grid View" = "Meta+Tab";
       "kwin"."Increase Opacity" = [ ];
       "kwin"."Kill Window" = "Meta+Ctrl+Esc";
       "kwin"."Move Tablet to Next Output" = [ ];
