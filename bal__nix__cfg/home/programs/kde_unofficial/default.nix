@@ -244,6 +244,7 @@
       "services/org.gnome.Prompt.desktop"."new-window" = [ ];
       "services/org.gnome.Prompt.desktop"."preferences" = [ ];
       "services/org.kde.dolphin.desktop"."_launch" = [ ];
+      "services/org.kde.konsole.desktop"."_launch" = [ ];
       "services/org.kde.plasma-systemmonitor.desktop"."_launch" = "Ctrl+Esc";
       "services/org.kde.spectacle.desktop"."RecordWindow" = [ ];
       "services/org.kde.spectacle.desktop"."_launch" = "Print";
