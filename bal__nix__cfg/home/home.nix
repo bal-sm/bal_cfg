@@ -62,7 +62,7 @@
     pkgs.nodePackages_latest.pyright
     pkgs.python311Packages.jedi
     pkgs.python311Packages.pipx
-    pkgs.poetry
+    #pkgs.poetry soalnya mending pake pipx
     pkgs.ruff
     pkgs.pre-commit
 
