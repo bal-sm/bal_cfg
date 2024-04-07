@@ -63,8 +63,6 @@
     pkgs.python311Packages.jedi
     pkgs.python311Packages.pipx
     #pkgs.poetry soalnya mending pake pipx
-    pkgs.ruff
-    pkgs.pre-commit
 
     # CLI/JS things
     pkgs.nodejs_20
