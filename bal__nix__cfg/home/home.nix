@@ -59,7 +59,6 @@
     #pkgs.ruff soalnya mending pre-commit / poetry langsung
     #pkgs.pre-commit soalnya ngandelin poetry dong
     pkgs.python312
-    pkgs.nodePackages_latest.pyright
     pkgs.python312Packages.pipx
     #pkgs.poetry soalnya mending pake pipx
 
