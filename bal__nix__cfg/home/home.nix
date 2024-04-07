@@ -61,7 +61,7 @@
     pkgs.python312
     pkgs.nodePackages_latest.pyright
     pkgs.python311Packages.jedi
-    pkgs.python311Packages.pipx
+    pkgs.python312Packages.pipx
     #pkgs.poetry soalnya mending pake pipx
 
     # CLI/JS things
