@@ -246,7 +246,13 @@
       "services/org.kde.dolphin.desktop"."_launch" = [ ];
       "services/org.kde.konsole.desktop"."_launch" = [ ];
       "services/org.kde.plasma-systemmonitor.desktop"."_launch" = "Ctrl+Esc";
+      "services/org.kde.spectacle.desktop"."ActiveWindowScreenShot" = [ ];
+      "services/org.kde.spectacle.desktop"."FullScreenScreenShot" = [ ];
+      "services/org.kde.spectacle.desktop"."RecordRegion" = [ ];
+      "services/org.kde.spectacle.desktop"."RecordScreen" = [ ];
       "services/org.kde.spectacle.desktop"."RecordWindow" = [ ];
+      "services/org.kde.spectacle.desktop"."RectangularRegionScreenShot" = [ ];
+      "services/org.kde.spectacle.desktop"."WindowUnderCursorScreenShot" = [ ];
       "services/org.kde.spectacle.desktop"."_launch" = "Print";
     };
     configFile = {
