@@ -937,6 +937,8 @@
       "kwinrc"."Input"."TabletMode".value = "off";
       "kwinrc"."ModifierOnlyShortcuts"."Meta".value = "";
       "kwinrc"."NightColor"."Active".value = true;
+      "kwinrc"."NightColor"."LatitudeAuto".value = "-6.71";
+      "kwinrc"."NightColor"."LongitudeAuto".value = 108.55;
       "kwinrc"."NightColor"."NightTemperature".value = 4000;
       "kwinrc"."Plugins"."kwin-system76-scheduler-integrationEnabled".value = true;
       "kwinrc"."Plugins"."kwin4_effect_translucencyEnabled".value = true;
