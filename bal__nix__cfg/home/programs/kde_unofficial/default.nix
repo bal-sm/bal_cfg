@@ -258,7 +258,6 @@
       "dolphinrc"."ExtractDialog"."1366x768 screen: Height".value = 512;
       "dolphinrc"."ExtractDialog"."1366x768 screen: Width".value = 965;
       "dolphinrc"."General"."ConfirmClosingMultipleTabs".value = false;
-      "dolphinrc"."General"."OpenExternallyCalledFolderInNewTab".value = true;
       "dolphinrc"."General"."RememberOpenedTabs".value = false;
       "dolphinrc"."KFileDialog Settings"."Places Icons Auto-resize".value = false;
       "dolphinrc"."KFileDialog Settings"."Places Icons Static Size".value = 22;
