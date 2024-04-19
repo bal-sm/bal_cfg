@@ -88,12 +88,13 @@
     # -----
 
     enable = true;
-    displayManager = {
-      sddm.enable = true;
-      sddm.wayland.enable = true;
-      defaultSession = "plasma";
-    };
     #desktopManager.plasma5.enable = true;
+  };
+
+  services.displayManager = {
+    sddm.enable = true;
+    sddm.wayland.enable = true;
+    defaultSession = "plasma";
   };
 
   services.desktopManager.plasma6.enable = true;
