@@ -157,6 +157,12 @@
     pkgs.git
     pkgs.git-lfs
     pkgs.p7zip
+
+  # Useful `podman`/'docker' development tools
+    pkgs.dive # look into docker image layers
+    pkgs.podman-tui # status of containers in the terminal
+    #pkgs.docker-compose # start group of containers for dev
+    pkgs.podman-compose # start group of containers for dev
   ];
 
   # Enable common `podman` container config files in `/etc/containers`
