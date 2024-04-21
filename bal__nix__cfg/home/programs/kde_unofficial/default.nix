@@ -246,7 +246,13 @@
       "services/org.kde.dolphin.desktop"."_launch" = [ ];
       "services/org.kde.konsole.desktop"."_launch" = [ ];
       "services/org.kde.plasma-systemmonitor.desktop"."_launch" = "Ctrl+Esc";
+      "services/org.kde.spectacle.desktop"."ActiveWindowScreenShot" = [ ];
+      "services/org.kde.spectacle.desktop"."FullScreenScreenShot" = [ ];
+      "services/org.kde.spectacle.desktop"."RecordRegion" = [ ];
+      "services/org.kde.spectacle.desktop"."RecordScreen" = [ ];
       "services/org.kde.spectacle.desktop"."RecordWindow" = [ ];
+      "services/org.kde.spectacle.desktop"."RectangularRegionScreenShot" = [ ];
+      "services/org.kde.spectacle.desktop"."WindowUnderCursorScreenShot" = [ ];
       "services/org.kde.spectacle.desktop"."_launch" = "Print";
     };
     configFile = {
@@ -258,7 +264,6 @@
       "dolphinrc"."ExtractDialog"."1366x768 screen: Height".value = 512;
       "dolphinrc"."ExtractDialog"."1366x768 screen: Width".value = 965;
       "dolphinrc"."General"."ConfirmClosingMultipleTabs".value = false;
-      "dolphinrc"."General"."OpenExternallyCalledFolderInNewTab".value = true;
       "dolphinrc"."General"."RememberOpenedTabs".value = false;
       "dolphinrc"."KFileDialog Settings"."Places Icons Auto-resize".value = false;
       "dolphinrc"."KFileDialog Settings"."Places Icons Static Size".value = 22;
@@ -914,6 +919,7 @@
       "kscreenlockerrc"."Greeter/Wallpaper/org/kde/image/General"."PreviewImage".value = "/usr/share/wallpapers/Flow/";
       "ksmserverrc"."General"."loginMode".value = "emptySession";
       "ksmserverrc"."SubSession: 09db50d0-706e-423f-a4bb-3edda1acddf4"."count".value = 0;
+      "ksmserverrc"."SubSession: 13c48c44-34be-46b5-b624-439c20b7a669"."count".value = 0;
       "ksmserverrc"."SubSession: 375f483a-12e8-4892-b192-f8526575f324"."count".value = 0;
       "ksmserverrc"."SubSession: 4ff0a233-5955-4af8-8a28-110457742fca"."count".value = 0;
       "ksmserverrc"."SubSession: 51c8a3a6-b036-46ca-878e-af33e6736bcc"."count".value = 0;
@@ -932,6 +938,8 @@
       "kwinrc"."Input"."TabletMode".value = "off";
       "kwinrc"."ModifierOnlyShortcuts"."Meta".value = "";
       "kwinrc"."NightColor"."Active".value = true;
+      "kwinrc"."NightColor"."LatitudeAuto".value = "-6.71";
+      "kwinrc"."NightColor"."LongitudeAuto".value = 108.55;
       "kwinrc"."NightColor"."NightTemperature".value = 4000;
       "kwinrc"."Plugins"."kwin-system76-scheduler-integrationEnabled".value = true;
       "kwinrc"."Plugins"."kwin4_effect_translucencyEnabled".value = true;
@@ -1065,6 +1073,8 @@
       "kwinrc"."SubSession: 09db50d0-706e-423f-a4bb-3edda1acddf4"."wmCommand3".value = "";
       "kwinrc"."SubSession: 09db50d0-706e-423f-a4bb-3edda1acddf4"."wmCommand4".value = "";
       "kwinrc"."SubSession: 09db50d0-706e-423f-a4bb-3edda1acddf4"."wmCommand5".value = "firefoxs";
+      "kwinrc"."SubSession: 13c48c44-34be-46b5-b624-439c20b7a669"."active".value = "-1";
+      "kwinrc"."SubSession: 13c48c44-34be-46b5-b624-439c20b7a669"."count".value = 0;
       "kwinrc"."SubSession: 375f483a-12e8-4892-b192-f8526575f324"."active".value = "-1";
       "kwinrc"."SubSession: 375f483a-12e8-4892-b192-f8526575f324"."count".value = 0;
       "kwinrc"."SubSession: 69e82d6b-6d9c-4958-a148-9a004ec4ea01"."active".value = "-1";
