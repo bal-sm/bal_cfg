@@ -153,6 +153,7 @@
 
     # CLI apps
     pkgs.nano
+    pkgs.nix-index
     pkgs.micro
     pkgs.git
     pkgs.git-lfs
