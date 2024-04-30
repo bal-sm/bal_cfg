@@ -188,6 +188,13 @@
   hardware.bluetooth.enable = true; # enables support for Bluetooth
   hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
 
+  # Compatibility for binaries designed for normal Linux OS (FHS)
+  # https://github.com/bal-sm/repo-for-learning/blob/develop/systems/Linux/NixOS/_tidbits/binaries_for_normal_linux_incompatibility.md
+  programs.nix-ld.enable = true;
+  programs.nix-ld.libraries = [
+    pkgs.stdenv.cc.cc.lib # `libstdc++.so.6` for `pgadmin4`
+  ];
+
   system.stateVersion = "23.11";
 
 }
