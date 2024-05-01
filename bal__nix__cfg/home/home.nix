@@ -122,7 +122,7 @@
       plugins = [
         # { name = "zsh-users/zsh-autosuggestions"; } # Simple plugin installation
         { name = "zsh-users/zsh-syntax-highlighting"; }
-        { name = "marlonrichert/zsh-autocomplete"; }
+        # { name = "marlonrichert/zsh-autocomplete"; } # ! Too big and buggy.
         { name = "agkozak/zsh-z"; }
       ];
     };
