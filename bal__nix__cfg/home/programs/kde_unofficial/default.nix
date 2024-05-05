@@ -943,8 +943,8 @@
       "kwinrc"."NightColor"."NightTemperature" = 4000;
       "kwinrc"."Plugins"."kwin-system76-scheduler-integrationEnabled" = true;
       "kwinrc"."Plugins"."kwin4_effect_translucencyEnabled" = true;
-      "kwinrc"."Plugins"."slidebackEnabled" = true;
-      "kwinrc"."Plugins"."thumbnailasideEnabled" = true;
+      "kwinrc"."Plugins"."slidebackEnabled" = false;
+      "kwinrc"."Plugins"."thumbnailasideEnabled" = false;
       "kwinrc"."ScreenEdges"."RemainActiveOnFullscreen" = true;
       "kwinrc"."SubSession: 09db50d0-706e-423f-a4bb-3edda1acddf4"."active" = "-1";
       "kwinrc"."SubSession: 09db50d0-706e-423f-a4bb-3edda1acddf4"."activities1" = "09db50d0-706e-423f-a4bb-3edda1acddf4";
