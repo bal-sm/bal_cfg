@@ -1,3 +1,5 @@
 # Updated `kde_unofficial` with latest `plasma-manager`
 # Noisy commit, cuman nambah `.value` doang
 fac73d10498c4b3dde4e5c7e304b199d2e1a3788
+# Removed `.value` suffix, again..
+c14ce79034163b4a8cb584c4cda5cbfd4b005900
