@@ -158,6 +158,7 @@
     pkgs.git
     pkgs.git-lfs
     pkgs.p7zip
+    pkgs.distrobox
 
   # Useful `podman`/'docker' development tools
     pkgs.dive # look into docker image layers
