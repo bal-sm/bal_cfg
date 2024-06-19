@@ -28,6 +28,7 @@
   }:
     let
       user = "d"; # ? mungkin ini sebenernya gak terlalu penting..
+      system = "x86_64-linux";
     in {
     # ! HINT: switch to this flake output with:
     # * `sudo nixos-rebuild switch --flake .#nixos-studio`
@@ -46,7 +47,7 @@
       #
       # Thanks to <https://www.reddit.com/r/NixOS/comments/13oat7j/comment/jl3lgqp/>.
 
-      system = "x86_64-linux";
+      inherit system;
 
       specialArgs = {
         inherit inputs self user; # ? masih gak ngerti ini teh buat apa
