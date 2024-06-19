@@ -29,6 +29,16 @@
     let
       user = "d"; # ? mungkin ini sebenernya gak terlalu penting..
       system = "x86_64-linux";
+      # To use packages from `nixpkgs-unstable`,
+      # we configure some parameters for it first
+      pkgs-unstable = import nixpkgs-unstable {
+        # Refer to the `system` parameter from
+        # the outer scope recursively
+        inherit system;
+        # To use proprietary packages, we need to allow the
+        # installation of them.
+        config.allowUnfree = true;
+      };
     in {
     # ! HINT: switch to this flake output with:
     # * `sudo nixos-rebuild switch --flake .#nixos-studio`
@@ -51,17 +61,7 @@
 
       specialArgs = {
         inherit inputs self user; # ? masih gak ngerti ini teh buat apa
-
-        # To use packages from `nixpkgs-unstable`,
-        # we configure some parameters for it first
-        pkgs-unstable = import nixpkgs-unstable {
-          # Refer to the `system` parameter from
-          # the outer scope recursively
-          inherit system;
-          # To use proprietary packages, we need to allow the
-          # installation of them.
-          config.allowUnfree = true;
-        };
+        inherit pkgs-unstable;
       };
 
       modules = [
@@ -76,7 +76,10 @@
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
           home-manager.users.d = import ./bal__nix__cfg/home/home.nix;
-          home-manager.extraSpecialArgs = {inherit inputs self user;}; # ? sama ini juga, (masih gak ngerti ini teh buat apa)
+          home-manager.extraSpecialArgs = {
+            inherit inputs self user; # ? sama ini juga, (masih gak ngerti ini teh buat apa)
+            inherit pkgs-unstable;
+          };
           home-manager.sharedModules = [ plasma-manager.homeManagerModules.plasma-manager ]; # <https://github.com/pjones/plasma-manager/issues/14>
         }
       ];
