@@ -15,7 +15,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
-  
+
   outputs = inputs @ {
     self,
     nixpkgs,
@@ -23,7 +23,7 @@
     plasma-manager,
     disko,
     ...
-  }: 
+  }:
     let
       user = "d"; # ? mungkin ini sebenernya gak terlalu penting..
     in {
