@@ -25,7 +25,7 @@
     ...
   }: 
     let
-      user = "d";
+      user = "d"; # ? mungkin ini sebenernya gak terlalu penting..
     in {
     # ! HINT: switch to this flake output with:
     # * `sudo nixos-rebuild switch --flake .#nixos-studio`
@@ -45,7 +45,7 @@
       # Thanks to <https://www.reddit.com/r/NixOS/comments/13oat7j/comment/jl3lgqp/>.
 
       system = "x86_64-linux";
-      specialArgs = {inherit inputs self user;};
+      specialArgs = {inherit inputs self user;}; # ? masih gak ngerti ini teh buat apa
       modules = [
         disko.nixosModules.disko
         ./bal__nix__cfg/system/disko-config.nix
@@ -58,10 +58,13 @@
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
           home-manager.users.d = import ./bal__nix__cfg/home/home.nix;
-          home-manager.extraSpecialArgs = {inherit inputs self user;};
+          home-manager.extraSpecialArgs = {inherit inputs self user;}; # ? sama ini juga, (masih gak ngerti ini teh buat apa)
           home-manager.sharedModules = [ plasma-manager.homeManagerModules.plasma-manager ]; # <https://github.com/pjones/plasma-manager/issues/14>
         }
       ];
     };
   };
 }
+
+# TODO: liat documentation buat masalah "?" comments, terus jadinya bisa diilangin kalau tidak penting.
+# * lakukan sebelum pake `pkgs-unstable` tea.
