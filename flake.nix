@@ -45,7 +45,7 @@
       # Thanks to <https://www.reddit.com/r/NixOS/comments/13oat7j/comment/jl3lgqp/>.
 
       system = "x86_64-linux";
-      specialArgs = {inherit inputs self user;};
+      specialArgs = {inherit inputs self user;}; # ? masih gak ngerti ini teh buat apa
       modules = [
         disko.nixosModules.disko
         ./bal__nix__cfg/system/disko-config.nix
