@@ -1,6 +1,7 @@
 {
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-24.05";
+    nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
     home-manager = {
       url = "github:nix-community/home-manager/release-24.05";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -19,6 +20,7 @@
   outputs = inputs @ {
     self,
     nixpkgs,
+    nixpkgs-unstable,
     home-manager,
     plasma-manager,
     disko,
@@ -48,6 +50,17 @@
 
       specialArgs = {
         inherit inputs self user; # ? masih gak ngerti ini teh buat apa
+
+        # To use packages from `nixpkgs-unstable`,
+        # we configure some parameters for it first
+        pkgs-unstable = import nixpkgs-unstable {
+          # Refer to the `system` parameter from
+          # the outer scope recursively
+          inherit system;
+          # To use proprietary packages, we need to allow the
+          # installation of them.
+          config.allowUnfree = true;
+        };
       };
 
       modules = [
