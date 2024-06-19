@@ -58,7 +58,7 @@
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
           home-manager.users.d = import ./bal__nix__cfg/home/home.nix;
-          home-manager.extraSpecialArgs = {inherit inputs self user;};
+          home-manager.extraSpecialArgs = {inherit inputs self user;}; # ? sama ini juga, (masih gak ngerti ini teh buat apa)
           home-manager.sharedModules = [ plasma-manager.homeManagerModules.plasma-manager ]; # <https://github.com/pjones/plasma-manager/issues/14>
         }
       ];
