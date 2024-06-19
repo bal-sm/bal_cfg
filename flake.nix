@@ -67,4 +67,5 @@
 }
 
 # TODO: liat documentation buat masalah "?" comments, terus jadinya bisa diilangin kalau tidak penting.
-# * lakukan sebelum pake `pkgs-unstable` tea.
+# // * lakukan sebelum pake `pkgs-unstable` tea.
+# * kapan-kapan aja.
