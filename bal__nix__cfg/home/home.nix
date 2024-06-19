@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, pkgs-unstable, ... }:
 
 # Update with `nix-channel --update` then `home-manager switch` to see the effects of these changes.
 
@@ -42,7 +42,7 @@
     # '')
 
     # GUI apps
-    pkgs.bottles
+    pkgs-unstable.bottles
     pkgs.insync
     pkgs.jetbrains.pycharm-professional
 

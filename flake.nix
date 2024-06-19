@@ -1,6 +1,7 @@
 {
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-24.05";
+    nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
     home-manager = {
       url = "github:nix-community/home-manager/release-24.05";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -19,6 +20,7 @@
   outputs = inputs @ {
     self,
     nixpkgs,
+    nixpkgs-unstable,
     home-manager,
     plasma-manager,
     disko,
@@ -26,6 +28,17 @@
   }:
     let
       user = "d"; # ? mungkin ini sebenernya gak terlalu penting..
+      system = "x86_64-linux";
+      # To use packages from `nixpkgs-unstable`,
+      # we configure some parameters for it first
+      pkgs-unstable = import nixpkgs-unstable {
+        # Refer to the `system` parameter from
+        # the outer scope recursively
+        inherit system;
+        # To use proprietary packages, we need to allow the
+        # installation of them.
+        config.allowUnfree = true;
+      };
     in {
     # ! HINT: switch to this flake output with:
     # * `sudo nixos-rebuild switch --flake .#nixos-studio`
@@ -44,8 +57,13 @@
       #
       # Thanks to <https://www.reddit.com/r/NixOS/comments/13oat7j/comment/jl3lgqp/>.
 
-      system = "x86_64-linux";
-      specialArgs = {inherit inputs self user;}; # ? masih gak ngerti ini teh buat apa
+      inherit system;
+
+      specialArgs = {
+        inherit inputs self user; # ? masih gak ngerti ini teh buat apa
+        inherit pkgs-unstable;
+      };
+
       modules = [
         disko.nixosModules.disko
         ./bal__nix__cfg/system/disko-config.nix
@@ -58,7 +76,10 @@
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
           home-manager.users.d = import ./bal__nix__cfg/home/home.nix;
-          home-manager.extraSpecialArgs = {inherit inputs self user;}; # ? sama ini juga, (masih gak ngerti ini teh buat apa)
+          home-manager.extraSpecialArgs = {
+            inherit inputs self user; # ? sama ini juga, (masih gak ngerti ini teh buat apa)
+            inherit pkgs-unstable;
+          };
           home-manager.sharedModules = [ plasma-manager.homeManagerModules.plasma-manager ]; # <https://github.com/pjones/plasma-manager/issues/14>
         }
       ];
@@ -67,4 +88,5 @@
 }
 
 # TODO: liat documentation buat masalah "?" comments, terus jadinya bisa diilangin kalau tidak penting.
-# * lakukan sebelum pake `pkgs-unstable` tea.
+# // * lakukan sebelum pake `pkgs-unstable` tea.
+# * kapan-kapan aja.
