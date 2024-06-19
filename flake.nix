@@ -25,7 +25,7 @@
     ...
   }: 
     let
-      user = "d";
+      user = "d"; # ? mungkin ini sebenernya gak terlalu penting..
     in {
     # ! HINT: switch to this flake output with:
     # * `sudo nixos-rebuild switch --flake .#nixos-studio`
