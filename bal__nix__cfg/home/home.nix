@@ -65,6 +65,7 @@
     # CLI/JS things
     pkgs.nodejs_20
     pkgs.bun
+    pkgs.tailwindcss # TODO: nix shell keun aja..?
 
     # CLI/Git things
     pkgs.gh
