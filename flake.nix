@@ -12,7 +12,7 @@
       inputs.home-manager.follows = "home-manager";
     };
     disko = {
-      url = "github:nix-community/disko";
+      url = "github:nix-community/disko/v1.6.1";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
