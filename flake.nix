@@ -22,6 +22,7 @@
     self,
     nixpkgs,
     nixpkgs-unstable,
+    nixpkgs-unstable-small,
     home-manager,
     plasma-manager,
     disko,
@@ -38,6 +39,11 @@
         inherit system;
         # To use proprietary packages, we need to allow the
         # installation of them.
+        config.allowUnfree = true;
+      };
+      # another variant which has faster release schedule than regular `unstable`
+      pkgs-unstable-small = import nixpkgs-unstable-small {
+        inherit system;
         config.allowUnfree = true;
       };
     in {
@@ -63,6 +69,7 @@
       specialArgs = {
         inherit inputs self user; # ? masih gak ngerti ini teh buat apa
         inherit pkgs-unstable;
+        inherit pkgs-unstable-small;
       };
 
       modules = [
@@ -80,6 +87,7 @@
           home-manager.extraSpecialArgs = {
             inherit inputs self user; # ? sama ini juga, (masih gak ngerti ini teh buat apa)
             inherit pkgs-unstable;
+            inherit pkgs-unstable-small;
           };
           home-manager.sharedModules = [ plasma-manager.homeManagerModules.plasma-manager ]; # <https://github.com/pjones/plasma-manager/issues/14>
         }
