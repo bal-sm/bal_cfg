@@ -319,7 +319,7 @@
       "kdeglobals"."KFileDialog Settings"."Speedbar Width" = 138;
       "kdeglobals"."KFileDialog Settings"."View Style" = "DetailTree";
       "kdeglobals"."KScreen"."ScaleFactor" = 1;
-      "kdeglobals"."KScreen"."ScreenScaleFactors" = "eDP\x3d1;HDMI-A-0\x3d1;";
+      "kdeglobals"."KScreen"."ScreenScaleFactors" = "eDPx3d1;HDMI-A-0x3d1;";
       "kdeglobals"."KShortcutsDialog Settings"."Dialog Size" = "600,480";
       "kdeglobals"."PreviewSettings"."MaximumRemoteSize" = 0;
       "kdeglobals"."Toolbar style"."ToolButtonStyle" = "TextBesideIcon";
