@@ -1267,7 +1267,7 @@
       "kwinrulesrc"."2"."minsizerule" = 2;
       "kwinrulesrc"."2"."position" = "286,88";
       "kwinrulesrc"."2"."positionrule" = 3;
-      "kwinrulesrc"."2"."title" = "Python Crash Course, 3rd Edition \x5bEPUB\x5d — E-book viewer";
+      "kwinrulesrc"."2"."title" = "Python Crash Course, 3rd Edition x5bEPUBx5d — E-book viewer";
       "kwinrulesrc"."2"."types" = 1;
       "kwinrulesrc"."2"."wmclass" = "calibre-ebook-viewer";
       "kwinrulesrc"."2"."wmclasscomplete" = true;
@@ -1311,7 +1311,7 @@
       "kwinrulesrc"."4"."noborder" = true;
       "kwinrulesrc"."4"."position" = "286,88";
       "kwinrulesrc"."4"."positionrule" = 3;
-      "kwinrulesrc"."4"."title" = "Python Crash Course, 3rd Edition \x5bEPUB\x5d — E-book viewer";
+      "kwinrulesrc"."4"."title" = "Python Crash Course, 3rd Edition x5bEPUBx5d — E-book viewer";
       "kwinrulesrc"."4"."types" = 1;
       "kwinrulesrc"."4"."wmclass" = "calibre-ebook-viewer calibre";
       "kwinrulesrc"."4"."wmclasscomplete" = true;
@@ -1352,7 +1352,7 @@
       "kwinrulesrc"."79255805-373c-4d48-8b56-e69686fff7fd"."minsizerule" = 2;
       "kwinrulesrc"."79255805-373c-4d48-8b56-e69686fff7fd"."position" = "286,88";
       "kwinrulesrc"."79255805-373c-4d48-8b56-e69686fff7fd"."positionrule" = 3;
-      "kwinrulesrc"."79255805-373c-4d48-8b56-e69686fff7fd"."title" = "Python Crash Course, 3rd Edition \x5bEPUB\x5d — E-book viewer";
+      "kwinrulesrc"."79255805-373c-4d48-8b56-e69686fff7fd"."title" = "Python Crash Course, 3rd Edition x5bEPUBx5d — E-book viewer";
       "kwinrulesrc"."79255805-373c-4d48-8b56-e69686fff7fd"."types" = 1;
       "kwinrulesrc"."79255805-373c-4d48-8b56-e69686fff7fd"."wmclass" = "calibre-ebook-viewer calibre";
       "kwinrulesrc"."79255805-373c-4d48-8b56-e69686fff7fd"."wmclasscomplete" = true;
