@@ -319,7 +319,7 @@
       "kdeglobals"."KFileDialog Settings"."Speedbar Width" = 138;
       "kdeglobals"."KFileDialog Settings"."View Style" = "DetailTree";
       "kdeglobals"."KScreen"."ScaleFactor" = 1;
-      "kdeglobals"."KScreen"."ScreenScaleFactors" = "eDP\x3d1;HDMI-A-0\x3d1;";
+      "kdeglobals"."KScreen"."ScreenScaleFactors" = "eDPx3d1;HDMI-A-0x3d1;";
       "kdeglobals"."KShortcutsDialog Settings"."Dialog Size" = "600,480";
       "kdeglobals"."PreviewSettings"."MaximumRemoteSize" = 0;
       "kdeglobals"."Toolbar style"."ToolButtonStyle" = "TextBesideIcon";
@@ -1003,9 +1003,11 @@
       "kwinrc"."Desktops"."BorderActivateAll" = 9;
       # some `kwinrc` `Desktops` things are deleted, 'cause it should be unique(sic, wrong).
       "kwinrc"."Effect-desktopgrid"."BorderActivate" = 7;
-      "kwinrc"."Effect-overview"."BorderActivate" = 9;
+      "kwinrc"."Effect-overview"."BorderActivate" = 3;
       "kwinrc"."Effect-windowview"."BorderActivateAll" = 9;
       "kwinrc"."ElectricBorders"."BottomLeft" = "ApplicationLauncher";
+      "kwinrc"."ElectricBorders"."TopLeft" = "ActivityManager";
+      "kwinrc"."ElectricBorders"."TopRight" = "ShowDesktop";
       "kwinrc"."Input"."TabletMode" = "off";
       "kwinrc"."ModifierOnlyShortcuts"."Meta" = "";
       "kwinrc"."NightColor"."Active" = true;
@@ -1153,7 +1155,6 @@
       "kwinrc"."SubSession: 69e82d6b-6d9c-4958-a148-9a004ec4ea01"."count" = 0;
       "kwinrc"."SubSession: dde7123e-11fc-4563-99df-a09fa3f6a17f"."active" = "-1";
       "kwinrc"."SubSession: dde7123e-11fc-4563-99df-a09fa3f6a17f"."count" = 0;
-      "kwinrc"."TabBox"."BorderActivate" = 3;
       "kwinrc"."Tiling"."padding" = 4;
       "kwinrc"."Tiling/4656e9c7-29d2-5198-aef7-e64495a298e9"."tiles" = "{\"layoutDirection\":\"horizontal\",\"tiles\":[{\"width\":0.25},{\"width\":0.5},{\"width\":0.25}]}";
       "kwinrc"."Tiling/70d0aaab-d8f3-5815-9d7f-8ec37bb76361"."tiles" = "{\"layoutDirection\":\"horizontal\",\"tiles\":[{\"width\":0.25},{\"width\":0.5},{\"width\":0.25}]}";
@@ -1189,7 +1190,7 @@
       "kwinrulesrc"."2"."minsizerule" = 2;
       "kwinrulesrc"."2"."position" = "286,88";
       "kwinrulesrc"."2"."positionrule" = 3;
-      "kwinrulesrc"."2"."title" = "Python Crash Course, 3rd Edition \x5bEPUB\x5d — E-book viewer";
+      "kwinrulesrc"."2"."title" = "Python Crash Course, 3rd Edition x5bEPUBx5d — E-book viewer";
       "kwinrulesrc"."2"."types" = 1;
       "kwinrulesrc"."2"."wmclass" = "calibre-ebook-viewer";
       "kwinrulesrc"."2"."wmclasscomplete" = true;
@@ -1233,7 +1234,7 @@
       "kwinrulesrc"."4"."noborder" = true;
       "kwinrulesrc"."4"."position" = "286,88";
       "kwinrulesrc"."4"."positionrule" = 3;
-      "kwinrulesrc"."4"."title" = "Python Crash Course, 3rd Edition \x5bEPUB\x5d — E-book viewer";
+      "kwinrulesrc"."4"."title" = "Python Crash Course, 3rd Edition x5bEPUBx5d — E-book viewer";
       "kwinrulesrc"."4"."types" = 1;
       "kwinrulesrc"."4"."wmclass" = "calibre-ebook-viewer calibre";
       "kwinrulesrc"."4"."wmclasscomplete" = true;
@@ -1274,7 +1275,7 @@
       "kwinrulesrc"."79255805-373c-4d48-8b56-e69686fff7fd"."minsizerule" = 2;
       "kwinrulesrc"."79255805-373c-4d48-8b56-e69686fff7fd"."position" = "286,88";
       "kwinrulesrc"."79255805-373c-4d48-8b56-e69686fff7fd"."positionrule" = 3;
-      "kwinrulesrc"."79255805-373c-4d48-8b56-e69686fff7fd"."title" = "Python Crash Course, 3rd Edition \x5bEPUB\x5d — E-book viewer";
+      "kwinrulesrc"."79255805-373c-4d48-8b56-e69686fff7fd"."title" = "Python Crash Course, 3rd Edition x5bEPUBx5d — E-book viewer";
       "kwinrulesrc"."79255805-373c-4d48-8b56-e69686fff7fd"."types" = 1;
       "kwinrulesrc"."79255805-373c-4d48-8b56-e69686fff7fd"."wmclass" = "calibre-ebook-viewer calibre";
       "kwinrulesrc"."79255805-373c-4d48-8b56-e69686fff7fd"."wmclasscomplete" = true;
