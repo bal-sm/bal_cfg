@@ -148,8 +148,11 @@
   };
 
   environment.systemPackages = [
-    # GUI apps
+    # KDE apps
     pkgs.kdePackages.kate
+
+    # GUI apps
+    # ...
 
     # CLI apps
     pkgs.nano
