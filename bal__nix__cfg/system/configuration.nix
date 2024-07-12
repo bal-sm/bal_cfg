@@ -150,6 +150,7 @@
   environment.systemPackages = [
     # KDE apps
     pkgs.kdePackages.kate # * soalnya zaman Plasma 5, pernah gak ke-install as default.
+    pkgs.kdePackages.qtstyleplugin-kvantum
 
     # GUI apps
     # ...
