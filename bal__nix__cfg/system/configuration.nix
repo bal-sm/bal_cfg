@@ -149,7 +149,7 @@
 
   environment.systemPackages = [
     # KDE apps
-    pkgs.kdePackages.kate
+    pkgs.kdePackages.kate # * soalnya zaman Plasma 5, pernah gak ke-install as default.
 
     # GUI apps
     # ...
