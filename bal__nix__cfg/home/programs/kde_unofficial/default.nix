@@ -1003,9 +1003,11 @@
       "kwinrc"."Desktops"."BorderActivateAll" = 9;
       # some `kwinrc` `Desktops` things are deleted, 'cause it should be unique(sic, wrong).
       "kwinrc"."Effect-desktopgrid"."BorderActivate" = 7;
-      "kwinrc"."Effect-overview"."BorderActivate" = 9;
+      "kwinrc"."Effect-overview"."BorderActivate" = 3;
       "kwinrc"."Effect-windowview"."BorderActivateAll" = 9;
       "kwinrc"."ElectricBorders"."BottomLeft" = "ApplicationLauncher";
+      "kwinrc"."ElectricBorders"."TopLeft" = "ActivityManager";
+      "kwinrc"."ElectricBorders"."TopRight" = "ShowDesktop";
       "kwinrc"."Input"."TabletMode" = "off";
       "kwinrc"."ModifierOnlyShortcuts"."Meta" = "";
       "kwinrc"."NightColor"."Active" = true;
