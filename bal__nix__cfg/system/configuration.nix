@@ -186,7 +186,15 @@
     };
   };
 
-  # skipped `xdg.portal` soalnya ada KDE.
+  xdg.portal = {
+    # * IT'S NOT ACTUALLY AUTO-ENABLED BY ENABLING KDE..
+    # * and it's actually Flatpak's thing, gak ada lagi yang make.. (I should've known.)
+    enable = true;
+    extraPortals = [
+      pkgs.kdePackages.xdg-desktop-portal-kde # * tuh tapi, `kdePackages`, weird,
+      pkgs.xdg-desktop-portal-gtk
+    ];
+  };
 
   # skipped `security.polkit` terus sama `systemd` servicenya, again, soalnya ada KDE.
 
