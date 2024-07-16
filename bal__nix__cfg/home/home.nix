@@ -45,6 +45,7 @@
     pkgs-unstable.bottles
     pkgs.insync
     pkgs.jetbrains.pycharm-professional
+    pkgs-unstable.zed-editor
 
     # CLI apps
     pkgs.trash-cli
