@@ -16,6 +16,9 @@
       url = "github:nix-community/disko/v1.6.1";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    apple-fonts = {
+      url = "github:Lyndeno/apple-fonts.nix";
+    };
   };
 
   outputs = inputs @ {
@@ -26,6 +29,7 @@
     home-manager,
     plasma-manager,
     disko,
+    apple-fonts,
     ...
   }:
     let
@@ -70,6 +74,7 @@
         inherit inputs self user; # ? masih gak ngerti ini teh buat apa
         inherit pkgs-unstable;
         inherit pkgs-unstable-small;
+        inherit apple-fonts;
       };
 
       modules = [
