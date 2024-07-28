@@ -1,7 +1,7 @@
 # <https://nixos.org/manual/nixos/unstable/options>
 # -----
 
-{ config, pkgs, pkgs-unstable, ... }: {
+{ config, pkgs, pkgs-unstable, apple-fonts, ... }: {
 
   imports = [
     ./hardware-configuration.nix
@@ -146,6 +146,16 @@
       pkgs.source-han-serif
       pkgs.source-han-sans-japanese
       pkgs.source-han-serif-japanese
+      apple-fonts.packages.${pkgs.system}.sf-pro
+      apple-fonts.packages.${pkgs.system}.sf-pro-nerd
+      apple-fonts.packages.${pkgs.system}.sf-compact
+      apple-fonts.packages.${pkgs.system}.sf-compact-nerd
+      apple-fonts.packages.${pkgs.system}.sf-mono
+      apple-fonts.packages.${pkgs.system}.sf-mono-nerd
+      apple-fonts.packages.${pkgs.system}.sf-arabic
+      apple-fonts.packages.${pkgs.system}.sf-arabic-nerd
+      apple-fonts.packages.${pkgs.system}.ny
+      apple-fonts.packages.${pkgs.system}.ny-nerd
     ];
 
     fontconfig = {
