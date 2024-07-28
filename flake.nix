@@ -16,6 +16,12 @@
       url = "github:nix-community/disko/v1.6.1";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    apple-fonts = {
+      url = "github:bal-sm/apple-fonts.nix/bal-sm-official-branch-no-nerd-fonts";
+      inputs.nixpkgs.follows = "nixpkgs";
+      # * inputs.flake-utils
+    };
+    # * flake-utils = { inputs.systems }
   };
 
   outputs = inputs @ {
@@ -26,6 +32,7 @@
     home-manager,
     plasma-manager,
     disko,
+    apple-fonts,
     ...
   }:
     let
@@ -70,6 +77,7 @@
         inherit inputs self user; # ? masih gak ngerti ini teh buat apa
         inherit pkgs-unstable;
         inherit pkgs-unstable-small;
+        inherit apple-fonts;
       };
 
       modules = [
