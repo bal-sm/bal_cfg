@@ -144,6 +144,8 @@
       pkgs.liberation_ttf
       pkgs.source-han-sans
       pkgs.source-han-serif
+      pkgs.source-han-sans-japanese
+      pkgs.source-han-serif-japanese
     ];
 
     # skipped `fontconfig` soalnya ada KDE tea.
