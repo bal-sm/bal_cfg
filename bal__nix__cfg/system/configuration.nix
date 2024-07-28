@@ -155,6 +155,7 @@
         monospace = ["JetBrainsMono Nerd Font Propo"];
         serif = ["Noto Serif" "Source Han Serif"];
         sansSerif = ["Noto Sans" "Source Han Sans"];
+        emoji = ["Noto Color Emoji"];
       };
     };
 
