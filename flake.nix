@@ -17,7 +17,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     apple-fonts = {
-      url = "github:Lyndeno/apple-fonts.nix";
+      url = "github:bal-sm/apple-fonts.nix/bal-sm-official-branch-no-nerd-fonts";
       inputs.nixpkgs.follows = "nixpkgs";
       # * inputs.flake-utils
     };
