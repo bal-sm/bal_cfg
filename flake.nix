@@ -19,7 +19,9 @@
     apple-fonts = {
       url = "github:Lyndeno/apple-fonts.nix";
       inputs.nixpkgs.follows = "nixpkgs";
+      # * inputs.flake-utils
     };
+    # * flake-utils = { inputs.systems }
   };
 
   outputs = inputs @ {
