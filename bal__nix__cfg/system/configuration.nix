@@ -148,7 +148,15 @@
       pkgs.source-han-serif-japanese
     ];
 
-    # skipped `fontconfig` soalnya ada KDE tea.
+    fontconfig = {
+      # * readded `fontconfig`.
+      enable = true;
+      defaultFonts = {
+        monospace = ["JetBrainsMono Nerd Font Propo"];
+        serif = ["Noto Serif" "Source Han Serif"];
+        sansSerif = ["Noto Sans" "Source Han Sans"];
+      };
+    };
 
   };
 
