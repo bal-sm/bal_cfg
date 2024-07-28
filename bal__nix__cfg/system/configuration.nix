@@ -141,6 +141,7 @@
       pkgs.noto-fonts-cjk
       pkgs.noto-fonts-emoji
       pkgs.font-awesome
+      pkgs.liberation_ttf
       pkgs.source-han-sans
       pkgs.source-han-serif
     ];
