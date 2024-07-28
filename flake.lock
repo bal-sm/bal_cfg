@@ -13,15 +13,16 @@
         "sf-pro": "sf-pro"
       },
       "locked": {
-        "lastModified": 1719591391,
-        "narHash": "sha256-sVTFewitXIYe5vBihbCFQGdBPdnT26kES1T05umBBnE=",
-        "owner": "Lyndeno",
+        "lastModified": 1722161257,
+        "narHash": "sha256-NjBm3US+j6/NIjchbxqjZmu8OpBP5zTPpwaJFvX3c4E=",
+        "owner": "bal-sm",
         "repo": "apple-fonts.nix",
-        "rev": "0e21619dad5b0d9ca2e050155e32448380547b06",
+        "rev": "5974fc71aa16ea0797eb3d218600b179d0f89f06",
         "type": "github"
       },
       "original": {
-        "owner": "Lyndeno",
+        "owner": "bal-sm",
+        "ref": "bal-sm-official-branch-no-nerd-fonts",
         "repo": "apple-fonts.nix",
         "type": "github"
       }
