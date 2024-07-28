@@ -139,6 +139,7 @@
       (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
       pkgs.noto-fonts
       pkgs.noto-fonts-cjk
+      pkgs.noto-fonts-emoji
       pkgs.font-awesome
       pkgs.source-han-sans
       pkgs.source-han-serif
