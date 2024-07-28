@@ -138,12 +138,26 @@
     packages = [
       (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
       pkgs.noto-fonts
+      pkgs.noto-fonts-cjk
+      pkgs.noto-fonts-emoji
       pkgs.font-awesome
+      pkgs.liberation_ttf
       pkgs.source-han-sans
       pkgs.source-han-serif
+      pkgs.source-han-sans-japanese
+      pkgs.source-han-serif-japanese
     ];
 
-    # skipped `fontconfig` soalnya ada KDE tea.
+    fontconfig = {
+      # * readded `fontconfig`.
+      enable = true;
+      defaultFonts = {
+        monospace = ["JetBrainsMono Nerd Font Propo"];
+        serif = ["Noto Serif" "Source Han Serif"];
+        sansSerif = ["Noto Sans" "Source Han Sans"];
+        emoji = ["Noto Color Emoji"];
+      };
+    };
 
   };
 
