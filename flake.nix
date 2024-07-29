@@ -98,6 +98,7 @@
             inherit pkgs-unstable-small;
           };
           home-manager.sharedModules = [ plasma-manager.homeManagerModules.plasma-manager ]; # <https://github.com/pjones/plasma-manager/issues/14>
+          home-manager.backupFileExtension = "bak-hm";
         }
       ];
     };
