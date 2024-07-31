@@ -136,7 +136,7 @@
     # -----
 
     packages = [
-      (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
+      (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" "FiraCode" ]; })
       pkgs.noto-fonts
       pkgs.noto-fonts-cjk
       pkgs.noto-fonts-emoji
@@ -152,7 +152,6 @@
       apple-fonts.packages.${pkgs.system}.sf-arabic
       apple-fonts.packages.${pkgs.system}.ny
       pkgs.fira-go
-      pkgs.fira-code
     ];
 
     fontconfig = {
