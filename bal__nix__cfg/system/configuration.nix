@@ -152,6 +152,7 @@
       apple-fonts.packages.${pkgs.system}.sf-arabic
       apple-fonts.packages.${pkgs.system}.ny
       pkgs.fira-go
+      pkgs.fira-code
     ];
 
     fontconfig = {
