@@ -175,6 +175,9 @@
 
     # GUI apps
     pkgs.libreoffice-qt6-fresh
+    # 'libreoffice' dependencies
+    pkgs.hunspell
+    pkgs.hunspellDicts.en_US
 
     # CLI apps
     pkgs.nano
