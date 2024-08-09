@@ -325,7 +325,7 @@
       "kdeglobals"."Toolbar style"."ToolButtonStyle" = "TextBesideIcon";
       "kdeglobals"."WM"."activeBackground" = "49,54,59";
       "kdeglobals"."WM"."activeBlend" = "252,252,252";
-      "kdeglobals"."WM"."activeFont" = "SF Pro Display,11,-1,5,50,0,0,0,0,0";
+      "kdeglobals"."WM"."activeFont" = "Inter Variable,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1";
       "kdeglobals"."WM"."activeForeground" = "252,252,252";
       "kdeglobals"."WM"."inactiveBackground" = "42,46,50";
       "kdeglobals"."WM"."inactiveBlend" = "161,169,177";
