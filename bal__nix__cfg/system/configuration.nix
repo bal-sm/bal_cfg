@@ -198,6 +198,7 @@
   programs.firefox = {
     enable = true;
     package = pkgs-unstable-small.firefox-devedition-bin;
+    nativeMessagingHosts.packages = [ pkgs.kdePackages.plasma-browser-integration ];
   };
 
   # Enable common `podman` container config files in `/etc/containers`
