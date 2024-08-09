@@ -193,7 +193,6 @@
     pkgs.podman-tui # status of containers in the terminal
     #pkgs.docker-compose # start group of containers for dev # ! Bad app.
     pkgs-unstable.podman-compose # start group of containers for dev
-    # * use `pipx` to install `podman-compose` instead.
   ];
 
   # Enable common `podman` container config files in `/etc/containers`
