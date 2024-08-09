@@ -1,7 +1,7 @@
 # <https://nixos.org/manual/nixos/unstable/options>
 # -----
 
-{ config, pkgs, pkgs-unstable, apple-fonts, ... }: {
+{ config, pkgs, pkgs-unstable, pkgs-unstable-small, apple-fonts, ... }: {
 
   imports = [
     ./hardware-configuration.nix
@@ -194,6 +194,11 @@
     #pkgs.docker-compose # start group of containers for dev # ! Bad app.
     pkgs-unstable.podman-compose # start group of containers for dev
   ];
+
+  programs.firefox = {
+    enable = true;
+    package = pkgs-unstable-small.firefox-devedition-bin;
+  };
 
   # Enable common `podman` container config files in `/etc/containers`
   virtualisation.containers.enable = true;
