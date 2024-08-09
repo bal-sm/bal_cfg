@@ -294,10 +294,10 @@
       "kdeglobals"."General"."XftHintStyle" = "hintslight";
       "kdeglobals"."General"."XftSubPixel" = "none";
       "kdeglobals"."General"."fixed" = "JetBrainsMono Nerd Font,11,-1,5,50,0,0,0,0,0";
-      "kdeglobals"."General"."font" = "SF Pro Text,11,-1,5,50,0,0,0,0,0";
-      "kdeglobals"."General"."menuFont" = "SF Pro Display,11,-1,5,50,0,0,0,0,0";
-      "kdeglobals"."General"."smallestReadableFont" = "SF Pro Text,9,-1,5,50,0,0,0,0,0";
-      "kdeglobals"."General"."toolBarFont" = "SF Pro Display,11,-1,5,50,0,0,0,0,0";
+      "kdeglobals"."General"."font" = "Inter Variable,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1";
+      "kdeglobals"."General"."menuFont" = "Inter Variable,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1";
+      "kdeglobals"."General"."smallestReadableFont" = "Inter Variable,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1";
+      "kdeglobals"."General"."toolBarFont" = "Inter Variable,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1";
       "kdeglobals"."KDE"."SingleClick" = false;
       "kdeglobals"."KDE"."widgetStyle" = "Breeze";
       "kdeglobals"."KFileDialog Settings"."Allow Expansion" = false;
