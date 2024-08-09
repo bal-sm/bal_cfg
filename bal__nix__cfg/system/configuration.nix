@@ -146,6 +146,7 @@
       pkgs.source-han-serif
       pkgs.source-han-sans-japanese
       pkgs.source-han-serif-japanese
+      pkgs.inter
       apple-fonts.packages.${pkgs.system}.sf-pro
       apple-fonts.packages.${pkgs.system}.sf-compact
       apple-fonts.packages.${pkgs.system}.sf-mono

@@ -294,10 +294,10 @@
       "kdeglobals"."General"."XftHintStyle" = "hintslight";
       "kdeglobals"."General"."XftSubPixel" = "none";
       "kdeglobals"."General"."fixed" = "JetBrainsMono Nerd Font,11,-1,5,50,0,0,0,0,0";
-      "kdeglobals"."General"."font" = "SF Pro Text,11,-1,5,50,0,0,0,0,0";
-      "kdeglobals"."General"."menuFont" = "SF Pro Display,11,-1,5,50,0,0,0,0,0";
-      "kdeglobals"."General"."smallestReadableFont" = "SF Pro Text,9,-1,5,50,0,0,0,0,0";
-      "kdeglobals"."General"."toolBarFont" = "SF Pro Display,11,-1,5,50,0,0,0,0,0";
+      "kdeglobals"."General"."font" = "Inter Variable,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1";
+      "kdeglobals"."General"."menuFont" = "Inter Variable,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1";
+      "kdeglobals"."General"."smallestReadableFont" = "Inter Variable,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1";
+      "kdeglobals"."General"."toolBarFont" = "Inter Variable,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1";
       "kdeglobals"."KDE"."SingleClick" = false;
       "kdeglobals"."KDE"."widgetStyle" = "Breeze";
       "kdeglobals"."KFileDialog Settings"."Allow Expansion" = false;
@@ -325,7 +325,7 @@
       "kdeglobals"."Toolbar style"."ToolButtonStyle" = "TextBesideIcon";
       "kdeglobals"."WM"."activeBackground" = "49,54,59";
       "kdeglobals"."WM"."activeBlend" = "252,252,252";
-      "kdeglobals"."WM"."activeFont" = "SF Pro Display,11,-1,5,50,0,0,0,0,0";
+      "kdeglobals"."WM"."activeFont" = "Inter Variable,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1";
       "kdeglobals"."WM"."activeForeground" = "252,252,252";
       "kdeglobals"."WM"."inactiveBackground" = "42,46,50";
       "kdeglobals"."WM"."inactiveBlend" = "161,169,177";
