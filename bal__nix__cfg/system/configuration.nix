@@ -198,7 +198,7 @@
   programs.firefox = {
     enable = true;
     package = pkgs-unstable-small.firefox-devedition-bin;
-    nativeMessagingHosts.packages = [ pkgs.kdePackages.plasma-browser-integration ];
+    #nativeMessagingHosts.packages = [ pkgs.kdePackages.plasma-browser-integration ];
     preferences = {
       "widget.use-xdg-desktop-portal.file-picker" = 1;
       "media.hardwaremediakeys.enabled" = false;
