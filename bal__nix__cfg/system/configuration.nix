@@ -188,7 +188,7 @@
     pkgs.p7zip
     pkgs.distrobox
 
-  # Useful `podman`/'docker' development tools
+    # Useful `podman`/'docker' development tools
     pkgs.dive # look into docker image layers
     pkgs.podman-tui # status of containers in the terminal
     #pkgs.docker-compose # start group of containers for dev # ! Bad app.
