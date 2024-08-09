@@ -174,7 +174,7 @@
     pkgs.kdePackages.qtstyleplugin-kvantum
 
     # GUI apps
-    # ...
+    pkgs-unstable.libreoffice-qt6-fresh
 
     # CLI apps
     pkgs.nano
