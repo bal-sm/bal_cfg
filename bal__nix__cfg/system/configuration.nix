@@ -197,7 +197,7 @@
 
   programs.firefox = {
     enable = true;
-    package = (pkgs-unstable-small.wrapFirefox (pkgs-unstable-small.firefox-devedition-bin-unwrapped.override { pipewireSupport = true;}) {});
+    package = pkgs-unstable-small.firefox-devedition-bin;
     nativeMessagingHosts.packages = [ pkgs.kdePackages.plasma-browser-integration ];
     preferences = {
       "widget.use-xdg-desktop-portal.file-picker" = 1;
