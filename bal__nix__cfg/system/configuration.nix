@@ -208,6 +208,8 @@
       "gfx.webrender.all" = true;
       "gfx.webrender.compositor" = true;
       "gfx.webrender.compositor.force-enabled" = true;
+      "media.hardware-video-decoding.enabled" = true;
+      "media.ffmpeg.vaapi.enabled" = true;
     };
   };
 
