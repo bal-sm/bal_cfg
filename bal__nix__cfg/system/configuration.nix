@@ -203,6 +203,9 @@
       "extensions.pocket.enabled" = false;
       #"media.hardwaremediakeys.enabled" = false;
       "widget.use-xdg-desktop-portal.file-picker" = 1;
+
+      # Fastfox
+      "gfx.webrender.all" = true;
     };
   };
 
