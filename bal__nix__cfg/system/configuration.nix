@@ -212,6 +212,7 @@
       "media.ffmpeg.vaapi.enabled" = true;
       "network.http.pacing.requests.enabled" = false;
       "network.ssl_tokens_cache_capacity" = 10240;
+      "browser.tabs.unloadOnLowMemory" = true;
     };
   };
 
