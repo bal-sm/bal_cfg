@@ -384,6 +384,9 @@
       # DOWNLOADS
       "browser.download.always_ask_before_handling_new_types" = true;
       #"browser.download.manager.addToRecentDocs" = false;
+
+      # PDF
+      "browser.download.open_pdf_attachments_inline" = true;
     };
   };
 
