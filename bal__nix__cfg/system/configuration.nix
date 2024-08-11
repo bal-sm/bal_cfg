@@ -373,6 +373,10 @@
       "browser.urlbar.suggest.calculator" = true;
       "browser.urlbar.unitConversion.enabled" = true;
       "browser.urlbar.trending.featureGate" = false;
+
+      # NEW TAB PAGE
+      "browser.newtabpage.activity-stream.feeds.topsites" = false;
+      "browser.newtabpage.activity-stream.feeds.section.topstories" = false;
     };
   };
 
