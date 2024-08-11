@@ -209,11 +209,6 @@
 
       # Fastfox
 
-      # WebRender
-      "gfx.webrender.all" = true;
-      "gfx.webrender.compositor" = true;
-      "gfx.webrender.compositor.force-enabled" = true;
-
       # Hardware acceleration (Force Enable for Linux)
       "media.hardware-video-decoding.enabled" = true;
       "media.ffmpeg.vaapi.enabled" = true;
@@ -396,6 +391,15 @@
       "browser.menu.showViewImageInfo" = true;
       "findbar.highlightAll" = true;
       "layout.word_select.eat_space_to_next_word" = false;
+
+      # My overrides of Fastfox
+
+      # Fastfox
+
+      # WebRender
+      "gfx.webrender.all" = true;
+      "gfx.webrender.compositor" = true;
+      "gfx.webrender.compositor.force-enabled" = true;
     };
   };
 
