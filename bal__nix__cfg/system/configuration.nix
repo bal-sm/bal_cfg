@@ -286,7 +286,11 @@
       # SAFE BROWSING
       "browser.safebrowsing.downloads.remote.enabled" = false;
 
-      # skipped MOZILLA
+      # MOZILLA
+      #"permissions.default.desktop-notification" = 2;
+      #"permissions.default.geo" = 2;
+      #"permissions.manager.defaultsUrl" = "";
+      #"webchannel.allowObject.urlWhitelist" = "";
 
       # TELEMETRY
       "datareporting.policy.dataSubmissionEnabled" = false;
