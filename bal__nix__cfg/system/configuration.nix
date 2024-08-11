@@ -214,6 +214,7 @@
       "network.ssl_tokens_cache_capacity" = 10240;
       "browser.tabs.unloadOnLowMemory" = true;
       "browser.low_commit_space_threshold_mb" = 2640; # 4 GB
+      "browser.tabs.min_inactive_duration_before_unload" = 120000; # 2 minutes
     };
   };
 
