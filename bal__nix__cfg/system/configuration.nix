@@ -201,6 +201,7 @@
     #nativeMessagingHosts.packages = [ pkgs.kdePackages.plasma-browser-integration ];
     preferences = {
       "widget.use-xdg-desktop-portal.file-picker" = 1;
+      "extensions.pocket.enabled" = false;
       #"media.hardwaremediakeys.enabled" = false;
     };
   };
