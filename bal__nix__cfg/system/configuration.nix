@@ -205,6 +205,8 @@
       "widget.use-xdg-desktop-portal.file-picker" = 1;
 
       # Fastfox
+
+      # WebRender
       "gfx.webrender.all" = true;
       "gfx.webrender.compositor" = true;
       "gfx.webrender.compositor.force-enabled" = true;
