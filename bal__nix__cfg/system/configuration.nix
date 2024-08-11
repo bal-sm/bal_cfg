@@ -217,10 +217,10 @@
       "browser.contentblocking.category" = "strict";
       "urlclassifier.trackingSkipURLs" = "*.reddit.com, *.twitter.com, *.twimg.com, *.tiktok.com";
       "urlclassifier.features.socialtracking.skipURLs" = "*.instagram.com, *.twitter.com, *.twimg.com";
-
-      # ...
+      #"network.cookie.sameSite.noneRequiresSecure" = true;
       "browser.download.start_downloads_in_tmp_dir" = true;
       "browser.helperApps.deleteTempFileOnExit" = true;
+      #"browser.uitour.enabled" = false;
       "privacy.globalprivacycontrol.enabled" = true;
 
       # OCSP & CERTS / HPKP
