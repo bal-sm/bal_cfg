@@ -362,6 +362,12 @@
       # COOKIE BANNER HANDLING
       #"cookiebanners.service.mode" = 1;
       #"cookiebanners.service.mode.privateBrowsing" = 1;
+
+      # FULLSCREEN NOTICE
+      #"full-screen-api.transition-duration.enter" = "0 0";
+      #"full-screen-api.transition-duration.leave" = "0 0";
+      #"full-screen-api.warning.delay" = -1;
+      #"full-screen-api.warning.timeout" = 0;
     };
   };
 
