@@ -318,6 +318,11 @@
       "toolkit.coverage.endpoint.base" = "";
       "browser.newtabpage.activity-stream.feeds.telemetry" = false;
       "browser.newtabpage.activity-stream.telemetry" = false;
+
+      # EXPERIMENTS
+      "app.shield.optoutstudies.enabled" = false;
+      "app.normandy.enabled" = false;
+      "app.normandy.api_url" = "";
     };
   };
 
