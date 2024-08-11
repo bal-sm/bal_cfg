@@ -221,7 +221,8 @@
 
   xdg.portal = {
     # * IT'S NOT ACTUALLY AUTO-ENABLED BY ENABLING KDE..
-    # * and it's actually Flatpak's thing, gak ada lagi yang make.. (I should've known.)
+    # * and it's actually Flatpak's thing, ~~gak ada lagi yang make~~.. (I should've known.)
+    # * native `firefox` pake loh, ternyata.
     enable = true;
     extraPortals = [
       pkgs.kdePackages.xdg-desktop-portal-kde # * tuh tapi, `kdePackages`, weird,
