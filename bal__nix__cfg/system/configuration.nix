@@ -280,6 +280,11 @@
       "signon.privateBrowsingCapture.enabled" = false;
       "network.auth.subresource-http-auth-allow" = 1;
       "editor.truncate_user_pastes" = false;
+
+      # MIXED CONTENT + CROSS-SITE
+      "security.mixed_content.block_display_content" = true;
+      "pdfjs.enableScripting" = false;
+      "extensions.postDownloadThirdPartyPrompt" = false;
     };
   };
 
