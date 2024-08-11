@@ -328,6 +328,12 @@
       "breakpad.reportURL" = "";
       "browser.tabs.crashReporting.sendReport" = false;
       "browser.crashReports.unsubmittedCheck.autoSubmit2" = false;
+
+      # DETECTION
+      #"captivedetect.canonicalURL" = "";
+      #"network.captive-portal-service.enabled" = false;
+      #"network.connectivity-service.enabled" = false;
+      #"dom.private-attribution.submission.enabled" = false;
     };
   };
 
