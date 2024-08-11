@@ -377,6 +377,9 @@
       # NEW TAB PAGE
       "browser.newtabpage.activity-stream.feeds.topsites" = false;
       "browser.newtabpage.activity-stream.feeds.section.topstories" = false;
+
+      # POCKET
+      "extensions.pocket.enabled" = false;
     };
   };
 
