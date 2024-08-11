@@ -223,6 +223,7 @@
       "browser.download.start_downloads_in_tmp_dir" = true;
       "browser.helperApps.deleteTempFileOnExit" = true;
       "privacy.globalprivacycontrol.enabled" = true;
+      "security.OCSP.enabled" = 0;
     };
   };
 
