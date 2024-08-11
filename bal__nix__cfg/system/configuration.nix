@@ -210,6 +210,7 @@
       "gfx.webrender.compositor.force-enabled" = true;
       "media.hardware-video-decoding.enabled" = true;
       "media.ffmpeg.vaapi.enabled" = true;
+      "network.http.pacing.requests.enabled" = false;
     };
   };
 
