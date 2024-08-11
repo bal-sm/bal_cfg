@@ -209,18 +209,7 @@
 
       # Fastfox
 
-      # Hardware acceleration (Force Enable for Linux)
-      "media.hardware-video-decoding.enabled" = true;
-      "media.ffmpeg.vaapi.enabled" = true;
-
-      # Network
-      "network.http.pacing.requests.enabled" = false;
-      "network.ssl_tokens_cache_capacity" = 10240;
-
-      # Memory thing (Kenapa gak default ya, weird)
-      "browser.tabs.unloadOnLowMemory" = true;
-      "browser.low_commit_space_threshold_mb" = 2640; # 4 GB
-      "browser.tabs.min_inactive_duration_before_unload" = 120000; # 2 minutes
+      # moved aja ke "My overrides .." soalnya pilih beberapa aja
 
       # Securefox
 
@@ -400,6 +389,19 @@
       "gfx.webrender.all" = true;
       "gfx.webrender.compositor" = true;
       "gfx.webrender.compositor.force-enabled" = true;
+
+      # Hardware acceleration (Force Enable for Linux)
+      "media.hardware-video-decoding.enabled" = true;
+      "media.ffmpeg.vaapi.enabled" = true;
+
+      # Network
+      "network.http.pacing.requests.enabled" = false;
+      "network.ssl_tokens_cache_capacity" = 10240;
+
+      # Memory thing (Kenapa gak default ya, weird)
+      "browser.tabs.unloadOnLowMemory" = true;
+      "browser.low_commit_space_threshold_mb" = 2640; # 4 GB
+      "browser.tabs.min_inactive_duration_before_unload" = 120000; # 2 minutes
     };
   };
 
