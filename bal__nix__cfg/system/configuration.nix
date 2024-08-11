@@ -274,6 +274,12 @@
 
       # DNS-over-HTTPS
       "network.trr.mode" = 3;
+
+      # PASSWORDS
+      "signon.formlessCapture.enabled" = false;
+      "signon.privateBrowsingCapture.enabled" = false;
+      "network.auth.subresource-http-auth-allow" = 1;
+      "editor.truncate_user_pastes" = false;
     };
   };
 
