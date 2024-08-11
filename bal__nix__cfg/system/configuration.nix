@@ -218,6 +218,8 @@
 
       # Securefox
       "browser.contentblocking.category" = "strict";
+      "urlclassifier.trackingSkipURLs" = "*.reddit.com, *.twitter.com, *.twimg.com, *.tiktok.com";
+      "urlclassifier.features.socialtracking.skipURLs" = "*.instagram.com, *.twitter.com, *.twimg.com";
     };
   };
 
