@@ -222,6 +222,7 @@
       "urlclassifier.features.socialtracking.skipURLs" = "*.instagram.com, *.twitter.com, *.twimg.com";
       "browser.download.start_downloads_in_tmp_dir" = true;
       "browser.helperApps.deleteTempFileOnExit" = true;
+      "privacy.globalprivacycontrol.enabled" = true;
     };
   };
 
