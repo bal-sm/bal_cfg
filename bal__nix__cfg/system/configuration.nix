@@ -214,6 +214,8 @@
       # Hardware acceleration (Force Enable for Linux)
       "media.hardware-video-decoding.enabled" = true;
       "media.ffmpeg.vaapi.enabled" = true;
+
+      # Network
       "network.http.pacing.requests.enabled" = false;
       "network.ssl_tokens_cache_capacity" = 10240;
       "browser.tabs.unloadOnLowMemory" = true;
