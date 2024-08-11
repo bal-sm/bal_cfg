@@ -295,6 +295,9 @@
       # WEBRTC
       "media.peerconnection.ice.proxy_only_if_behind_proxy" = true;
       "media.peerconnection.ice.default_address_only" = true;
+
+      # SAFE BROWSING
+      "browser.safebrowsing.downloads.remote.enabled" = false;
     };
   };
 
