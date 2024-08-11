@@ -224,6 +224,8 @@
       "browser.helperApps.deleteTempFileOnExit" = true;
       "privacy.globalprivacycontrol.enabled" = true;
       "security.OCSP.enabled" = 0;
+      "security.remote_settings.crlite_filters.enabled" = true;
+      "security.pki.crlite_mode" = 2;
     };
   };
 
