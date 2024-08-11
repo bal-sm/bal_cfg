@@ -349,6 +349,15 @@
       #"browser.tabs.tabmanager.enabled" = false;
       "browser.aboutConfig.showWarning" = false;
       #"browser.aboutwelcome.enabled" = false;
+
+      # THEME ADJUSTMENTS
+      "toolkit.legacyUserProfileCustomizations.stylesheets" = true;
+      "browser.compactmode.show" = true;
+      #"browser.display.focus_ring_on_anything" = true);
+      #"browser.display.focus_ring_style" = 0;
+      #"browser.display.focus_ring_width" = 0;
+      #"layout.css.prefers-color-scheme.content-override" = 2;
+      #"browser.privateWindowSeparation.enabled" = false;
     };
   };
 
