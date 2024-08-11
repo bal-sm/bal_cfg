@@ -291,6 +291,10 @@
 
       # CONTAINERS
       "privacy.userContext.ui.enabled" = true;
+
+      # WEBRTC
+      "media.peerconnection.ice.proxy_only_if_behind_proxy" = true;
+      "media.peerconnection.ice.default_address_only" = true;
     };
   };
 
