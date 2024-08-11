@@ -380,6 +380,10 @@
 
       # POCKET
       "extensions.pocket.enabled" = false;
+
+      # DOWNLOADS
+      "browser.download.always_ask_before_handling_new_types" = true;
+      #"browser.download.manager.addToRecentDocs" = false;
     };
   };
 
