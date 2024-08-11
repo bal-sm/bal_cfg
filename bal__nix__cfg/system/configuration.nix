@@ -200,7 +200,7 @@
     package = pkgs-unstable-small.firefox-devedition-bin;
     #nativeMessagingHosts.packages = [ pkgs.kdePackages.plasma-browser-integration ];
     preferences = {
-      #"media.hardwaremediakeys.enabled" = false;
+      #"media.hardwaremediakeys.enabled" = false; # Enable when `plasma-browser-integration` working again.
       "widget.use-xdg-desktop-portal.file-picker" = 1;
 
       # Fastfox
