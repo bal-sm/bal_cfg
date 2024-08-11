@@ -205,6 +205,8 @@
       #"media.hardwaremediakeys.enabled" = false; # Enable when `plasma-browser-integration` working again.
       "widget.use-xdg-desktop-portal.file-picker" = 1;
 
+      # Betterfox 128.0
+
       # Fastfox
 
       # WebRender
