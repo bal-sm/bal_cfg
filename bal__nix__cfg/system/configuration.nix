@@ -217,6 +217,8 @@
       "browser.tabs.min_inactive_duration_before_unload" = 120000; # 2 minutes
 
       # Securefox
+
+      # TRACKING PROTECTION
       "browser.contentblocking.category" = "strict";
       "urlclassifier.trackingSkipURLs" = "*.reddit.com, *.twitter.com, *.twimg.com, *.tiktok.com";
       "urlclassifier.features.socialtracking.skipURLs" = "*.instagram.com, *.twitter.com, *.twimg.com";
