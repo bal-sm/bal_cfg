@@ -226,6 +226,11 @@
       "security.OCSP.enabled" = 0;
       "security.remote_settings.crlite_filters.enabled" = true;
       "security.pki.crlite_mode" = 2;
+
+      # SSL / TLS
+      "security.ssl.treat_unsafe_negotiation_as_broken" = true;
+      "browser.xul.error_pages.expert_bad_cert" = true;
+      "security.tls.enable_0rtt_data" = false;
     };
   };
 
