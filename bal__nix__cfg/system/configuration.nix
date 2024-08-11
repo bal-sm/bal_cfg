@@ -358,6 +358,10 @@
       #"browser.display.focus_ring_width" = 0;
       #"layout.css.prefers-color-scheme.content-override" = 2;
       #"browser.privateWindowSeparation.enabled" = false;
+
+      # COOKIE BANNER HANDLING
+      #"cookiebanners.service.mode" = 1;
+      #"cookiebanners.service.mode.privateBrowsing" = 1;
     };
   };
 
