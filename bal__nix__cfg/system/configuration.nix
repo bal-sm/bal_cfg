@@ -252,6 +252,21 @@
 
       # SHUTDOWN & SANITIZING
       "privacy.history.custom" = true;
+
+      # SEARCH / URL BAR
+      "browser.urlbar.trimHttps" = true;
+      "browser.search.separatePrivateDefault.ui.enabled" = true;
+      #"browser.urlbar.update2.engineAliasRefresh" = true;
+      #"browser.search.suggest.enabled" = false;
+      #"browser.urlbar.suggest.searches" = false;
+      #"browser.urlbar.quicksuggest.enabled" = false;
+      "browser.urlbar.suggest.quicksuggest.sponsored" = false;
+      #"browser.urlbar.suggest.quicksuggest.nonsponsored" = false;
+      #"browser.urlbar.groupLabels.enabled" = false;
+      #"browser.formfill.enable" = false;
+      "security.insecure_connection_text.enabled" = true;
+      "security.insecure_connection_text.pbmode.enabled" = true;
+      "network.IDN_show_punycode" = true;
     };
   };
 
