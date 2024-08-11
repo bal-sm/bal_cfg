@@ -334,6 +334,21 @@
       #"network.captive-portal-service.enabled" = false;
       #"network.connectivity-service.enabled" = false;
       #"dom.private-attribution.submission.enabled" = false;
+
+      # PESKYFOX
+
+      # MOZILLA UI
+      "browser.privatebrowsing.vpnpromourl" = "";
+      "extensions.getAddons.showPane" = false;
+      "extensions.htmlaboutaddons.recommendations.enabled" = false;
+      "browser.discovery.enabled" = false;
+      "browser.shell.checkDefaultBrowser" = false;
+      "browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons" = false;
+      "browser.newtabpage.activity-stream.asrouter.userprefs.cfr.features" = false;
+      #"browser.preferences.moreFromMozilla" = false;
+      #"browser.tabs.tabmanager.enabled" = false;
+      "browser.aboutConfig.showWarning" = false;
+      #"browser.aboutwelcome.enabled" = false;
     };
   };
 
