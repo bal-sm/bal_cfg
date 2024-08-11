@@ -368,6 +368,11 @@
       #"full-screen-api.transition-duration.leave" = "0 0";
       #"full-screen-api.warning.delay" = -1;
       #"full-screen-api.warning.timeout" = 0;
+
+      # URL BAR
+      "browser.urlbar.suggest.calculator" = true;
+      "browser.urlbar.unitConversion.enabled" = true;
+      "browser.urlbar.trending.featureGate" = false;
     };
   };
 
