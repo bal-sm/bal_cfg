@@ -188,12 +188,11 @@
     pkgs.p7zip
     pkgs.distrobox
 
-  # Useful `podman`/'docker' development tools
+    # Useful `podman`/'docker' development tools
     pkgs.dive # look into docker image layers
     pkgs.podman-tui # status of containers in the terminal
     #pkgs.docker-compose # start group of containers for dev # ! Bad app.
     pkgs-unstable.podman-compose # start group of containers for dev
-    # * use `pipx` to install `podman-compose` instead.
   ];
 
   # Enable common `podman` container config files in `/etc/containers`
@@ -212,7 +211,8 @@
 
   xdg.portal = {
     # * IT'S NOT ACTUALLY AUTO-ENABLED BY ENABLING KDE..
-    # * and it's actually Flatpak's thing, gak ada lagi yang make.. (I should've known.)
+    # * and it's actually Flatpak's thing, ~~gak ada lagi yang make~~.. (I should've known.)
+    # * native `firefox` pake loh, ternyata.
     enable = true;
     extraPortals = [
       pkgs.kdePackages.xdg-desktop-portal-kde # * tuh tapi, `kdePackages`, weird,
