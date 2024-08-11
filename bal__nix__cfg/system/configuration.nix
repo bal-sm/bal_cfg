@@ -298,6 +298,8 @@
 
       # SAFE BROWSING
       "browser.safebrowsing.downloads.remote.enabled" = false;
+
+      # skipped MOZILLA
     };
   };
 
