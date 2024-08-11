@@ -220,6 +220,7 @@
       "browser.contentblocking.category" = "strict";
       "urlclassifier.trackingSkipURLs" = "*.reddit.com, *.twitter.com, *.twimg.com, *.tiktok.com";
       "urlclassifier.features.socialtracking.skipURLs" = "*.instagram.com, *.twitter.com, *.twimg.com";
+      "browser.download.start_downloads_in_tmp_dir" = true;
     };
   };
 
