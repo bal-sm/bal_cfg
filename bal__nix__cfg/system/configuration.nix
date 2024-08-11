@@ -240,7 +240,7 @@
 
       # DISK AVOIDANCE
       "browser.privatebrowsing.forceMediaMemoryCache" = true;
-      "browser.sessionstore.interval" = 60000;
+      "browser.sessionstore.interval" = 60000; # 1 minute
     };
   };
 
