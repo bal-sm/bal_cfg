@@ -237,6 +237,10 @@
       "security.ssl.treat_unsafe_negotiation_as_broken" = true;
       "browser.xul.error_pages.expert_bad_cert" = true;
       "security.tls.enable_0rtt_data" = false;
+
+      # DISK AVOIDANCE
+      "browser.privatebrowsing.forceMediaMemoryCache" = true;
+      "browser.sessionstore.interval" = 60000;
     };
   };
 
