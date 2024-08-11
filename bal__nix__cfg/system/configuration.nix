@@ -241,6 +241,9 @@
       # DISK AVOIDANCE
       "browser.privatebrowsing.forceMediaMemoryCache" = true;
       "browser.sessionstore.interval" = 60000; # 1 minute
+
+      # SHUTDOWN & SANITIZING
+      "privacy.history.custom" = true;
     };
   };
 
