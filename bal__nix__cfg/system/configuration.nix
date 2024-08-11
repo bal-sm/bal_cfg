@@ -223,6 +223,8 @@
       "browser.download.start_downloads_in_tmp_dir" = true;
       "browser.helperApps.deleteTempFileOnExit" = true;
       "privacy.globalprivacycontrol.enabled" = true;
+
+      # OCSP & CERTS / HPKP
       "security.OCSP.enabled" = 0;
       "security.remote_settings.crlite_filters.enabled" = true;
       "security.pki.crlite_mode" = 2;
