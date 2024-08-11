@@ -271,6 +271,9 @@
       # HTTPS-ONLY MODE
       "dom.security.https_only_mode" = true;
       "dom.security.https_only_mode_error_page_user_suggestions" = true;
+
+      # DNS-over-HTTPS
+      "network.trr.mode" = 3;
     };
   };
 
