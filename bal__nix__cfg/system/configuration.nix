@@ -206,6 +206,8 @@
 
       # Fastfox
       "gfx.webrender.all" = true;
+      "gfx.webrender.compositor" = true;
+      "gfx.webrender.compositor.force-enabled" = true;
     };
   };
 
