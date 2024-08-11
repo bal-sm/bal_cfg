@@ -268,9 +268,9 @@
       "security.insecure_connection_text.pbmode.enabled" = true;
       "network.IDN_show_punycode" = true;
 
-      # HTTPS-FIRST POLICY
-      "dom.security.https_first" = true;
-      "dom.security.https_first_schemeless" = true;
+      # HTTPS-ONLY MODE
+      "dom.security.https_only_mode" = true;
+      "dom.security.https_only_mode_error_page_user_suggestions" = true;
     };
   };
 
