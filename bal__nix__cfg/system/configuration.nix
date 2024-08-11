@@ -285,6 +285,9 @@
       "security.mixed_content.block_display_content" = true;
       "pdfjs.enableScripting" = false;
       "extensions.postDownloadThirdPartyPrompt" = false;
+
+      # HEADERS / REFERERS
+      "network.http.referer.XOriginTrimmingPolicy" = 2;
     };
   };
 
