@@ -288,6 +288,9 @@
 
       # HEADERS / REFERERS
       "network.http.referer.XOriginTrimmingPolicy" = 2;
+
+      # CONTAINERS
+      "privacy.userContext.ui.enabled" = true;
     };
   };
 
