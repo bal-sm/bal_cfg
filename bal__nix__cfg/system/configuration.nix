@@ -407,6 +407,10 @@
       "browser.low_commit_space_threshold_mb" = 2640; # 4 GB
       "browser.tabs.min_inactive_duration_before_unload" = 120000; # 2 minutes
 
+      # Peskyfox
+
+      "browser.tabs.hoverPreview.enabled" = true;
+
       # skipped Smoothfox, I like default for now.
 
       # Other
