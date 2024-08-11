@@ -210,6 +210,8 @@
       "gfx.webrender.all" = true;
       "gfx.webrender.compositor" = true;
       "gfx.webrender.compositor.force-enabled" = true;
+
+      # Hardware acceleration (Force Enable for Linux)
       "media.hardware-video-decoding.enabled" = true;
       "media.ffmpeg.vaapi.enabled" = true;
       "network.http.pacing.requests.enabled" = false;
