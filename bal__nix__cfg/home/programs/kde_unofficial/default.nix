@@ -275,12 +275,12 @@
       "kactivitymanagerdrc"."activities-icons"."13c48c44-34be-46b5-b624-439c20b7a669" = "com.visualstudio.code.oss";
       "kactivitymanagerdrc"."activities-icons"."69e82d6b-6d9c-4958-a148-9a004ec4ea01" = "org.libreoffice.LibreOffice.main";
       # Removed `kactivitymanagerdrc` `main` things
-      "kcminputrc"."Libinput/1267/12587/ELAN050B:00 04F3:312B Touchpad"."DisableWhileTyping" = false;
-      "kcminputrc"."Libinput/1267/12587/ELAN050B:00 04F3:312B Touchpad"."NaturalScroll" = true;
-      "kcminputrc"."Libinput/1267/12587/ELAN050B:00 04F3:312B Touchpad"."TapToClick" = true;
-      "kcminputrc"."Mouse"."X11LibInputXAccelProfileFlat" = true;
-      "kcminputrc"."Mouse"."cursorTheme" = "breeze_cursors";
-      "kcminputrc"."Tmp"."update_info" = "delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize";
+      # "kcminputrc"."Libinput/1267/12587/ELAN050B:00 04F3:312B Touchpad"."DisableWhileTyping" = false;
+      # "kcminputrc"."Libinput/1267/12587/ELAN050B:00 04F3:312B Touchpad"."NaturalScroll" = true;
+      # "kcminputrc"."Libinput/1267/12587/ELAN050B:00 04F3:312B Touchpad"."TapToClick" = true;
+      # "kcminputrc"."Mouse"."X11LibInputXAccelProfileFlat" = true;
+      # "kcminputrc"."Mouse"."cursorTheme" = "breeze_cursors";
+      # "kcminputrc"."Tmp"."update_info" = "delete_cursor_old_default_size.upd:DeleteCursorOldDefaultSize";
       "kded5rc"."Module-browserintegrationreminder"."autoload" = false;
       "kded5rc"."Module-device_automounter"."autoload" = false;
       "kded5rc"."PlasmaBrowserIntegration"."shownCount" = 4;
