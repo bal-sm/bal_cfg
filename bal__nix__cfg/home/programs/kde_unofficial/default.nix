@@ -290,7 +290,6 @@
       "kdeglobals"."General"."BrowserApplication" = "org.mozilla.firefox.desktop";
       "kdeglobals"."General"."LastUsedCustomAccentColor" = "148,71,45";
       "kdeglobals"."General"."TerminalApplication" = "konsole";
-      "kdeglobals"."General"."TerminalService" = "/home/d/.local/share/applications/konsole.desktop";
       "kdeglobals"."General"."XftHintStyle" = "hintslight";
       "kdeglobals"."General"."XftSubPixel" = "none";
       "kdeglobals"."General"."fixed" = "JetBrainsMono Nerd Font,11,-1,5,50,0,0,0,0,0";
