@@ -1008,7 +1008,7 @@
       "kwinrc"."ElectricBorders"."BottomLeft" = "ApplicationLauncher";
       "kwinrc"."ElectricBorders"."TopLeft" = "ActivityManager";
       "kwinrc"."ElectricBorders"."TopRight" = "ShowDesktop";
-      "kwinrc"."Input"."TabletMode" = "off";
+      # "kwinrc"."Input"."TabletMode" = "off"; # hm, TabletMode?
       "kwinrc"."ModifierOnlyShortcuts"."Meta" = "";
       # "kwinrc"."NightColor"."Active" = true;
       # "kwinrc"."NightColor"."LatitudeAuto" = "-6.71";
