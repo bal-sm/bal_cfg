@@ -1160,9 +1160,9 @@
       "kwinrc"."Tiling/70d0aaab-d8f3-5815-9d7f-8ec37bb76361"."tiles" = "{\"layoutDirection\":\"horizontal\",\"tiles\":[{\"width\":0.25},{\"width\":0.5},{\"width\":0.25}]}";
       "kwinrc"."Tiling/bfb877ba-f19d-51db-b28b-69bd2f1368a4"."tiles" = "{\"layoutDirection\":\"horizontal\",\"tiles\":[{\"width\":0.25},{\"width\":0.5},{\"width\":0.25}]}";
       "kwinrc"."Xwayland"."Scale" = 1;
-      "kwinrc"."org.kde.kdecoration2"."ButtonsOnLeft" = "MFS";
-      "kwinrc"."org/kde/kdecoration2"."ButtonsOnLeft" = "MSF";
-      "kwinrc"."org/kde/kdecoration2"."ButtonsOnRight" = "HAX";
+      # "kwinrc"."org.kde.kdecoration2"."ButtonsOnLeft" = "MFS";
+      # "kwinrc"."org/kde/kdecoration2"."ButtonsOnLeft" = "MSF";
+      # "kwinrc"."org/kde/kdecoration2"."ButtonsOnRight" = "HAX";
       # "kwinrulesrc"."0db0554c-fa78-4ad3-ba9e-c94d31bf2b23"."Description" = "Application settings for code - insiders";
       # "kwinrulesrc"."0db0554c-fa78-4ad3-ba9e-c94d31bf2b23"."activity" = "4ff0a233-5955-4af8-8a28-110457742fca";
       # "kwinrulesrc"."0db0554c-fa78-4ad3-ba9e-c94d31bf2b23"."activityrule" = 2;
