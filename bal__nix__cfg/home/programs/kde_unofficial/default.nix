@@ -290,8 +290,8 @@
       "kdeglobals"."General"."BrowserApplication" = "org.mozilla.firefox.desktop";
       "kdeglobals"."General"."LastUsedCustomAccentColor" = "148,71,45";
       "kdeglobals"."General"."TerminalApplication" = "konsole";
-      "kdeglobals"."General"."XftHintStyle" = "hintslight";
-      "kdeglobals"."General"."XftSubPixel" = "none";
+      # "kdeglobals"."General"."XftHintStyle" = "hintslight";
+      # "kdeglobals"."General"."XftSubPixel" = "none";
       "kdeglobals"."General"."fixed" = "JetBrainsMono Nerd Font,11,-1,5,50,0,0,0,0,0";
       "kdeglobals"."General"."font" = "Inter Variable,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1";
       "kdeglobals"."General"."menuFont" = "Inter Variable,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1";
