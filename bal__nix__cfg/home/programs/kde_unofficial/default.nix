@@ -996,7 +996,7 @@
       # "ksmserverrc"."SubSession: 51c8a3a6-b036-46ca-878e-af33e6736bcc"."count" = 0;
       # "ksmserverrc"."SubSession: 69e82d6b-6d9c-4958-a148-9a004ec4ea01"."count" = 0;
       # "ksmserverrc"."SubSession: dde7123e-11fc-4563-99df-a09fa3f6a17f"."count" = 0;
-      "kwalletrc"."Wallet"."First Use" = false;
+      # "kwalletrc"."Wallet"."First Use" = false;
       "kwinrc"."Compositing"."LatencyPolicy" = "Medium";
       "kwinrc"."Compositing"."WindowsBlockCompositing" = false;
       "kwinrc"."Desktops"."BorderActivate" = 3;
