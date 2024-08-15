@@ -288,7 +288,7 @@
       "kdeglobals"."General"."AccentColor" = "148,71,45";
       "kdeglobals"."General"."AllowKDEAppsToRememberWindowPositions" = true;
       "kdeglobals"."General"."BrowserApplication" = "org.mozilla.firefox.desktop";
-      "kdeglobals"."General"."LastUsedCustomAccentColor" = "148,71,45";
+      # "kdeglobals"."General"."LastUsedCustomAccentColor" = "148,71,45";
       "kdeglobals"."General"."TerminalApplication" = "konsole";
       # "kdeglobals"."General"."XftHintStyle" = "hintslight";
       # "kdeglobals"."General"."XftSubPixel" = "none";
