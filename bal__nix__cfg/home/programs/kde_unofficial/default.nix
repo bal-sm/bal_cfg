@@ -8,9 +8,9 @@
   programs.plasma = {
     enable = true;
     shortcuts = {
-      "ActivityManager"."switch-to-activity-09db50d0-706e-423f-a4bb-3edda1acddf4" = [ ];
-      "ActivityManager"."switch-to-activity-13c48c44-34be-46b5-b624-439c20b7a669" = [ ];
-      "ActivityManager"."switch-to-activity-69e82d6b-6d9c-4958-a148-9a004ec4ea01" = [ ];
+      # "ActivityManager"."switch-to-activity-09db50d0-706e-423f-a4bb-3edda1acddf4" = [ ];
+      # "ActivityManager"."switch-to-activity-13c48c44-34be-46b5-b624-439c20b7a669" = [ ];
+      # "ActivityManager"."switch-to-activity-69e82d6b-6d9c-4958-a148-9a004ec4ea01" = [ ];
       "KDE Keyboard Layout Switcher"."Switch to Last-Used Keyboard Layout" = "Meta+Alt+L";
       "KDE Keyboard Layout Switcher"."Switch to Next Keyboard Layout" = "Meta+Alt+K";
       "kaccess"."Toggle Screen Reader On and Off" = "Meta+Alt+S";
