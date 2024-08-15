@@ -963,8 +963,8 @@
       "khotkeysrc"."Shortcuts"."TipofDay\x5b$d\x5d" = "";
       "khotkeysrc"."Shortcuts"."Zoom" = "";
       "khotkeysrc"."Shortcuts"."Zoom\x5b$d\x5d" = "";
-      "khotkeysrc"."Toolbar style"."ToolButtonStyle" = "";
-      "khotkeysrc"."Toolbar style"."ToolButtonStyle\x5b$d\x5d" = "";
+      # "khotkeysrc"."Toolbar style"."ToolButtonStyle" = "";
+      # "khotkeysrc"."Toolbar style"."ToolButtonStyle\x5b$d\x5d" = "";
       "khotkeysrc"."Voice"."Shortcut" = "";
       # "khotkeysrc"."WM"."activeBackground" = "";
       # "khotkeysrc"."WM"."activeBackground\x5b$d\x5d" = "";
