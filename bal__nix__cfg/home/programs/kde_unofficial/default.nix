@@ -1010,10 +1010,10 @@
       "kwinrc"."ElectricBorders"."TopRight" = "ShowDesktop";
       "kwinrc"."Input"."TabletMode" = "off";
       "kwinrc"."ModifierOnlyShortcuts"."Meta" = "";
-      "kwinrc"."NightColor"."Active" = true;
-      "kwinrc"."NightColor"."LatitudeAuto" = "-6.71";
-      "kwinrc"."NightColor"."LongitudeAuto" = 108.55;
-      "kwinrc"."NightColor"."NightTemperature" = 4000;
+      # "kwinrc"."NightColor"."Active" = true;
+      # "kwinrc"."NightColor"."LatitudeAuto" = "-6.71";
+      # "kwinrc"."NightColor"."LongitudeAuto" = 108.55;
+      # "kwinrc"."NightColor"."NightTemperature" = 4000;
       "kwinrc"."Plugins"."cubeEnabled" = false;
       "kwinrc"."Plugins"."kwin-system76-scheduler-integrationEnabled" = true;
       "kwinrc"."Plugins"."kwin4_effect_translucencyEnabled" = true;
