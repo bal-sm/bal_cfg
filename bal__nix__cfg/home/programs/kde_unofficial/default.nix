@@ -1153,8 +1153,8 @@
       # "kwinrc"."SubSession: 375f483a-12e8-4892-b192-f8526575f324"."count" = 0;
       # "kwinrc"."SubSession: 69e82d6b-6d9c-4958-a148-9a004ec4ea01"."active" = "-1";
       # "kwinrc"."SubSession: 69e82d6b-6d9c-4958-a148-9a004ec4ea01"."count" = 0;
-      "kwinrc"."SubSession: dde7123e-11fc-4563-99df-a09fa3f6a17f"."active" = "-1";
-      "kwinrc"."SubSession: dde7123e-11fc-4563-99df-a09fa3f6a17f"."count" = 0;
+      # "kwinrc"."SubSession: dde7123e-11fc-4563-99df-a09fa3f6a17f"."active" = "-1";
+      # "kwinrc"."SubSession: dde7123e-11fc-4563-99df-a09fa3f6a17f"."count" = 0;
       "kwinrc"."Tiling"."padding" = 4;
       "kwinrc"."Tiling/4656e9c7-29d2-5198-aef7-e64495a298e9"."tiles" = "{\"layoutDirection\":\"horizontal\",\"tiles\":[{\"width\":0.25},{\"width\":0.5},{\"width\":0.25}]}";
       "kwinrc"."Tiling/70d0aaab-d8f3-5815-9d7f-8ec37bb76361"."tiles" = "{\"layoutDirection\":\"horizontal\",\"tiles\":[{\"width\":0.25},{\"width\":0.5},{\"width\":0.25}]}";
