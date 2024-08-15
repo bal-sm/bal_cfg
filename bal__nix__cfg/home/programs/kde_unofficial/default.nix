@@ -1147,8 +1147,8 @@
       # "kwinrc"."SubSession: 09db50d0-706e-423f-a4bb-3edda1acddf4"."wmCommand3" = "";
       # "kwinrc"."SubSession: 09db50d0-706e-423f-a4bb-3edda1acddf4"."wmCommand4" = "";
       # "kwinrc"."SubSession: 09db50d0-706e-423f-a4bb-3edda1acddf4"."wmCommand5" = "firefoxs";
-      "kwinrc"."SubSession: 13c48c44-34be-46b5-b624-439c20b7a669"."active" = "-1";
-      "kwinrc"."SubSession: 13c48c44-34be-46b5-b624-439c20b7a669"."count" = 0;
+      # "kwinrc"."SubSession: 13c48c44-34be-46b5-b624-439c20b7a669"."active" = "-1";
+      # "kwinrc"."SubSession: 13c48c44-34be-46b5-b624-439c20b7a669"."count" = 0;
       "kwinrc"."SubSession: 375f483a-12e8-4892-b192-f8526575f324"."active" = "-1";
       "kwinrc"."SubSession: 375f483a-12e8-4892-b192-f8526575f324"."count" = 0;
       "kwinrc"."SubSession: 69e82d6b-6d9c-4958-a148-9a004ec4ea01"."active" = "-1";
