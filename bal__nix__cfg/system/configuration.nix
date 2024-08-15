@@ -197,12 +197,12 @@
 
   programs.firefox = {
     enable = true;
-    package = pkgs-unstable-small.firefox-devedition-bin;
-    #nativeMessagingHosts.packages = [ pkgs.kdePackages.plasma-browser-integration ];
+    package = pkgs-unstable.firefox-devedition;
+    #nativeMessagingHosts.packages = [ pkgs.kdePackages.plasma-browser-integration ]; # * dupe karena auto dari KDE, kayaknya.
     preferences = {
       # My overrides
 
-      #"media.hardwaremediakeys.enabled" = false; # Enable when `plasma-browser-integration` working again.
+      "media.hardwaremediakeys.enabled" = false; # Enable when `plasma-browser-integration` working again.
       "widget.use-xdg-desktop-portal.file-picker" = 1;
 
       # Betterfox 128.0
