@@ -986,8 +986,8 @@
       "kiorc"."Executable scripts"."behaviourOnLaunch" = "alwaysAsk";
       "krunnerrc"."General"."FreeFloating" = true;
       "krunnerrc"."PlasmaRunnerManager"."migrated" = true;
-      "kscreenlockerrc"."Greeter/Wallpaper/org/kde/image/General"."Image" = "/usr/share/wallpapers/Flow/";
-      "kscreenlockerrc"."Greeter/Wallpaper/org/kde/image/General"."PreviewImage" = "/usr/share/wallpapers/Flow/";
+      # "kscreenlockerrc"."Greeter/Wallpaper/org/kde/image/General"."Image" = "/usr/share/wallpapers/Flow/";
+      # "kscreenlockerrc"."Greeter/Wallpaper/org/kde/image/General"."PreviewImage" = "/usr/share/wallpapers/Flow/";
       "ksmserverrc"."General"."loginMode" = "emptySession";
       # "ksmserverrc"."SubSession: 09db50d0-706e-423f-a4bb-3edda1acddf4"."count" = 0;
       # "ksmserverrc"."SubSession: 13c48c44-34be-46b5-b624-439c20b7a669"."count" = 0;
@@ -1308,7 +1308,7 @@
       # "kwinrulesrc"."eac1aa75-7894-4c3f-95a5-8710283848e4"."wmclass" = "vpetsettings";
       # "kwinrulesrc"."eac1aa75-7894-4c3f-95a5-8710283848e4"."wmclassmatch" = 1;
       # Removed "plasma-localerc"."Formats" things 'cause udah ada lewat `i18n.extraLocaleSettings`
-      "plasmarc"."Wallpapers"."usersWallpapers" = "/home/d/Pictures/ROG-euy-1.jpg,/home/d/Pictures/10110.jpg,/home/d/Pictures/wow_coding_from_wallpapercave.webp,/home/d/Pictures/wallpapersden.com_binary-numbers-raining_6500x3520.jpg";
+      # "plasmarc"."Wallpapers"."usersWallpapers" = "/home/d/Pictures/ROG-euy-1.jpg,/home/d/Pictures/10110.jpg,/home/d/Pictures/wow_coding_from_wallpapercave.webp,/home/d/Pictures/wallpapersden.com_binary-numbers-raining_6500x3520.jpg";
       "systemsettingsrc"."KFileDialog Settings"."detailViewIconSize" = 16;
       "systemsettingsrc"."systemsettings_sidebar_mode"."HighlightNonDefaultSettings" = true;
     };
