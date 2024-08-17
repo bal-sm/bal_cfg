@@ -987,7 +987,7 @@
       "krunnerrc"."PlasmaRunnerManager"."migrated" = true;
       # "kscreenlockerrc"."Greeter/Wallpaper/org/kde/image/General"."Image" = "/usr/share/wallpapers/Flow/";
       # "kscreenlockerrc"."Greeter/Wallpaper/org/kde/image/General"."PreviewImage" = "/usr/share/wallpapers/Flow/";
-      "ksmserverrc"."General"."loginMode" = "emptySession"; # * nanti kalo udah stabil continue session-nya, maka nyalain aja.
+      # "ksmserverrc"."General"."loginMode" = "emptySession"; # TODO: nanti kalo udah stabil continue session-nya, maka nyalain aja.
       # "ksmserverrc"."SubSession: 09db50d0-706e-423f-a4bb-3edda1acddf4"."count" = 0;
       # "ksmserverrc"."SubSession: 13c48c44-34be-46b5-b624-439c20b7a669"."count" = 0;
       # "ksmserverrc"."SubSession: 375f483a-12e8-4892-b192-f8526575f324"."count" = 0;
