@@ -1,7 +1,7 @@
 # <https://nixos.org/manual/nixos/unstable/options>
 # -----
 
-{ config, pkgs, pkgs-unstable, pkgs-unstable-small, apple-fonts, ... }: {
+{ config, pkgs, pkgs-stable, pkgs-unstable, pkgs-unstable-small, apple-fonts, ... }: {
 
   imports = [
     ./hardware-configuration.nix
@@ -180,17 +180,17 @@
     pkgs.hunspellDicts.en_US
 
     # CLI apps
-    pkgs.nano
+    pkgs-stable.nano
     pkgs.nix-index
-    pkgs.micro
-    pkgs.git
-    pkgs.git-lfs
-    pkgs.p7zip
-    pkgs.distrobox
+    pkgs-stable.micro
+    pkgs-stable.git
+    pkgs-stable.git-lfs
+    pkgs-stable.p7zip
+    pkgs-stable.distrobox
 
     # Useful `podman`/'docker' development tools
-    pkgs.dive # look into docker image layers
-    pkgs.podman-tui # status of containers in the terminal
+    pkgs-stable.dive # look into docker image layers
+    pkgs-stable.podman-tui # status of containers in the terminal
     #pkgs.docker-compose # start group of containers for dev # ! Bad app.
     pkgs-unstable.podman-compose # start group of containers for dev
   ];
