@@ -176,6 +176,10 @@
     pkgs.kdePackages.qtstyleplugin-kvantum
 
     # GUI apps
+    # --------
+
+    # `libreoffice`
+    # -------------
     pkgs.libreoffice-qt6-fresh
     # 'libreoffice' dependencies
     pkgs.hunspell
