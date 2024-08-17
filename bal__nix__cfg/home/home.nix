@@ -155,6 +155,7 @@
 
   programs.git = {
     enable = true;
+    package = pkgs.git;
     userName  = "Mahmuda";
     userEmail = "bal.mahmuda@gmail.com";
     aliases = {
