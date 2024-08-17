@@ -50,7 +50,6 @@
     # CLI apps
     pkgs-stable.trash-cli
     pkgs-stable.thefuck
-    pkgs-stable.starship
     pkgs-stable.tldr
     pkgs-stable.nushellFull
     pkgs-stable.micro
