@@ -38,7 +38,10 @@
     let
       user = "d"; # ? mungkin ini sebenernya gak terlalu penting..
       system = "x86_64-linux";
-      pkgs-stable = import pkgs;
+      pkgs-stable = import nixpkgs {
+        inherit system;
+        config.allowUnfree = true;
+      };
       # To use packages from `nixpkgs-unstable`,
       # we configure some parameters for it first
       pkgs-unstable = import nixpkgs-unstable {
