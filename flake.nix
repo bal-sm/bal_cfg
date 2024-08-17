@@ -5,7 +5,7 @@
     # nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
     nixpkgs-unstable-small.url = "github:nixos/nixpkgs/nixos-unstable-small";
     home-manager = {
-      url = "github:nix-community/home-manager/release-24.05"; # TODO: ganti ke 'unstable'
+      url = "github:nix-community/home-manager/master";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     plasma-manager = {
