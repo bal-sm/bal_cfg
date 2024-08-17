@@ -139,6 +139,7 @@
   programs.starship = {
     # https://starship.rs/installing/#nix
     enable = true;
+    package = pkgs.starship;
     # Configuration written to ~/.config/starship.toml
     settings = {
       # add_newline = false;
