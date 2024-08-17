@@ -175,6 +175,7 @@
     # --------
     pkgs.kdePackages.kate # * soalnya zaman Plasma 5, pernah gak ke-install as default.
     pkgs.kdePackages.qtstyleplugin-kvantum
+    pkgs.haruna # * video player.
 
     # GUI apps
     # --------
