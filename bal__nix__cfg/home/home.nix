@@ -1,4 +1,4 @@
-{ config, pkgs, pkgs-unstable, ... }:
+{ config, pkgs, pkgs-stable, pkgs-unstable, ... }:
 
 # Update with `nix-channel --update` then `home-manager switch` to see the effects of these changes.
 
@@ -43,18 +43,18 @@
 
     # GUI apps
     pkgs-unstable.bottles
-    pkgs.insync
-    pkgs.jetbrains.pycharm-professional
+    pkgs-stable.insync
+    pkgs-stable.jetbrains.pycharm-professional
     pkgs-unstable.zed-editor
 
     # CLI apps
-    pkgs.trash-cli
-    pkgs.thefuck
-    pkgs.starship
-    pkgs.tldr
-    pkgs.nushellFull
-    pkgs.micro
-    pkgs.gnumake
+    pkgs-stable.trash-cli
+    pkgs-stable.thefuck
+    pkgs-stable.starship
+    pkgs-stable.tldr
+    pkgs-stable.nushellFull
+    pkgs-stable.micro
+    pkgs-stable.gnumake
 
     # CLI/Python things
     #pkgs.ruff soalnya mending pre-commit / poetry langsung
@@ -64,15 +64,15 @@
     #pkgs.poetry soalnya mending pake pipx
 
     # CLI/JS things
-    pkgs.nodejs_20
-    pkgs.bun
-    pkgs.tailwindcss # TODO: nix shell keun aja..?
+    pkgs-stable.nodejs_20
+    pkgs-stable.bun
+    pkgs-stable.tailwindcss # TODO: nix shell keun aja..?
 
     # CLI/Git things
-    pkgs.gh
-    pkgs.hub
-    pkgs.lazygit
-    pkgs.git-filter-repo
+    pkgs-stable.gh
+    pkgs-stable.hub
+    pkgs-stable.lazygit
+    pkgs-stable.git-filter-repo
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
