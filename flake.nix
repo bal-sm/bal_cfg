@@ -38,6 +38,7 @@
     let
       user = "d"; # ? mungkin ini sebenernya gak terlalu penting..
       system = "x86_64-linux";
+      pkgs-stable = import pkgs
       # To use packages from `nixpkgs-unstable`,
       # we configure some parameters for it first
       pkgs-unstable = import nixpkgs-unstable {
@@ -75,6 +76,7 @@
 
       specialArgs = {
         inherit inputs self user; # ? masih gak ngerti ini teh buat apa
+        inherit pkgs-stable;
         inherit pkgs-unstable;
         inherit pkgs-unstable-small;
         inherit apple-fonts;
@@ -94,6 +96,7 @@
           home-manager.users.d = import ./bal__nix__cfg/home/home.nix;
           home-manager.extraSpecialArgs = {
             inherit inputs self user; # ? sama ini juga, (masih gak ngerti ini teh buat apa)
+            inherit pkgs-stable;
             inherit pkgs-unstable;
             inherit pkgs-unstable-small;
           };
