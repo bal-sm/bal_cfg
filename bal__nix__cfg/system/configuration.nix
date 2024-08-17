@@ -116,6 +116,7 @@
   programs.dconf.enable = true;
 
   programs.zsh.enable = true;
+  # * programs.zsh.package, gak ada.
 
   users = {
     defaultUserShell = pkgs.zsh;
