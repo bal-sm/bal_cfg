@@ -180,6 +180,12 @@
     # GUI apps
     # --------
 
+    # Multimedia players
+    # -------------
+    pkgs.celluloid
+    pkgs.smplayer
+    pkgs.mpv
+
     # `libreoffice`
     # -------------
     pkgs.libreoffice-qt6-fresh
