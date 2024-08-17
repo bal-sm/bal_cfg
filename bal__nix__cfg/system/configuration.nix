@@ -1,7 +1,7 @@
 # <https://nixos.org/manual/nixos/unstable/options>
 # -----
 
-{ config, pkgs, pkgs-unstable, pkgs-unstable-small, apple-fonts, ... }: {
+{ config, pkgs, pkgs-stable, pkgs-unstable, pkgs-unstable-small, apple-fonts, ... }: {
 
   imports = [
     ./hardware-configuration.nix
@@ -101,6 +101,7 @@
 
   services.pipewire = {
     enable = true;
+    package = pkgs.pipewire;
     alsa.enable = true;
     alsa.support32Bit = true;
     pulse.enable = true;
@@ -115,6 +116,7 @@
   programs.dconf.enable = true;
 
   programs.zsh.enable = true;
+  # * programs.zsh.package, gak ada.
 
   users = {
     defaultUserShell = pkgs.zsh;
@@ -180,19 +182,23 @@
     pkgs.hunspellDicts.en_US
 
     # CLI apps
-    pkgs.nano
+    pkgs-stable.nano
     pkgs.nix-index
-    pkgs.micro
-    pkgs.git
-    pkgs.git-lfs
-    pkgs.p7zip
-    pkgs.distrobox
+    pkgs-stable.micro
+    pkgs-stable.git
+    pkgs-stable.git-lfs
+    pkgs-stable.p7zip
+    pkgs-stable.distrobox
 
     # Useful `podman`/'docker' development tools
-    pkgs.dive # look into docker image layers
-    pkgs.podman-tui # status of containers in the terminal
+    pkgs-stable.dive # look into docker image layers
+    pkgs-stable.podman-tui # status of containers in the terminal
     #pkgs.docker-compose # start group of containers for dev # ! Bad app.
-    pkgs-unstable.podman-compose # start group of containers for dev
+    # ---
+    pkgs-unstable.podman-compose
+    # * used 'unstable', soalnya yang 'stable' buggy.
+    # TODO: ubah ke 'stable' kalo udah bener.
+    # ---
   ];
 
   programs.firefox = {
@@ -426,6 +432,7 @@
   virtualisation = {
     podman = {
       enable = true;
+      package = pkgs-stable.podman;
 
       # Create a `docker` alias for `podman`, to use it as a drop-in replacement
       dockerCompat = true;

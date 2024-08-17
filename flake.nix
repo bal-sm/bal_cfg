@@ -1,10 +1,11 @@
 {
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-24.05";
-    nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+    nixpkgs-stable.url = "github:nixos/nixpkgs/nixos-24.05";
+    # nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
     nixpkgs-unstable-small.url = "github:nixos/nixpkgs/nixos-unstable-small";
     home-manager = {
-      url = "github:nix-community/home-manager/release-24.05";
+      url = "github:nix-community/home-manager/master";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     plasma-manager = {
@@ -27,7 +28,8 @@
   outputs = inputs @ {
     self,
     nixpkgs,
-    nixpkgs-unstable,
+    nixpkgs-stable,
+    # nixpkgs-unstable,
     nixpkgs-unstable-small,
     home-manager,
     plasma-manager,
@@ -38,9 +40,13 @@
     let
       user = "d"; # ? mungkin ini sebenernya gak terlalu penting..
       system = "x86_64-linux";
+      pkgs-stable = import nixpkgs-stable {
+        inherit system;
+        config.allowUnfree = true;
+      };
       # To use packages from `nixpkgs-unstable`,
       # we configure some parameters for it first
-      pkgs-unstable = import nixpkgs-unstable {
+      pkgs-unstable = import nixpkgs {
         # Refer to the `system` parameter from
         # the outer scope recursively
         inherit system;
@@ -75,6 +81,7 @@
 
       specialArgs = {
         inherit inputs self user; # ? masih gak ngerti ini teh buat apa
+        inherit pkgs-stable;
         inherit pkgs-unstable;
         inherit pkgs-unstable-small;
         inherit apple-fonts;
@@ -94,6 +101,7 @@
           home-manager.users.d = import ./bal__nix__cfg/home/home.nix;
           home-manager.extraSpecialArgs = {
             inherit inputs self user; # ? sama ini juga, (masih gak ngerti ini teh buat apa)
+            inherit pkgs-stable;
             inherit pkgs-unstable;
             inherit pkgs-unstable-small;
           };
