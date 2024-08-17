@@ -183,6 +183,7 @@
     # Multimedia players
     # -------------
     pkgs.celluloid
+    pkgs.mpv
 
     # `libreoffice`
     # -------------
