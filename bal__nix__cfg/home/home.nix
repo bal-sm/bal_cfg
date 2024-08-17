@@ -112,7 +112,7 @@
 
   programs.zsh = {
     enable = true;
-    package = pkgs-stable.zsh
+    package = pkgs.zsh
     shellAliases = {
       ll = "ls -l";
       update = "sudo nixos-rebuild switch";
