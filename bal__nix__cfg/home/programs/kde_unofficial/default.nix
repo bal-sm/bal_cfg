@@ -212,6 +212,7 @@
       "org_kde_powerdevil"."Toggle Keyboard Backlight" = "Keyboard Light On/Off";
       "org_kde_powerdevil"."Turn Off Screen" = [ ];
       "org_kde_powerdevil"."powerProfile" = ["Battery" "Meta+B"];
+      "plasmashell"."activate application launcher" = "Meta+Z";
       "plasmashell"."activate task manager entry 1" = "Meta+1";
       "plasmashell"."activate task manager entry 10" = "Meta+0";
       "plasmashell"."activate task manager entry 2" = "Meta+2";
