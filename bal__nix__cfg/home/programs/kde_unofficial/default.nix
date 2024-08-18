@@ -102,7 +102,6 @@
       "kwin"."Switch to Screen to the Right" = [ ];
       "kwin"."Toggle Night Color" = [ ];
       "kwin"."Toggle Window Raise/Lower" = [ ];
-      "kwin"."ToggleCurrentThumbnail" = "Meta+Ctrl+T";
       "kwin"."Walk Through Desktop List" = [ ];
       "kwin"."Walk Through Desktop List (Reverse)" = [ ];
       "kwin"."Walk Through Desktops" = [ ];
