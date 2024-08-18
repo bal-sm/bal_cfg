@@ -17,7 +17,6 @@
       "kcm_touchpad"."Disable Touchpad" = "Touchpad Off";
       "kcm_touchpad"."Enable Touchpad" = "Touchpad On";
       "kcm_touchpad"."Toggle Touchpad" = ["Touchpad Toggle" "Meta+Ctrl+Zenkaku Hankaku"];
-      "khotkeys"."{d03619b6-9b3c-48cc-9d9c-a2aadb485550}" = [ ];
       "kmix"."decrease_microphone_volume" = "Microphone Volume Down";
       "kmix"."decrease_volume" = "Volume Down";
       "kmix"."decrease_volume_small" = "Shift+Volume Down";
@@ -102,7 +101,6 @@
       "kwin"."Switch to Screen to the Right" = [ ];
       "kwin"."Toggle Night Color" = [ ];
       "kwin"."Toggle Window Raise/Lower" = [ ];
-      "kwin"."ToggleCurrentThumbnail" = "Meta+Ctrl+T";
       "kwin"."Walk Through Desktop List" = [ ];
       "kwin"."Walk Through Desktop List (Reverse)" = [ ];
       "kwin"."Walk Through Desktops" = [ ];
@@ -212,6 +210,7 @@
       "org_kde_powerdevil"."Toggle Keyboard Backlight" = "Keyboard Light On/Off";
       "org_kde_powerdevil"."Turn Off Screen" = [ ];
       "org_kde_powerdevil"."powerProfile" = ["Battery" "Meta+B"];
+      "plasmashell"."activate application launcher" = "Meta+Z";
       "plasmashell"."activate task manager entry 1" = "Meta+1";
       "plasmashell"."activate task manager entry 10" = "Meta+0";
       "plasmashell"."activate task manager entry 2" = "Meta+2";
