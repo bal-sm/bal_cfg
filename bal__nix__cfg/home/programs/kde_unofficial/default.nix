@@ -7,6 +7,7 @@
 {
   programs.plasma = {
     enable = true;
+    overrideConfig = true;
     shortcuts = {
       # "ActivityManager"."switch-to-activity-09db50d0-706e-423f-a4bb-3edda1acddf4" = [ ];
       # "ActivityManager"."switch-to-activity-13c48c44-34be-46b5-b624-439c20b7a669" = [ ];
