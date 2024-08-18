@@ -17,7 +17,6 @@
       "kcm_touchpad"."Disable Touchpad" = "Touchpad Off";
       "kcm_touchpad"."Enable Touchpad" = "Touchpad On";
       "kcm_touchpad"."Toggle Touchpad" = ["Touchpad Toggle" "Meta+Ctrl+Zenkaku Hankaku"];
-      "khotkeys"."{d03619b6-9b3c-48cc-9d9c-a2aadb485550}" = [ ];
       "kmix"."decrease_microphone_volume" = "Microphone Volume Down";
       "kmix"."decrease_volume" = "Volume Down";
       "kmix"."decrease_volume_small" = "Shift+Volume Down";
