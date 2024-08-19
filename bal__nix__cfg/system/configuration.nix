@@ -81,6 +81,18 @@
   # };
   # * Disabled 'cause ada `fonts` options tea dibawah.
 
+  services.earlyoom = {
+    # * Avoid Linux locking up in low memory situations using `earlyoom`
+    # * Grabbed from <https://dataswamp.org/~solene/2022-09-28-earlyoom.html>
+    enable = true;
+    freeSwapThreshold = 2;
+    freeMemThreshold = 2;
+    extraArgs = [
+        "-g" "--avoid '^(X|plasma.*|konsole|kwin)$'"
+        "--prefer '^(electron|libreoffice|gimp)$'"
+    ];
+  };
+
   services.flatpak.enable = true;
 
   services.xserver = {
