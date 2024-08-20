@@ -88,6 +88,7 @@
     freeMemThreshold = 10; # default: 10
     freeMemKillThreshold = 7; # default: 5
     freeSwapThreshold = 10; # default: 10
+    freeSwapKillThreshold = 7; # default: 5
     extraArgs = [
         "-g" "--avoid '^(X|plasma.*|konsole|kwin)$'"
         "--prefer '^(electron|libreoffice|gimp)$'"
