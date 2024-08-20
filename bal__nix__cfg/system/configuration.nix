@@ -85,8 +85,10 @@
     # * Avoid Linux locking up in low memory situations using `earlyoom`
     # * Grabbed from <https://dataswamp.org/~solene/2022-09-28-earlyoom.html>
     enable = true;
-    freeSwapThreshold = 2;
-    freeMemThreshold = 2;
+    freeMemThreshold = 10; # default: 10
+    freeMemKillThreshold = 7; # default: 5
+    freeSwapThreshold = 10; # default: 10
+    freeSwapKillThreshold = 7; # default: 5
     extraArgs = [
         "-g" "--avoid '^(X|plasma.*|konsole|kwin)$'"
         "--prefer '^(electron|libreoffice|gimp)$'"
