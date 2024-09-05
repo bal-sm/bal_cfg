@@ -237,6 +237,8 @@
       "media.hardwaremediakeys.enabled" = false; # Enable when `plasma-browser-integration` working again.
       "widget.use-xdg-desktop-portal.file-picker" = 1;
 
+  programs.chromium.enable = true;
+
       # Betterfox 128.0
 
       # Fastfox
