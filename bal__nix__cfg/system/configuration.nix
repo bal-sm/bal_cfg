@@ -227,6 +227,12 @@
     # ---
   ];
 
+  programs.chromium = {
+    enable = true;
+    enableWidevine = true;
+    package = pkgs-unstable-small.google-chrome;
+  };
+
   # Enable common `podman` container config files in `/etc/containers`
   virtualisation.containers.enable = true;
   virtualisation = {
