@@ -17,11 +17,11 @@
       url = "github:nix-community/disko/v1.6.1";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    apple-fonts = {
-      url = "github:bal-sm/apple-fonts.nix/bal-sm-official-branch-no-nerd-fonts";
-      inputs.nixpkgs.follows = "nixpkgs";
-      # * inputs.flake-utils
-    };
+    # apple-fonts = {
+    #   url = "github:bal-sm/apple-fonts.nix/bal-sm-official-branch-no-nerd-fonts";
+    #   inputs.nixpkgs.follows = "nixpkgs";
+    #   # * inputs.flake-utils
+    # };
     # * flake-utils = { inputs.systems }
   };
 
@@ -34,7 +34,7 @@
     home-manager,
     plasma-manager,
     disko,
-    apple-fonts,
+    # * apple-fonts,
     ...
   }:
     let
@@ -84,7 +84,7 @@
         inherit pkgs-stable;
         inherit pkgs-unstable;
         inherit pkgs-unstable-small;
-        inherit apple-fonts;
+        # * inherit apple-fonts;
       };
 
       modules = [
