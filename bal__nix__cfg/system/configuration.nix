@@ -1,7 +1,7 @@
 # <https://nixos.org/manual/nixos/unstable/options>
 # -----
 
-{ config, pkgs, pkgs-stable, pkgs-unstable, pkgs-unstable-small, apple-fonts, ... }: {
+{ config, pkgs, pkgs-stable, pkgs-unstable, pkgs-unstable-small, ... }: {
 
   imports = [
     ./hardware-configuration.nix
@@ -163,11 +163,11 @@
       pkgs.source-han-sans-japanese
       pkgs.source-han-serif-japanese
       pkgs.inter
-      apple-fonts.packages.${pkgs.system}.sf-pro
-      apple-fonts.packages.${pkgs.system}.sf-compact
-      apple-fonts.packages.${pkgs.system}.sf-mono
-      apple-fonts.packages.${pkgs.system}.sf-arabic
-      apple-fonts.packages.${pkgs.system}.ny
+      # apple-fonts.packages.${pkgs.system}.sf-pro
+      # apple-fonts.packages.${pkgs.system}.sf-compact
+      # apple-fonts.packages.${pkgs.system}.sf-mono
+      # apple-fonts.packages.${pkgs.system}.sf-arabic
+      # apple-fonts.packages.${pkgs.system}.ny
       pkgs.fira-go
     ];
 
