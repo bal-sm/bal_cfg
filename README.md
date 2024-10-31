@@ -21,6 +21,9 @@ Ceuk [ieu](https://discourse.nixos.org/t/can-i-use-flakes-within-a-git-repo-with
 >
 > This sounds perfect for a local workaround.
 
+Mine:
+> jangan lupa buat `flake.lock`-nya juga.
+
 ## TODO
 
 1. Build to complete flake-ready `nix` and `NixOS` config.
