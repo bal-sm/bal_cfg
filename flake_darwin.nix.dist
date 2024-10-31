@@ -17,8 +17,6 @@
     # nixpkgs-unstable,
     nixpkgs-unstable-small,
     home-manager,
-    plasma-manager,
-    disko,
     ...
   }:
     let
