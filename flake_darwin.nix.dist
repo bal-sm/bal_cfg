@@ -20,6 +20,7 @@
     nixpkgs-stable,
     # nixpkgs-unstable,
     nixpkgs-unstable-small,
+    nix-darwin,
     home-manager,
     ...
   }:
