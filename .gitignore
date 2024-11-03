@@ -1,1 +1,3 @@
 *.code-workspace
+flake.nix
+flake.lock
