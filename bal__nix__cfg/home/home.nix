@@ -44,7 +44,7 @@
     # GUI apps
     pkgs-unstable.bottles
     pkgs-stable.insync
-    pkgs-stable.jetbrains.pycharm-professional
+    # pkgs-stable.jetbrains.pycharm-professional # * berat teuing, dan lama download-nya.
     pkgs-unstable.zed-editor
 
     # CLI apps
