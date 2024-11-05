@@ -46,6 +46,7 @@
     pkgs-stable.insync
     # pkgs-stable.jetbrains.pycharm-professional # * berat teuing, dan lama download-nya.
     pkgs-unstable.zed-editor
+    pkgs-unstable.google-chrome
 
     # CLI apps
     pkgs-stable.trash-cli
