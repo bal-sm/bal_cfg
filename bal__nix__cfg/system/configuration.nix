@@ -154,7 +154,7 @@
     packages = [
       (pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" "FiraCode" ]; })
       pkgs.noto-fonts
-      pkgs.noto-fonts-cjk
+      pkgs.noto-fonts-cjk-sans
       pkgs.noto-fonts-emoji
       pkgs.font-awesome
       pkgs.liberation_ttf
