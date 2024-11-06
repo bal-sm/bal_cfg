@@ -24,6 +24,9 @@ Ceuk [ieu](https://discourse.nixos.org/t/can-i-use-flakes-within-a-git-repo-with
 Mine:
 > jangan lupa buat `flake.lock`-nya juga.
 
+Mine:
+> gunakan `git reset` buat ngereset yang atas ini, kalo anxious gimana-gimana.
+
 ## TODO
 
 1. Build to complete flake-ready `nix` and `NixOS` config.
