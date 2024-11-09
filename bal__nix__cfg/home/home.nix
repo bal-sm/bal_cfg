@@ -59,7 +59,7 @@
     # CLI/Python things
     #pkgs.ruff soalnya mending pre-commit / poetry langsung
     #pkgs.pre-commit soalnya ngandelin poetry dong
-    pkgs-unstable.python312
+    pkgs-unstable.python313FreeThreading
     pkgs-unstable.python312Packages.pipx
     #pkgs.poetry soalnya mending pake pipx
 
