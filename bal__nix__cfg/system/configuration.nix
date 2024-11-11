@@ -210,7 +210,6 @@
     # CLI apps
     pkgs-stable.nano
     pkgs.nix-index
-    pkgs-stable.micro
     pkgs-stable.git
     pkgs-stable.git-lfs
     pkgs-stable.p7zip
