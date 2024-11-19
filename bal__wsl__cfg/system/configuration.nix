@@ -59,6 +59,21 @@
     };
   };
 
+  environment.systemPackages = [
+
+    # CLI apps
+    pkgs.nano
+    pkgs.git
+    pkgs.git-lfs
+    pkgs.p7zip
+
+    # Useful `podman`/'docker' development tools
+    pkgs.dive # look into docker image layers
+    pkgs.podman-tui # status of containers in the terminal
+    #pkgs.docker-compose # start group of containers for dev # ! Bad app.
+    pkgs.podman-compose
+  ];
+
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
   # on your system were taken. It's perfectly fine and recommended to leave
