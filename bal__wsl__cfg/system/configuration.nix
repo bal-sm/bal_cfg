@@ -11,7 +11,7 @@
   imports = [];
 
   wsl.enable = true;
-  wsl.defaultUser = "nixos";
+  wsl.defaultUser = "d";
   
   documentation.nixos.enable = true; # aing mah
 
