@@ -1,4 +1,4 @@
-{ config, pkgs, pkgs-stable, pkgs-unstable, ... }:
+{ config, pkgs, ... }:
 
 # Update with `nix-channel --update` then `home-manager switch` to see the effects of these changes.
 
@@ -40,30 +40,30 @@
     # '')
 
     # CLI apps
-    pkgs-stable.trash-cli
-    pkgs-stable.thefuck
-    pkgs-stable.tldr
-    pkgs-stable.nushellFull
-    pkgs-stable.micro
-    pkgs-stable.gnumake
+    pkgs.trash-cli
+    pkgs.thefuck
+    pkgs.tldr
+    pkgs.nushellFull
+    pkgs.micro
+    pkgs.gnumake
 
     # CLI/Python things
     #pkgs.ruff soalnya mending pre-commit / poetry langsung
     #pkgs.pre-commit soalnya ngandelin poetry dong
-    pkgs-unstable.python313FreeThreading
-    pkgs-unstable.python312Packages.pipx
+    pkgs.python313FreeThreading
+    pkgs.python312Packages.pipx
     #pkgs.poetry soalnya mending pake pipx
 
     # CLI/JS things
-    pkgs-stable.nodejs_20
-    pkgs-stable.bun
-    pkgs-stable.tailwindcss # TODO: nix shell keun aja..?
+    pkgs.nodejs_20
+    pkgs.bun
+    pkgs.tailwindcss # TODO: nix shell keun aja..?
 
     # CLI/Git things
-    pkgs-stable.gh
-    pkgs-stable.hub
-    pkgs-stable.lazygit
-    pkgs-stable.git-filter-repo
+    pkgs.gh
+    pkgs.hub
+    pkgs.lazygit
+    pkgs.git-filter-repo
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
