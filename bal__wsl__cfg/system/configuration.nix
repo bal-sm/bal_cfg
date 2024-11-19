@@ -28,6 +28,22 @@
     };
   };
 
+  i18n.supportedLocales = [ "all" ];
+
+  i18n.defaultLocale = "en_US.UTF-8";
+
+  i18n.extraLocaleSettings = {
+    LC_MESSAGES = "en_US.UTF-8";
+    LC_ADDRESS = "id_ID.UTF-8";
+    LC_MEASUREMENT = "C";
+    LC_MONETARY = "id_ID.UTF-8";
+    LC_NAME = "id_ID.UTF-8";
+    LC_NUMERIC = "id_ID.UTF-8";
+    LC_PAPER = "id_ID.UTF-8";
+    LC_TELEPHONE = "id_ID.UTF-8";
+    LC_TIME = "id_ID.UTF-8";
+  };
+
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
   # on your system were taken. It's perfectly fine and recommended to leave
