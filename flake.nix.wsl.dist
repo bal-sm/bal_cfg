@@ -35,7 +35,7 @@
           system.stateVersion = "24.05";
           wsl.enable = true;
         }
-        ./bal__nix__cfg/system/configuration.nix
+        ./bal__wsl__cfg/system/configuration.nix
         home-manager.nixosModules.home-manager
         {
           home-manager.useGlobalPkgs = true;
