@@ -1,0 +1,53 @@
+{
+  inputs = {
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nixos-wsl.url = "github:nix-community/NixOS-WSL/main";
+    home-manager = {
+      url = "github:nix-community/home-manager/master";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+  };
+
+  outputs = inputs @ {
+    self,
+    nixpkgs,
+    nixos-wsl,
+    home-manager,
+    ...
+  }:
+    let
+      user = "d";
+      system = "x86_64-linux";
+    in {
+    # ! HINT: switch to this flake output with:
+    # * `sudo nixos-rebuild switch --flake .#nixos-studio`
+    nixosConfigurations.nixos-studio = nixpkgs.lib.nixosSystem {
+
+      inherit system;
+
+      specialArgs = {
+        inherit inputs self user;
+      };
+
+      modules = [
+        nixos-wsl.nixosModules.default
+        {
+          system.stateVersion = "24.05";
+          wsl.enable = true;
+        }
+        ./bal__wsl__cfg/system/configuration.nix
+        home-manager.nixosModules.home-manager
+        {
+          home-manager.useGlobalPkgs = true;
+          home-manager.useUserPackages = true;
+          home-manager.users.d = import ./bal__wsl__cfg/home/home.nix;
+          home-manager.extraSpecialArgs = {
+            inherit inputs self user;
+          };
+          home-manager.backupFileExtension = "bak-hm";
+        }
+      ];
+    };
+  };
+}
+
