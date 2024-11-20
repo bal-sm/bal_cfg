@@ -60,7 +60,6 @@
   };
 
   environment.systemPackages = [
-
     # CLI apps
     pkgs.nano
     pkgs.git
@@ -73,21 +72,6 @@
     #pkgs.docker-compose # start group of containers for dev # ! Bad app.
     pkgs.podman-compose
   ];
-
-  # Enable common `podman` container config files in `/etc/containers`
-  virtualisation.containers.enable = true;
-  virtualisation = {
-    podman = {
-      enable = true;
-      package = pkgs.podman;
-
-      # Create a `docker` alias for `podman`, to use it as a drop-in replacement
-      dockerCompat = true;
-
-      # Required for containers under `podman-compose` to be able to talk to each other.
-      defaultNetwork.settings.dns_enabled = true;
-    };
-  };
 
   programs.nix-ld = {
     enable = true;
