@@ -44,6 +44,7 @@
         enable = true; # * defaultnya: !config.boot.isContainer . wow. liat di `search.nixos.org`.
         #useOSProber = false;
         timeoutStyle = "menu";
+        useOSProber = true;
       };
       timeout = 13;
     };
