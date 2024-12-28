@@ -229,7 +229,7 @@
 
   programs.firefox = {
     enable = true;
-    package = pkgs-unstable-small.firefox-devedition;
+    package = pkgs-unstable-small.firefox-devedition-bin;
     #nativeMessagingHosts.packages = [ pkgs.kdePackages.plasma-browser-integration ]; # * dupe karena auto dari KDE, kayaknya.
     preferences = {
       # My overrides
