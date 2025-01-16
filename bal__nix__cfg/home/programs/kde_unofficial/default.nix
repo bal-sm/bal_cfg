@@ -1293,8 +1293,8 @@
       # "kwinrulesrc"."9cf5120d-2f08-4636-b512-4e4a28ea997b"."wmclass" = "konsole org.kde.konsole";
       # "kwinrulesrc"."9cf5120d-2f08-4636-b512-4e4a28ea997b"."wmclasscomplete" = true;
       # "kwinrulesrc"."9cf5120d-2f08-4636-b512-4e4a28ea997b"."wmclassmatch" = 1;
-      "kwinrulesrc"."General"."count" = 3;
-      "kwinrulesrc"."General"."rules" = "1,2,3";
+      # "kwinrulesrc"."General"."count" = 3;
+      # "kwinrulesrc"."General"."rules" = "1,2,3";
       # "kwinrulesrc"."eac1aa75-7894-4c3f-95a5-8710283848e4"."Description" = "Window settings for vpetsettings";
       # "kwinrulesrc"."eac1aa75-7894-4c3f-95a5-8710283848e4"."clientmachine" = "localhost";
       # "kwinrulesrc"."eac1aa75-7894-4c3f-95a5-8710283848e4"."desktops" = 0;
