@@ -90,7 +90,7 @@
     freeSwapThreshold = 10; # default: 10
     freeSwapKillThreshold = 7; # default: 5
     extraArgs = [
-        "-g" "--avoid '^(X|plasma.*|konsole|kwin|wine|TS4|TS4.exe)$'"
+        "-g" "--avoid '^(X|plasma.*|konsole|kwin|wine|TS4|TS4.exe|TS4_x64|TS4_x64.exe)$'"
         "--prefer '^(electron|libreoffice|gimp)$'"
     ];
   };
