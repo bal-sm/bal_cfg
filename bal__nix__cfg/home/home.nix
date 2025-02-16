@@ -109,6 +109,7 @@
 
   # to allow install pkgs yang unfree
   # nixpkgs.config.allowUnfree = true;
+  # * disabled because ada useGlobalPkgs cenah.
 
   programs.zsh = {
     enable = true;
