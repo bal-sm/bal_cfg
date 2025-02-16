@@ -108,7 +108,7 @@
   programs.home-manager.enable = true;
 
   # to allow install pkgs yang unfree
-  nixpkgs.config.allowUnfree = true;
+  # nixpkgs.config.allowUnfree = true;
 
   programs.zsh = {
     enable = true;
