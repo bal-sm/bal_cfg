@@ -92,7 +92,7 @@
     extraArgs = [
         "-g" 
         "--avoid"
-        "'^(X|plasma.*|konsole|kwin|wine|TS4|TS4.exe|TS4_x64|TS4_x64.exe)$'"
+        "'^(X|plasma.*|konsole|kwin|wine|TS4.*)$'"
         "--prefer"
         "'^(electron|libreoffice|gimp)$'"
     ];
