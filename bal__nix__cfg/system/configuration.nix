@@ -94,7 +94,7 @@
         "--avoid"
         "'^(X|plasma.*|konsole|kwin|wine|TS4.*)$'"
         "--prefer"
-        "'^(electron|libreoffice|gimp|firefox.*)$'"
+        "'^(electron|libreoffice|gimp|firefox.*|code.*)$'"
     ];
   };
 
