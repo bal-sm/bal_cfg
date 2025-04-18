@@ -428,9 +428,9 @@
       # Fastfox
 
       # WebRender
-      "gfx.webrender.all" = true;
-      "gfx.webrender.compositor" = true;
-      "gfx.webrender.compositor.force-enabled" = true;
+      #"gfx.webrender.all" = true;
+      #"gfx.webrender.compositor" = true;
+      #"gfx.webrender.compositor.force-enabled" = true;
 
       # Hardware acceleration (Force Enable for Linux)
       "media.hardware-video-decoding.enabled" = true;
