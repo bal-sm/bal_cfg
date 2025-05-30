@@ -126,6 +126,14 @@
     #jack.enable = true;
   };
 
+  services.printing = {
+    enable = true;
+    drivers = [
+      pkgs.gutenprint
+      pkgs.gutenprintBin
+    ];
+  };
+
   # rtkit is optional for `pipewire` but recommended, cenah
   security.rtkit.enable = true;
 
