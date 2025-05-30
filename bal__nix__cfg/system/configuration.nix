@@ -126,6 +126,8 @@
     #jack.enable = true;
   };
 
+  services.printing.enable = true;
+
   # rtkit is optional for `pipewire` but recommended, cenah
   security.rtkit.enable = true;
 
