@@ -213,7 +213,7 @@
     # -------------
     #pkgs.celluloid # * takes too long to build..
     #pkgs.smplayer # * weird UI.
-    pkgs.mpv
+    #pkgs.mpv # * udah we pake `flatpak`-nya aja.
 
     # `libreoffice`
     # -------------
