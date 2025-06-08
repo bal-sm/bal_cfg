@@ -204,7 +204,7 @@
     pkgs.kdePackages.kate # * soalnya zaman Plasma 5, pernah gak ke-install as default.
     pkgs.kdePackages.qtstyleplugin-kvantum
     pkgs.kdePackages.partitionmanager
-    pkgs.haruna # * video player.
+    #pkgs.haruna # * video player. # * takes too long to build..
 
     # GUI apps
     # --------
