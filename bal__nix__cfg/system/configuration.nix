@@ -211,7 +211,7 @@
 
     # Multimedia players
     # -------------
-    pkgs.celluloid
+    #pkgs.celluloid # * takes too long to build..
     pkgs.smplayer
     pkgs.mpv
 
