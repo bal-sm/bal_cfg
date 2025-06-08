@@ -212,7 +212,7 @@
     # Multimedia players
     # -------------
     #pkgs.celluloid # * takes too long to build..
-    pkgs.smplayer
+    #pkgs.smplayer # * weird UI.
     pkgs.mpv
 
     # `libreoffice`
