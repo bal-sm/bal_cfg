@@ -205,6 +205,7 @@
     pkgs.kdePackages.qtstyleplugin-kvantum
     pkgs.kdePackages.partitionmanager
     #pkgs.haruna # * video player. # * takes too long to build..
+    pkgs.kdePackages.kio-admin
 
     # GUI apps
     # --------
