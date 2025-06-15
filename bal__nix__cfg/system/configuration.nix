@@ -211,6 +211,7 @@
     # ----------
 
     pkgs.nautilus # * File manager for GNOME.
+    pkgs.gnome-terminal # * Terminal for GNOME.
 
     # GUI apps
     # --------
