@@ -210,7 +210,7 @@
     # GNOME apps
     # ----------
 
-    pkgs.nautilus # * File manager for GNOME.
+    #pkgs.nautilus # * File manager for GNOME.
     pkgs.loupe # * Simple image viewer application written with GTK4 and Rust.
     pkgs.gnome-text-editor # * Text Editor for GNOME.
     pkgs.evince # * GNOME's document viewer.
