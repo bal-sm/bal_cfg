@@ -211,7 +211,6 @@
     # ----------
 
     pkgs.nautilus # * File manager for GNOME.
-    pkgs.gnome-terminal # * Terminal for GNOME.
     pkgs.loupe # * Simple image viewer application written with GTK4 and Rust.
     pkgs.gnome-text-editor # * Text Editor for GNOME.
     pkgs.evince # * GNOME's document viewer.
