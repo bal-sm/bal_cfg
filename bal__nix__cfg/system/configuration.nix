@@ -240,6 +240,9 @@
     # * used 'unstable', soalnya yang 'stable' buggy.
     # TODO: ubah ke 'stable' kalo udah bener.
     # ---
+
+    # Other apps
+    pkgs-unstable.adw-gtk3 # Unofficial GTK 3 port of libadwaita
   ];
 
   programs.firefox = {
