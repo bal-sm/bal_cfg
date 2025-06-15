@@ -207,6 +207,11 @@
     #pkgs.haruna # * video player. # * takes too long to build..
     pkgs.kdePackages.kio-admin
 
+    # GNOME apps
+    # ----------
+
+    pkgs.nautilus # * File manager for GNOME.
+
     # GUI apps
     # --------
 
