@@ -207,6 +207,14 @@
     #pkgs.haruna # * video player. # * takes too long to build..
     pkgs.kdePackages.kio-admin
 
+    # GNOME apps
+    # ----------
+
+    #pkgs.nautilus # * File manager for GNOME.
+    pkgs.loupe # * Simple image viewer application written with GTK4 and Rust.
+    pkgs.gnome-text-editor # * Text Editor for GNOME.
+    pkgs.evince # * GNOME's document viewer.
+
     # GUI apps
     # --------
 
@@ -240,6 +248,10 @@
     # * used 'unstable', soalnya yang 'stable' buggy.
     # TODO: ubah ke 'stable' kalo udah bener.
     # ---
+
+    # Other apps
+    pkgs-unstable.adw-gtk3 # Unofficial GTK 3 port of libadwaita
+    pkgs.xfce.thunar # * Xfce file manager.
   ];
 
   programs.firefox = {
