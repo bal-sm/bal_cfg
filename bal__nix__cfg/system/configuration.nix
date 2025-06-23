@@ -251,7 +251,7 @@
 
     # Other apps
     pkgs-unstable.adw-gtk3 # Unofficial GTK 3 port of libadwaita
-    pkgs.xfce.thunar # * Xfce file manager.
+    #pkgs.xfce.thunar # * Xfce file manager.
   ];
 
   programs.firefox = {
