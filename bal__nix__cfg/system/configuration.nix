@@ -143,6 +143,17 @@
   programs.zsh.enable = true;
   # * programs.zsh.package, gak ada.
 
+  # * replace `sudo` with `sudo-rs`
+  # -------------------------------
+  security = {
+    sudo.enable = false;
+    sudo-rs = {
+      enable = true;
+      execWheelOnly = true;
+      wheelNeedsPassword = true;
+    };
+  };
+
   users = {
     defaultUserShell = pkgs.zsh;
     users.d = {
