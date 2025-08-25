@@ -53,7 +53,6 @@
     pkgs-stable.thefuck
     pkgs-stable.tldr
     pkgs-stable.nushellFull
-    pkgs-stable.micro
     pkgs-stable.gnumake
 
     # CLI/Python things
