@@ -53,7 +53,7 @@
     hostName = "bal-frame-work-13";
     networkmanager.enable = true;
     enableIPv6 = false;
-    firewall.enable = false;
+    firewall.enable = false; # TODO, sama mama: - [ ] enable this.
   };
 
   time.timeZone = "Asia/Jakarta";
