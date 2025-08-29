@@ -216,6 +216,7 @@
     pkgs.kdePackages.qtstyleplugin-kvantum
     pkgs.kdePackages.partitionmanager
     #pkgs.haruna # * video player. # * takes too long to build..
+    pkgs.kdePackages.kio-fuse # * to mount remote file systems via 'FUSE'
     pkgs.kdePackages.kio-admin
 
     # GNOME apps
