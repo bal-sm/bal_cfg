@@ -218,6 +218,7 @@
     #pkgs.haruna # * video player. # * takes too long to build..
     pkgs.kdePackages.kio-fuse # * to mount remote file systems via 'FUSE'
     pkgs.kdePackages.kio-admin
+    pkgs.kdePackages.kio-extras # * extra protocols support ('sftp', 'fish' and more)
 
     # GNOME apps
     # ----------
