@@ -53,7 +53,7 @@
     hostName = "bal-frame-work-13";
     networkmanager.enable = true;
     enableIPv6 = false;
-    firewall.enable = false;
+    firewall.enable = false; # TODO, sama mama: - [ ] enable this.
   };
 
   time.timeZone = "Asia/Jakarta";
@@ -133,6 +133,8 @@
       pkgs.gutenprintBin
     ];
   };
+
+  services.openssh.enable = false; # TODO, sama mama: - [ ] enable this.
 
   # rtkit is optional for `pipewire` but recommended, cenah
   security.rtkit.enable = true;
@@ -216,7 +218,9 @@
     pkgs.kdePackages.qtstyleplugin-kvantum
     pkgs.kdePackages.partitionmanager
     #pkgs.haruna # * video player. # * takes too long to build..
+    pkgs.kdePackages.kio-fuse # * to mount remote file systems via 'FUSE'
     pkgs.kdePackages.kio-admin
+    pkgs.kdePackages.kio-extras # * extra protocols support ('sftp', 'fish' and more)
 
     # GNOME apps
     # ----------
