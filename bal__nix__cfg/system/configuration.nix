@@ -134,6 +134,8 @@
     ];
   };
 
+  services.openssh.enable = false; # TODO, sama mama: - [ ] enable this.
+
   # rtkit is optional for `pipewire` but recommended, cenah
   security.rtkit.enable = true;
 
