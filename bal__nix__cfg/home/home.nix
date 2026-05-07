@@ -51,7 +51,7 @@
     pkgs-stable.trash-cli
     # pkgs-stable.thefuck  # * doesn't available anymore.
     pkgs-stable.tldr
-    pkgs-stable.nushellFull
+    pkgs-stable.nushell
     pkgs-stable.gnumake
 
     # CLI/Python things
