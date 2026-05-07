@@ -182,7 +182,7 @@
       pkgs.nerd-fonts.fira-code
       pkgs.noto-fonts
       pkgs.noto-fonts-cjk-sans
-      pkgs.noto-fonts-emoji
+      pkgs.noto-fonts-color-emoji
       pkgs.font-awesome
       pkgs.liberation_ttf
       pkgs.source-han-sans
