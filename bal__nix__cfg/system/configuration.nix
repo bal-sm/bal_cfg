@@ -253,11 +253,11 @@
     pkgs-stable.distrobox
 
     # Useful `podman`/'docker' development tools
-    pkgs-stable.dive # look into docker image layers
-    pkgs-stable.podman-tui # status of containers in the terminal
+    # pkgs-stable.dive # look into docker image layers
+    # pkgs-stable.podman-tui # status of containers in the terminal
     #pkgs.docker-compose # start group of containers for dev # ! Bad app.
     # ---
-    pkgs-unstable.podman-compose
+    # pkgs-unstable.podman-compose
     # * used 'unstable', soalnya yang 'stable' buggy.
     # TODO: ubah ke 'stable' kalo udah bener.
     # ---
@@ -494,19 +494,19 @@
   };
 
   # Enable common `podman` container config files in `/etc/containers`
-  virtualisation.containers.enable = true;
-  virtualisation = {
-    podman = {
-      enable = true;
-      package = pkgs-stable.podman;
-
-      # Create a `docker` alias for `podman`, to use it as a drop-in replacement
-      dockerCompat = true;
-
-      # Required for containers under `podman-compose` to be able to talk to each other.
-      defaultNetwork.settings.dns_enabled = true;
-    };
-  };
+#   virtualisation.containers.enable = true;
+#   virtualisation = {
+#     podman = {
+#       enable = true;
+#       package = pkgs-stable.podman;
+# 
+#       # Create a `docker` alias for `podman`, to use it as a drop-in replacement
+#       dockerCompat = true;
+# 
+#       # Required for containers under `podman-compose` to be able to talk to each other.
+#       defaultNetwork.settings.dns_enabled = true;
+#     };
+#   };
 
   xdg.portal = {
     # * IT'S NOT ACTUALLY AUTO-ENABLED BY ENABLING KDE..
