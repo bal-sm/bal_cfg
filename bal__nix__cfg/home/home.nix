@@ -49,7 +49,7 @@
 
     # CLI apps
     pkgs-stable.trash-cli
-    pkgs-stable.thefuck
+    # pkgs-stable.thefuck  # * doesn't available anymore.
     pkgs-stable.tldr
     pkgs-stable.nushellFull
     pkgs-stable.gnumake
