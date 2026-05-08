@@ -37,17 +37,20 @@
 
     loader = {
       #efi.canTouchEfiVariables = true;
-      grub = {
-        device = "nodev";
-        efiSupport = true;
-        efiInstallAsRemovable = false; # ketang
-        enable = true; # * defaultnya: !config.boot.isContainer . wow. liat di `search.nixos.org`.
+      #grub = {
+      #  device = "nodev";
+      #  efiSupport = true;
+      #  efiInstallAsRemovable = false; # ketang
+      #  enable = true; # * defaultnya: !config.boot.isContainer . wow. liat di `search.nixos.org`.
         #useOSProber = false;
-        timeoutStyle = "menu";
-      };
+      #  timeoutStyle = "menu";
+      #};
       timeout = 13;
     };
   };
+
+  boot.loader.systemd-boot.enable = true;
+  boot.loader.efi.canTouchEfiVariables = true;
 
   networking = {
     hostName = "bal-frame-work-13";
