@@ -242,7 +242,7 @@
 
     # `libreoffice`
     # -------------
-    pkgs.libreoffice-qt6-fresh
+    pkgs.libreoffice-qt
     # 'libreoffice' dependencies
     pkgs.hunspell
     pkgs.hunspellDicts.en_US
