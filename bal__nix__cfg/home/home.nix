@@ -43,15 +43,15 @@
 
     # GUI apps
     pkgs-stable.insync
-    pkgs-stable.jetbrains.pycharm-professional # * berat teuing, dan lama download-nya.
+    # pkgs-stable.jetbrains.pycharm # * berat teuing, dan lama download-nya.
     pkgs-unstable.zed-editor
     #pkgs-unstable.google-chrome # * disabled, 'cause unsafe, pakenya dari `deb`.
 
     # CLI apps
     pkgs-stable.trash-cli
-    pkgs-stable.thefuck
+    # pkgs-stable.thefuck  # * doesn't available anymore.
     pkgs-stable.tldr
-    pkgs-stable.nushellFull
+    pkgs-stable.nushell
     pkgs-stable.gnumake
 
     # CLI/Python things
@@ -155,21 +155,23 @@
   programs.git = {
     enable = true;
     package = pkgs.git;
-    userName  = "Iqbal Syifa Mahmuda";
-    userEmail = "bal.mahmuda@gmail.com";
-    aliases = {
-      cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 -r git branch -d";
-      rb = "rebase --interactive --autosquash --rebase-merges";
-      new-branch = "checkout -b";
-      list-branch = "branch -a";
-      delete-branch = "branch -d";
-      delete-branch-yes = "branch -D";
-      meg = "merge --no-ff";
-      pretty-log = "log --oneline --graph --decorate";
-      pretty-log-all = "log --oneline --graph --decorate --all";
-      push-force = "push --force-with-lease";
-      tag-it = "!f() { git tag -a \"$@\" && git push origin \"$@\"; }; f";
-      undo = "reset --soft HEAD~";
+    settings = {
+      user.name  = "Iqbal Syifa Mahmuda";
+      user.email = "bal.mahmuda@gmail.com";
+      alias = {
+        cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 -r git branch -d";
+        rb = "rebase --interactive --autosquash --rebase-merges";
+        new-branch = "checkout -b";
+        list-branch = "branch -a";
+        delete-branch = "branch -d";
+        delete-branch-yes = "branch -D";
+        meg = "merge --no-ff";
+        pretty-log = "log --oneline --graph --decorate";
+        pretty-log-all = "log --oneline --graph --decorate --all";
+        push-force = "push --force-with-lease";
+        tag-it = "!f() { git tag -a \"$@\" && git push origin \"$@\"; }; f";
+        undo = "reset --soft HEAD~";
+      };
     };
   };
 

@@ -37,17 +37,20 @@
 
     loader = {
       #efi.canTouchEfiVariables = true;
-      grub = {
-        device = "nodev";
-        efiSupport = true;
-        efiInstallAsRemovable = false; # ketang
-        enable = true; # * defaultnya: !config.boot.isContainer . wow. liat di `search.nixos.org`.
+      #grub = {
+      #  device = "nodev";
+      #  efiSupport = true;
+      #  efiInstallAsRemovable = false; # ketang
+      #  enable = true; # * defaultnya: !config.boot.isContainer . wow. liat di `search.nixos.org`.
         #useOSProber = false;
-        timeoutStyle = "menu";
-      };
+      #  timeoutStyle = "menu";
+      #};
       timeout = 13;
     };
   };
+
+  boot.loader.systemd-boot.enable = true;
+  boot.loader.efi.canTouchEfiVariables = true;
 
   networking = {
     hostName = "bal-frame-work-13";
@@ -182,13 +185,11 @@
       pkgs.nerd-fonts.fira-code
       pkgs.noto-fonts
       pkgs.noto-fonts-cjk-sans
-      pkgs.noto-fonts-emoji
+      pkgs.noto-fonts-color-emoji
       pkgs.font-awesome
       pkgs.liberation_ttf
       pkgs.source-han-sans
       pkgs.source-han-serif
-      pkgs.source-han-sans-japanese
-      pkgs.source-han-serif-japanese
       pkgs.inter
       # apple-fonts.packages.${pkgs.system}.sf-pro
       # apple-fonts.packages.${pkgs.system}.sf-compact
@@ -255,11 +256,11 @@
     pkgs-stable.distrobox
 
     # Useful `podman`/'docker' development tools
-    pkgs-stable.dive # look into docker image layers
-    pkgs-stable.podman-tui # status of containers in the terminal
+    # pkgs-stable.dive # look into docker image layers
+    # pkgs-stable.podman-tui # status of containers in the terminal
     #pkgs.docker-compose # start group of containers for dev # ! Bad app.
     # ---
-    pkgs-unstable.podman-compose
+    # pkgs-unstable.podman-compose
     # * used 'unstable', soalnya yang 'stable' buggy.
     # TODO: ubah ke 'stable' kalo udah bener.
     # ---
@@ -496,19 +497,19 @@
   };
 
   # Enable common `podman` container config files in `/etc/containers`
-  virtualisation.containers.enable = true;
-  virtualisation = {
-    podman = {
-      enable = true;
-      package = pkgs-stable.podman;
-
-      # Create a `docker` alias for `podman`, to use it as a drop-in replacement
-      dockerCompat = true;
-
-      # Required for containers under `podman-compose` to be able to talk to each other.
-      defaultNetwork.settings.dns_enabled = true;
-    };
-  };
+#   virtualisation.containers.enable = true;
+#   virtualisation = {
+#     podman = {
+#       enable = true;
+#       package = pkgs-stable.podman;
+# 
+#       # Create a `docker` alias for `podman`, to use it as a drop-in replacement
+#       dockerCompat = true;
+# 
+#       # Required for containers under `podman-compose` to be able to talk to each other.
+#       defaultNetwork.settings.dns_enabled = true;
+#     };
+#   };
 
   xdg.portal = {
     # * IT'S NOT ACTUALLY AUTO-ENABLED BY ENABLING KDE..

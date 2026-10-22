@@ -1,7 +1,7 @@
 {
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    nixpkgs-stable.url = "github:nixos/nixpkgs/nixos-24.05";
+    nixpkgs-stable.url = "github:nixos/nixpkgs/nixos-25.11";
     # nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
     nixpkgs-unstable-small.url = "github:nixos/nixpkgs/nixos-unstable-small";
     home-manager = {
@@ -105,7 +105,7 @@
             inherit pkgs-unstable;
             inherit pkgs-unstable-small;
           };
-          home-manager.sharedModules = [ plasma-manager.homeManagerModules.plasma-manager ]; # <https://github.com/pjones/plasma-manager/issues/14>
+          home-manager.sharedModules = [ plasma-manager.homeModules.plasma-manager ]; # <https://github.com/pjones/plasma-manager/issues/14>
           home-manager.backupFileExtension = "bak-hm";
         }
       ];
