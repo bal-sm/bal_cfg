@@ -55,7 +55,7 @@
     #pkgs.poetry soalnya mending pake pipx
 
     # CLI/JS things
-    pkgs.nodejs_20
+    #pkgs.nodejs_20
     pkgs.bun
     pkgs.tailwindcss # TODO: nix shell keun aja..?
 
