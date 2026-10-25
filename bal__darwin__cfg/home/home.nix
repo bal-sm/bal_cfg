@@ -27,7 +27,7 @@
     #pkgs.poetry soalnya mending pake pipx
 
     # CLI/JS things
-    pkgs-stable.nodejs_20
+    #pkgs-stable.nodejs_20
     pkgs-stable.bun
     pkgs-stable.tailwindcss
 
